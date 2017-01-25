@@ -41,6 +41,7 @@
 										// the content (pretty self explanatory huh)
 										the_content();
 
+
 										/*
 										 * Link Pages is used in case you have posts that are set to break into
 										 * multiple pages. You can remove this if you don't plan on doing that.
@@ -60,11 +61,13 @@
 											'link_after'  => '</span>',
 										) );
 									?>
+
 								</section> <!-- end article section -->
 
 								<footer class="article-footer">
 									<p class="tags"><?php echo get_the_term_list( get_the_ID(), 'custom_tag', '<span class="tags-title">' . __( 'Custom Tags:', 'bonestheme' ) . '</span> ', ', ' ) ?></p>
-
+									<p> Location: <?php echo get_field( 'city', false ); ?>, <?php echo get_field( 'state', false ); ?> </p>
+									<p> Difficulty: <?php echo get_field( 'difficulty', false ); ?></p>
 								</footer>
 
 								<?php comments_template(); ?>
