@@ -23,6 +23,7 @@ our mixins, functions, and variables that we'll be using across
 the whole project.
 *********************/
 
+
 // normalize: http://necolas.github.io/normalize.css/
 @import "partials/normalize";
 
@@ -40,6 +41,7 @@ the whole project.
 
 // the grid
 @import "partials/grid";
+
 
 /*********************
 IMPORTING MODULES
@@ -145,5 +147,3 @@ be set to display none.
 	@import "partials/print";
 
 }
-
-@import "partials/emorystyles";
