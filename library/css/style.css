@@ -1311,20 +1311,20 @@ LAYOUT & GRID STYLES
 /*********************
 LINK STYLES
 *********************/
-a, a:visited {
-  color: #50a77d;
+/*a, a:visited {*/
+  /*color: #50a77d;*/
   /* on hover */
   /* on click */
   /* mobile tap color */ }
-  a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #50a77d; }
-  a:link, a:visited:link {
+  /*a:hover, a:focus, a:visited:hover, a:visited:focus {
+    color: #50a77d; }*/
+  /*a:link, a:visited:link {*/
     /*
     this highlights links on iPhones/iPads.
     so it basically works like the :hover selector
     for mobile devices.
     */
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); }
+    /*-webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); }*/
 
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
@@ -1406,7 +1406,7 @@ and more scalable.
     */ }
     .nav li a {
       display: block;
-      color: #36454f;
+      /*color: #36454f;*/
       text-decoration: none;
       padding: 0.75em;
       /*
@@ -1894,7 +1894,7 @@ you can add resource intensive styles.
     /* highlight current page */
     /* end current highlighters */ }
     .nav ul {
-      background: #323944;
+      /*background: #323944;*/
       margin-top: 0; }
     .nav li {
       float: left;
@@ -2175,3 +2175,13 @@ be set to display none.
   height:400px;
   background-color: grey;
 }
+
+
+
+.eg-topnav{
+
+}
+
+/*.nav li a{
+
+}*/
