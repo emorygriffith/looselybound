@@ -32,8 +32,8 @@
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-
-		<?php // wordpress head functions ?>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+				<?php // wordpress head functions ?>
 		<?php wp_head(); ?>
 		<?php // end of wordpress head ?>
 
@@ -56,7 +56,7 @@
 
 		<div id="container">
 
-			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+			<!-- <header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
 				<div id="inner-header" class="wrap cf">
 
@@ -84,6 +84,35 @@
 
 					</nav>
 
+				</div> -->
+
+
+
+
+				<!-- Fixed navbar -->
+				<div class="spacer" style="height:100px; width:100%;">
+
 				</div>
+ <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	 <div class="container">
+		 <div class="navbar-header">
+			 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				 <span class="sr-only">Toggle navigation</span>
+				 <span class="icon-bar"></span>
+				 <span class="icon-bar"></span>
+				 <span class="icon-bar"></span>
+			 </button>
+			
+			 <p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_stylesheet_directory_uri(); ?>/library/images/Loosely-Bound-Logo.png" alt="<?php bloginfo('name'); ?>" /></a></p>
+		 </div>
+		 <div class="collapse navbar-collapse">
+			 <ul class="nav navbar-nav">
+				 <li class="active"><a href="#">Home</a></li>
+				 <li><a href="#about">About</a></li>
+				 <li><a href="#contact">Contact</a></li>
+			 </ul>
+		 </div><!--/.nav-collapse -->
+	 </div>
+ </div>
 
 			</header>

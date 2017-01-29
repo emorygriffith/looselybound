@@ -14,13 +14,17 @@
 ?>
 
 <?php get_header(); ?>
-			<div id="content">
-				<img class="banner-img" src="<?php echo get_template_directory_uri(); ?>/library/images/Loosely_Bound_Youtube_cover.jpg" alt="">
 
-
-
-
+			<div class="banner"></div>
+			<div class="galleries">
+				<div class="gallery">
+					Gallery #1
+				</div>
+				<div class="gallery">
+					Gallery #2
+				</div>
 			</div>
+			<div class="lists"></div>
 
 
 <?php get_footer(); ?>
