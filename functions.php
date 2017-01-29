@@ -244,4 +244,15 @@ function bones_fonts() {
 
 add_action('wp_enqueue_scripts', 'bones_fonts');
 
+// Register Custom Navigation Walker
+require_once('wp_bootstrap_navwalker.php');
+
+
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'bones' ),
+) );
+
+
+
+
 /* DON'T DELETE THIS CLOSING TAG */ ?>
