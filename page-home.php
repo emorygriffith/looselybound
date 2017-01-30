@@ -18,16 +18,19 @@
 						if ( $query->have_posts() ) : ?>
 						<?php while ( $query->have_posts() ) : $query->the_post(); ?>
 								<div class="col-md-4">
-									<div class="gallery-card">
-										<div class="gallery-content">
-											<!-- ACF Query for Placeholder Images -->
-											<?php
-											$image = get_field('placeholder_image');
-											if( !empty($image) ): ?>
-											<img class="gallery-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-											<?php endif; ?>
-										</div><!--gallery content -->
-									</div><!--gallery card -->
+									<a href="<?php the_permalink() ?>">
+										<div class="gallery-card">
+											<div class="gallery-content">
+
+												<!-- ACF Query for Placeholder Images -->
+												<?php
+												$image = get_field('placeholder_image');
+												if( !empty($image) ): ?>
+												<img class="gallery-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+												<?php endif; ?>
+											</div><!--gallery content -->
+										</div><!--gallery card -->
+									</a><!--a href for card -->
 								</div> <!--col-md-4 -->
 						<?php endwhile; wp_reset_postdata(); ?>
 						<!-- show pagination here -->
@@ -44,9 +47,11 @@
 						$query = new WP_Query( array( 'post_type' => 'trails' ) );
 						if ( $query->have_posts() ) : ?>
 						<?php while ( $query->have_posts() ) : $query->the_post(); ?>
-								<div class="col-md-4">
+							<div class="col-md-4">
+								<a href="<?php the_permalink() ?>">
 									<div class="gallery-card">
 										<div class="gallery-content">
+
 											<!-- ACF Query for Placeholder Images -->
 											<?php
 											$image = get_field('placeholder_image');
@@ -55,7 +60,8 @@
 											<?php endif; ?>
 										</div><!--gallery content -->
 									</div><!--gallery card -->
-								</div> <!--col-md-4 -->
+								</a><!--a href for card -->
+							</div> <!--col-md-4 -->
 						<?php endwhile; wp_reset_postdata(); ?>
 						<!-- show pagination here -->
 						<?php else : ?>
