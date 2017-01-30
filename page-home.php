@@ -9,29 +9,46 @@
 			<div class="banner"></div>
 
 			<div class="container galleries">
-
-
-					<ul class="col-lg-8 gallery">
+				<ul class="col-lg-8 gallery">
+					<h2>Vermont</h2>
 						<?php
-								$args = array( 'post_type' => 'trails', 'posts_per_page' => 10 );
-								$loop = new WP_Query( $args );
-								while ( $loop->have_posts() ) : $loop->the_post();
-								echo '<div class="gallery-card">';
-									echo '<h3 class="gallery-title">';
-									the_title();
-									echo '</h3>';
+								$query = new WP_Query( array( 'post_type' => 'trails' ) );
+								if ( $query->have_posts() ) : ?>
+									<?php while ( $query->have_posts() ) : $query->the_post(); ?>
+											<div class="gallery-card">
+													<h2><?php the_title(); ?></h2>
+													<div class="gallery-content">
 
-									echo '<div class="gallery-content">';
-									the_content();
-									echo '</div>';
+														<!-- ACF Query for Placeholder Images -->
+														<?php
+														$image = get_field('placeholder_image');
+														if( !empty($image) ): ?>
+															<img class="" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+														<?php endif; ?>
 
-								echo '</div>';
-								endwhile;
-						?>
-					</ul>
+
+													</div>
+
+
+
+
+											</div>
+
+
+
+
+
+
+									<?php endwhile; wp_reset_postdata(); ?>
+						<!-- show pagination here -->
+						<?php else : ?>
+							<!-- show 404 error here -->
+						<?php endif; ?>
 
 
 			</div>
+
+
 
 
 
