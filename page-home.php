@@ -1,30 +1,40 @@
 <?php
 /*
  Template Name: Home Page Template
- *
- * This is your custom page template. You can create as many of these as you need.
- * Simply name is "page-whatever.php" and in add the "Template Name" title at the
- * top, the same way it is here.
- *
- * When you create your page, you can just select the template and viola, you have
- * a custom page template to call your very own. Your mother would be so proud.
- *
- * For more info: http://codex.wordpress.org/Page_Templates
-*/
+ */
 ?>
 
 <?php get_header(); ?>
 
 			<div class="banner"></div>
-			<div class="galleries">
-				<div class="gallery">
-					Gallery #1
-				</div>
-				<div class="gallery">
-					Gallery #2
-				</div>
+
+			<div class="container galleries">
+
+
+					<ul class="col-lg-8 gallery">
+						<?php
+								$args = array( 'post_type' => 'trails', 'posts_per_page' => 10 );
+								$loop = new WP_Query( $args );
+								while ( $loop->have_posts() ) : $loop->the_post();
+								echo '<div class="gallery-card">';
+									echo '<h3 class="gallery-title">';
+									the_title();
+									echo '</h3>';
+
+									echo '<div class="gallery-content">';
+									the_content();
+									echo '</div>';
+
+								echo '</div>';
+								endwhile;
+						?>
+					</ul>
+
+
 			</div>
-			<div class="lists"></div>
+
+
+
 
 
 <?php get_footer(); ?>
