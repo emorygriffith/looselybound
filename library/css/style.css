@@ -60,18 +60,12 @@ Author: Emory Griffith
 }
 
 .gallery-card{
+  padding:5px;
+  /*margin:5px;*/
   display:inline-block;
-  border:solid 2px black;
-  height:200px;
-  width: 290px;
-  margin: 5px;
   background-color: #fff;
 }
 
-.gallery-title{
-  font-size: 24px;
-  color:blue;
-}
-.gallery-content{
-  border:solid 3px red;
+.gallery-img{
+  width:100%;
 }
