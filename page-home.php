@@ -75,6 +75,36 @@
 
 
 
+			<div class="container lists">
+					<div class="col-lg-9 gallery row">
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<h3>List Number One</h3>
+
+							<div class="media list-card">
+							    <div class="media-left">
+							      <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" class="media-object card-photo" alt="Sample Image">
+							    </div>
+							    <div class="media-body media-middle">
+							        <h4 class="media-heading">Red Tail Trail</h4>
+							        <ul>
+							        	<li>North Conway, NH</li>
+												<li>Rating: 95</li>
+												<li>Distance: 3mi</li>
+												<li>Ascent: 1200</li>
+												<li>Descent: 1100</li>
+							        </ul>
+							    </div>
+							</div>
+
+						</div>
+						<!-- <div class="col-lg-6 col-md-6 col-sm-6">
+
+						</div> -->
+					</div>
+		</div>
+
+
+
 
 
 
