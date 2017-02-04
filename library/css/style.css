@@ -32,7 +32,6 @@ footer {
 /*Header Styles*/
 /*------------------*/
 
-/*Navbar*/
 .eg-top{
   margin-top: 10px;
 }
@@ -53,7 +52,7 @@ footer {
 
 
 /*------------------*/
-/*Banner*/
+/*HOME PAGE*/
 /*------------------*/
 
 /*Banner Background Image*/
@@ -67,12 +66,6 @@ footer {
   background-size: cover;
 }
 
-
-
-
-/*------------------*/
-/*Gallery*/
-/*------------------*/
 
 /*Gallery*/
 .galleries{
@@ -122,4 +115,20 @@ footer {
 .media-body li{
   text-align: left;
   list-style-type: none;
+}
+
+
+
+
+
+/*------------------*/
+/*SINGLE TRAIL PAGE*/
+/*------------------*/
+.single-trail-page{
+  float:none;
+  /*margin: 30px auto 0;*/
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: auto;
+  margin-right: auto;
 }
