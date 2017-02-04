@@ -25,25 +25,27 @@
 
 										<div class="col-lg-8 col-md-8">
 											<h1><?php the_title(); ?></h1>
-
 											<div class="videoWrapper" style="position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0;">
 												<iframe width="560" height="315" src="<?php	the_field('video_link'); ?>" frameborder="0" allowfullscreen style="position: absolute;	top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 											</div>
 
-
-											<?php	the_content(); ?>
-
-
-
-
-
-
-
+											<p class="single-trail-content"><?php the_content(); ?></p>
 
 										</div>
 
 										<div class="col-lg-4 col-md-4">
 											<h1>Trail Rating: <?php echo get_field('rating') ?></h1>
+
+											<div class="media list-card">
+													<div class="media-left">
+														<img src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="">
+													</div>
+													<div class="media-body media-middle">
+															<h5 class="media-heading">Distance:</h5>
+															<h5 class="media-heading"><?php echo get_field('distance') ?> miles </h5>
+													</div>
+											</div>
+
 
 										</div>
 
