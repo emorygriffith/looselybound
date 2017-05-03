@@ -30,10 +30,13 @@
             <meta name="theme-color" content="#121212">
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+		<!-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> -->
+		<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-				<?php // wordpress head functions ?>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+		<?php // wordpress head functions ?>
 		<?php wp_head(); ?>
 		<?php // end of wordpress head ?>
 
@@ -68,7 +71,7 @@
 				 <span class="icon-bar"></span>
 			 </button>
 
-			 <p id="logo"><a href="<?php echo home_url(); ?>" rel="nofollow"><img class="header-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/library/images/Loosely-Bound-Logo.png" alt="<?php bloginfo('name'); ?>" /></a></p>
+			 <p id="logo"><a href="<?php echo home_url(); ?>" rel="nofollow"><img class="header-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/library/images/Monarch_Logo.png" alt="<?php bloginfo('name'); ?>" /></a></p>
 		 </div>
 		 <div class="collapse navbar-collapse">
 			 <ul class="nav navbar-nav pull-right">

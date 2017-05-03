@@ -6,107 +6,121 @@
 
 <?php get_header(); ?>
 
-			<div class="banner"></div>
 
-			<div class="container galleries">
-
-						<!-- Gallery #1 -->
-						<div class="col-lg-9 gallery row">
-						<h2>Vermont</h2>
-						<?php
-						$query = new WP_Query( array( 'post_type' => 'trails' ) );
-						if ( $query->have_posts() ) : ?>
-						<?php while ( $query->have_posts() ) : $query->the_post(); ?>
-								<div class="col-md-4">
-									<a href="<?php the_permalink() ?>">
-										<div class="gallery-card">
-											<div class="gallery-content">
-
-												<!-- ACF Query for Placeholder Images -->
-												<?php
-												$image = get_field('placeholder_image');
-												if( !empty($image) ): ?>
-												<img class="gallery-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-												<?php endif; ?>
-											</div><!--gallery content -->
-										</div><!--gallery card -->
-									</a><!--a href for card -->
-								</div> <!--col-md-4 -->
-						<?php endwhile; wp_reset_postdata(); ?>
-						<!-- show pagination here -->
-						<?php else : ?>
-						<!-- show 404 error here -->
-						<?php endif; ?>
-						</div><!--gallery -->
+<div class="home-background row">
+  <!-- Left side of home page  -->
+  <div class="home-left col-lg-7">
+    <div class="banner">
+      <h1>A Hollistic Approach to Wealth, Branding, and Family Office Services</h1>
+      <h3>Our winning methodology consistently yields exceptional results</h3>
+      <p>Read more about our approach ></p>
+    </div>
+  </div>
 
 
-						<!-- Gallery #2 -->
-						<div class="col-lg-9 gallery row">
-						<h2>New Hampshire</h2>
-						<?php
-						$query = new WP_Query( array( 'post_type' => 'trails' ) );
-						if ( $query->have_posts() ) : ?>
-						<?php while ( $query->have_posts() ) : $query->the_post(); ?>
-							<div class="col-md-4">
-								<a href="<?php the_permalink() ?>">
-									<div class="gallery-card">
-										<div class="gallery-content">
+  <!-- Right side of home page  -->
+  <div class="home-right col-lg-5">
 
-											<!-- ACF Query for Placeholder Images -->
-											<?php
-											$image = get_field('placeholder_image');
-											if( !empty($image) ): ?>
-											<img class="gallery-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-											<?php endif; ?>
-										</div><!--gallery content -->
-									</div><!--gallery card -->
-								</a><!--a href for card -->
-							</div> <!--col-md-4 -->
-						<?php endwhile; wp_reset_postdata(); ?>
-						<!-- show pagination here -->
-						<?php else : ?>
-						<!-- show 404 error here -->
-						<?php endif; ?>
-						</div><!--gallery -->
+    <ul class="media-list">
+      <li class="media">
+        <div class="media-left">
+          <a href="#">
+            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="...">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Wealth Planning</h4>
+          This is text about wealth planning
+        </div>
+      </li>
+
+      <li class="media">
+        <div class="media-left">
+          <a href="#">
+            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="...">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Business Management</h4>
+          This is text about Business Management
+        </div>
+      </li>
+
+      <li class="media">
+        <div class="media-left">
+          <a href="#">
+            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="...">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Recording and Publishing</h4>
+          This is text about Recording and Publishing
+        </div>
+      </li>
+
+      <li class="media">
+        <div class="media-left">
+          <a href="#">
+            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="...">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Touring Services</h4>
+          This is text about touring Services
+        </div>
+      </li>
+
+      <li class="media">
+        <div class="media-left">
+          <a href="#">
+            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="...">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Investment Advisory Services</h4>
+          This is text about Investment Advisory Services
+        </div>
+      </li>
+
+      <li class="media">
+        <div class="media-left">
+          <a href="#">
+            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="...">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Family</h4>
+          This is text about Family
+        </div>
+      </li>
+
+      <li class="media">
+        <div class="media-left">
+          <a href="#">
+            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="...">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Tax and Planning</h4>
+          This is text about Tax and Planning
+        </div>
+      </li>
+
+      <li class="media">
+        <div class="media-left">
+          <a href="#">
+            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="...">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Wealth Planning</h4>
+          This is text about wealth planning
+        </div>
+      </li>
+    </ul>
 
 
-
-			</div><!--galleries -->
-
-
-
-			<!-- <div class="container lists">
-					<div class="col-lg-9 gallery row">
-						<div class="col-lg-6 col-md-6 col-sm-6">
-							<h3>List Number One</h3>
-
-							<div class="media list-card">
-							    <div class="media-left">
-							      <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" class="media-object card-photo" alt="Sample Image">
-							    </div>
-							    <div class="media-body media-middle">
-							        <h4 class="media-heading">Red Tail Trail</h4>
-							        <ul>
-							        	<li>North Conway, NH</li>
-												<li>Rating: 85</li>
-												<li>Distance: 3mi</li>
-												<li>Ascent: 1200</li>
-												<li>Descent: 1100</li>
-							        </ul>
-							    </div>
-							</div>
-
-						</div>
-
-					</div>
-		</div> -->
-
-
-
-
-
-
-
-
+  </div>
+</div>
 
 <?php get_footer(); ?>
