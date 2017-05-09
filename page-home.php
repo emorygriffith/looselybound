@@ -7,6 +7,7 @@
 <?php get_header(); ?>
 
 
+
 <div class="home-background row">
   <!-- Left side of home page  -->
   <div class="home-left col-lg-7">
@@ -106,17 +107,6 @@
         </div>
       </li>
 
-      <li class="media">
-        <div class="media-left">
-          <a href="#">
-            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="...">
-          </a>
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">Wealth Planning</h4>
-          This is text about wealth planning
-        </div>
-      </li>
     </ul>
 
 
