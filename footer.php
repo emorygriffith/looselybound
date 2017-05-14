@@ -6,10 +6,10 @@
 				<div class="row container">
 				<div class="col-lg-6 col-md-6">
 					<ul>
-						<li>About</li>
-						<li>Approach</li>
-						<li>Services</li>
-						<li>Blog</li>
+						<a href="/about"><li>About</li></a>
+						<a href="/approach"><li>Approach</li></a>
+						<a href="services"><li>Services</li></a>
+						<a href="/blog"><li>Blog</li></a>
 					</ul>
 				</div>
 				<div class="col-lg-6 col-md-6">
