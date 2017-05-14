@@ -113,4 +113,17 @@
   </div>
 </div>
 
+
+<div class="home-family row">
+  <h3>At Monarch, we're all about family.</h3>
+  <div class="col-lg-6 col-md-6 col-sm-6">
+    Monarch was formed as the result of handling one of America's wealthiest families and functioned as their private family office over 35 years ago.
+    Today. we are a multi-family office that provides services to more than 75 families worldwide.
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6">
+    Our diverse team of experienced professionals are always up to the challenge of helping our clients achieve their financial goals. From scheduling monthly bills to
+    managing large-scale financial decisions, Monarch is dedicated to providing the highest quality of service to each of our clients.
+  </div>
+</div>
+
 <?php get_footer(); ?>
