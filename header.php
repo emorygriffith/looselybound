@@ -98,4 +98,3 @@
 </div><!--/.container -->
 </div><!-- close whole nav bar -->
 <div class="spacer" style="width:100%; height:80px;"></div>
-<div class="entire-page">

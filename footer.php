@@ -1,5 +1,4 @@
 
-</div> <!--lose entire page div -->
 	</body>
 
 			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
