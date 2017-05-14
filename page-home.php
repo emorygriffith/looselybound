@@ -31,7 +31,7 @@
         </div>
         <div class="media-body">
           <h4 class="media-heading">Wealth Planning</h4>
-          This is text about wealth planning
+          We construct a dedicated team of individuals uniquely positioned to grow your wealth.
         </div>
       </li>
 
@@ -43,7 +43,7 @@
         </div>
         <div class="media-body">
           <h4 class="media-heading">Business Management</h4>
-          This is text about Business Management
+          A vertical and cross-connected approach to growing your business.
         </div>
       </li>
 
@@ -55,7 +55,7 @@
         </div>
         <div class="media-body">
           <h4 class="media-heading">Recording and Publishing</h4>
-          This is text about Recording and Publishing
+          Our experience in the music industry is unmatched.
         </div>
       </li>
 
@@ -67,7 +67,7 @@
         </div>
         <div class="media-body">
           <h4 class="media-heading">Touring Services</h4>
-          This is text about touring Services
+          Comprehensive coverage for the road
         </div>
       </li>
 
@@ -79,7 +79,7 @@
         </div>
         <div class="media-body">
           <h4 class="media-heading">Investment Advisory Services</h4>
-          This is text about Investment Advisory Services
+          A comprehensive strategy to a lifestyle of intlligent investments
         </div>
       </li>
 
@@ -91,7 +91,7 @@
         </div>
         <div class="media-body">
           <h4 class="media-heading">Family</h4>
-          This is text about Family
+          Family Communication, Governance, and Education
         </div>
       </li>
 
@@ -103,7 +103,7 @@
         </div>
         <div class="media-body">
           <h4 class="media-heading">Tax and Planning</h4>
-          This is text about Tax and Planning
+          We combine dilligence with innovative tax strategies to maximize your wealth
         </div>
       </li>
 
@@ -116,14 +116,19 @@
 
 <div class="home-family row">
   <h3>At Monarch, we're all about family.</h3>
-  <div class="col-lg-6 col-md-6 col-sm-6">
+
+  <div class="col-lg-6 col-md-6">
     Monarch was formed as the result of handling one of America's wealthiest families and functioned as their private family office over 35 years ago.
     Today. we are a multi-family office that provides services to more than 75 families worldwide.
   </div>
-  <div class="col-lg-6 col-md-6 col-sm-6">
+
+  <div class="col-lg-6 col-md-6">
     Our diverse team of experienced professionals are always up to the challenge of helping our clients achieve their financial goals. From scheduling monthly bills to
     managing large-scale financial decisions, Monarch is dedicated to providing the highest quality of service to each of our clients.
   </div>
+
+  <h4>Learn more about Monarch > </h4>
+
 </div>
 
 <?php get_footer(); ?>

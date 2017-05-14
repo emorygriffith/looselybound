@@ -1,27 +1,28 @@
 
+</div> <!--lose entire page div -->
 	</body>
 
 			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 
-				<div id="inner-footer" class="wrap cf container">
-					<nav role="navigation">
-						<?php wp_nav_menu(array(
-    					'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
-    					'container_class' => 'footer-links cf',         // class of container (should you choose to use it)
-    					'menu' => __( 'Footer Links', 'bonestheme' ),   // nav name
-    					'menu_class' => 'nav footer-nav cf',            // adding custom nav class
-    					'theme_location' => 'footer-links',             // where it's located in the theme
-    					'before' => '',                                 // before the menu
-    					'after' => '',                                  // after the menu
-    					'link_before' => '',                            // before each link
-    					'link_after' => '',                             // after each link
-    					'depth' => 0,                                   // limit the depth of the nav
-    					'fallback_cb' => 'bones_footer_links_fallback'  // fallback function
-						)); ?>
-					</nav>
+				<div class="row container">
+				<div class="col-lg-6 col-md-6">
+					<ul>
+						<li>About</li>
+						<li>Approach</li>
+						<li>Services</li>
+						<li>Blog</li>
+					</ul>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<h5>Access your account</h5>
+					<div class="login-btn"> Login </div>
+				</div>
+				</div>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
-
+				<div class="footer-text">
+					<p>Monarch Wealth & Business Management, Inc.</p>
+					<p>209 East 31st Street | New York, NY 10016 | MAIN: (212) 894-8100 | FAX: (212) 894-8120</p>
+					<p class="info">For more info on Monarch Wealth & Business Management LLC,<br> please email <a href="mailto:info@monarchmgmtllc.com">info@monarchmgmtllc.com</a></p>
 				</div>
 
 			</footer>
