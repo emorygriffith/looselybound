@@ -22,23 +22,21 @@ html {
 }
 
 body{
-  /*margin-bottom: 150px;*/
   font-family: 'Rubik', sans-serif !important;
-  /*height: 100%;*/
 }
 
-footer {
+/*footer {
   /*position: absolute;
   bottom: 0;*/
-  width: 100%;
+  /*width: 100%;*/
   /* Set the fixed height of the footer here */
   /*height: 100px;*/
-  padding-top: 15px;
+  /*padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #fff;
+  background-color: #fff;*/
   /*height: 450px;*/
-  border-top: solid 1px #d3d3d3;
-}
+  /*border-top: solid 1px #d3d3d3;*/
+/*}*/
 
 /*------------------*/
 /*Link Styles*/
@@ -174,7 +172,10 @@ h4.media-heading{
 }
 
 .home-family{
-  padding: 5%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 10%;
   width: 65%;
   margin: 0 auto;
 }
@@ -209,14 +210,14 @@ h4.media-heading{
 /*------------------*/
 /*APPROACH PAGE*/
 /*------------------*/
-.approach-header{
+.page-header{
   float:none;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.approach-header h1{
+.page-header h1{
   text-align: center;
   font-size: 14px;
   font-weight: bold;
@@ -224,11 +225,60 @@ h4.media-heading{
   text-transform: uppercase;
 }
 
-.approach-header h2{
+.page-header h2{
   font-size: 45px;
   text-align: center;
   font-weight: bold;
 }
+
+
+.page-middle{
+  float:none;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0px 0px 3px -1px #D5D5D5;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.page-middle div{
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  padding:20px;
+}
+.page-middle div h3{
+  text-align: center;
+  font-weight: bold;
+}
+
+.page-middle div p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #BCBCBC;
+}
+
+.shadow{
+  -webkit-box-shadow: 0px 0px 25px 2px rgba(213,213,213,0.44);
+  -moz-box-shadow: 0px 0px 25px 2px rgba(213,213,213,0.44);
+  box-shadow: 0px 0px 25px 2px rgba(213,213,213,0.44);
+}
+/*Take away box shadow and border at ipad breakpt*/
+@media (max-width: 767px){
+  .shadow{
+    box-shadow: none;
+  }
+  .page-middle{
+    box-shadow: none;
+  }
+}
+
+
+
 
 .approach-services{
   height: 300px;
@@ -286,7 +336,7 @@ h4.media-heading{
       footer .container{
         margin: 0 auto;
         width:30%;
-        padding-top: 15px;
+        padding-top:45px;
         padding-bottom: 15px;
       }
 
@@ -306,10 +356,15 @@ h4.media-heading{
       }
 
       footer .container ul li{
-        text-align: center;
+        text-align: left;
         padding-top: 10px;
       }
 
+      @media (max-width: 991px){
+        footer .container ul li{
+          text-align: center;
+        }
+      }
       footer h5{
         text-align: center;
       }
