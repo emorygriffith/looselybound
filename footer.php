@@ -8,7 +8,7 @@
 					<ul>
 						<a href="/about"><li>About</li></a>
 						<a href="/approach"><li>Approach</li></a>
-						<a href="services"><li>Services</li></a>
+						<a href="/services"><li>Services</li></a>
 						<a href="/blog"><li>Blog</li></a>
 					</ul>
 				</div>

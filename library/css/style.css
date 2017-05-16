@@ -215,6 +215,7 @@ h4.media-heading{
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
+  border-bottom: none;
 }
 
 .page-header h1{
@@ -307,19 +308,78 @@ h4.media-heading{
 
 
 
+/*------------------*/
+/*ABOUT PAGE*/
+/*------------------*/
+
+.about-bios{
+  background-color: #50004E;
+  float:none;
+  margin: 0 auto;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+
+.about-bios h2{
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-bios div{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.about-bios div img {
+  border-radius: 100%;
+  display:block;
+  margin: 0 auto;
+  padding: 10px;
+}
 
 
+.about-bios h4{
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
 
+.about-bios p{
+  text-align: center;
+  color: #fff;
+}
 
+.about-lower a {
+  color: black;
+}
+.about-lower div:hover .hover-other{
+  color: #00B0D8;
+}
 
+.about-services{
+  height: 200px;
+  background-color: #fff;
+  border: solid 1px #D5D5D5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
-
-
-
-
-
-
-
+.about-approach{
+  height: 200px;
+  background-color: #fff;
+  border: solid 1px #D5D5D5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 
 

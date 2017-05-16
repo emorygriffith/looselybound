@@ -26,7 +26,7 @@
       <li class="media">
         <div class="media-left">
           <a href="#">
-            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="...">
+            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon.png" alt="...">
           </a>
         </div>
         <div class="media-body">
@@ -38,7 +38,7 @@
       <li class="media">
         <div class="media-left">
           <a href="#">
-            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="...">
+            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Icon.png" alt="...">
           </a>
         </div>
         <div class="media-body">
@@ -50,7 +50,7 @@
       <li class="media">
         <div class="media-left">
           <a href="#">
-            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="...">
+            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Recording_Publishing_Icon.png" alt="...">
           </a>
         </div>
         <div class="media-body">
@@ -62,7 +62,7 @@
       <li class="media">
         <div class="media-left">
           <a href="#">
-            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="...">
+            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Touring_Icon.png" alt="...">
           </a>
         </div>
         <div class="media-body">
@@ -74,7 +74,7 @@
       <li class="media">
         <div class="media-left">
           <a href="#">
-            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="...">
+            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Investment_Advisory_Services_Icon.png" alt="...">
           </a>
         </div>
         <div class="media-body">
@@ -86,7 +86,7 @@
       <li class="media">
         <div class="media-left">
           <a href="#">
-            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="...">
+            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Family_Icon.png" alt="...">
           </a>
         </div>
         <div class="media-body">
@@ -98,7 +98,7 @@
       <li class="media">
         <div class="media-left">
           <a href="#">
-            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/placeholder.png" alt="...">
+            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Tax_Icon.png" alt="...">
           </a>
         </div>
         <div class="media-body">
