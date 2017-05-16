@@ -10,7 +10,7 @@
 
 <div class="home-background row">
   <!-- Left side of home page  -->
-  <div class="home-left col-lg-7">
+  <div class="home-left col-lg-7 col-md-7">
     <div class="banner">
       <h1>A Hollistic Approach to Wealth, Branding, and Family Office Services</h1>
       <h3>Our winning methodology consistently yields exceptional results</h3>
@@ -20,7 +20,7 @@
 
 
   <!-- Right side of home page  -->
-  <div class="home-right col-lg-5">
+  <div class="home-right col-lg-5 col-md-5">
 
     <ul class="media-list">
       <li class="media">

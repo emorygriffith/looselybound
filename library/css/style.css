@@ -103,8 +103,9 @@ a{
 .home-left{
   display: flex;
   align-items: center;
+  flex-direction:
   justify-content: center;
-  padding-top: 13%;
+  /*padding-top: 14%;*/
 }
 
 .banner{
@@ -154,7 +155,7 @@ a{
 .media-list{
   padding-left: 5%;
   padding-right: 5%;
-  padding-top:13%;
+  padding-top:7%;
 }
 
 .media{
@@ -165,10 +166,12 @@ a{
 
 h4.media-heading{
   font-size:15px;
+  font-weight: bold;
   color:#590755;
 }
 .media-body{
-  color:#D0D0D0;
+  color:#00111F;
+  font-size: 12px;
 }
 
 .home-family{
