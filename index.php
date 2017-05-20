@@ -1,74 +1,77 @@
 <?php get_header(); ?>
 
-			<div id="content">
+			<div class="row blog-page-container">
+				<div class="col-lg-3 col-md-3 col-sm-0 blog-sidebar">
 
-				<div id="inner-content" class="wrap cf">
+						<p>Hey hey this is a pic</p>
 
-						<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-12 blog-posts">
+					<h1>Blog</h1>
+					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<?php
-							the_archive_title( '<h1 class="page-title">', '</h1>' );
-							the_archive_description( '<div class="taxonomy-description">', '</div>' );
-							?>
+					<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 
-							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+						<header class="entry-header article-header">
+							<p class="byline entry-meta vcard">
+									<span class="posted-date"><?php echo get_the_date('F Y');?></span> <span class="dot"> &middot; </span>
 
-							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
+										<?php
+												$show_categories = true;
+												$categories = wp_get_post_categories( $post->ID );
+												// We don't want to show the categories if there is a single category and it is "uncategorized"
+												if ( count( $categories ) == 1 && in_array( 1, $categories ) ) :
+												 $show_categories = false;
+												endif;
+												if ( has_category( null, $post->ID ) && $show_categories ) :
+												 echo get_the_category_list(', ');
+												endif;
+										?>
 
-								<header class="entry-header article-header">
+							</p>
+							<h3 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
 
-									<h3 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-									<p class="byline entry-meta vcard">
-										<?php printf( __( 'Posted', 'bonestheme' ).' %1$s %2$s',
-                  							     /* the time the post was published */
-                  							     '<time class="updated entry-time" datetime="' . get_the_time('Y-m-d') . '" itemprop="datePublished">' . get_the_time(get_option('date_format')) . '</time>',
-                       								/* the author of the post */
-                       								'<span class="by">'.__('by', 'bonestheme').'</span> <span class="entry-author author" itemprop="author" itemscope itemptype="http://schema.org/Person">' . get_the_author_link( get_the_author_meta( 'ID' ) ) . '</span>'
-                    							); ?>
-									</p>
 
+						</header>
+
+						<section class="entry-content cf">
+
+							<?php the_post_thumbnail( 'bones-thumb-300' ); ?>
+
+							<?php the_excerpt(); ?>
+
+						</section>
+
+						<footer class="article-footer">
+
+						</footer>
+
+					</article>
+
+					<?php endwhile; ?>
+
+							<?php bones_page_navi(); ?>
+
+					<?php else : ?>
+
+							<article id="post-not-found" class="hentry cf">
+								<header class="article-header">
+									<h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
 								</header>
-
-								<section class="entry-content cf">
-
-									<?php the_post_thumbnail( 'bones-thumb-300' ); ?>
-
-									<?php the_excerpt(); ?>
-
+								<section class="entry-content">
+									<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
 								</section>
-
 								<footer class="article-footer">
-
+										<p><?php _e( 'This is the error message in the archive.php template.', 'bonestheme' ); ?></p>
 								</footer>
-
 							</article>
 
-							<?php endwhile; ?>
-
-									<?php bones_page_navi(); ?>
-
-							<?php else : ?>
-
-									<article id="post-not-found" class="hentry cf">
-										<header class="article-header">
-											<h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
-										</header>
-										<section class="entry-content">
-											<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
-										</section>
-										<footer class="article-footer">
-												<p><?php _e( 'This is the error message in the archive.php template.', 'bonestheme' ); ?></p>
-										</footer>
-									</article>
-
-							<?php endif; ?>
-
-						</main>
-
-					<?php get_sidebar(); ?>
-
+					<?php endif; ?>
 				</div>
 
 			</div>
+
+
+
 
 <?php get_footer(); ?>

@@ -17,8 +17,8 @@ Author: Emory Griffith
 }
 
 html {
-  /*position: relative;
-  min-height: 100%;*/
+  /*position: relative;*/
+
 }
 
 body{
@@ -386,7 +386,65 @@ h4.media-heading{
 
 
 
+/*------------------*/
+/*BLOG ARCHIVE PAGE*/
+/*------------------*/
 
+.blog-page-container{
+  /*height: 100vh;
+  min-height: 100vh;
+  overflow: scroll;*/
+}
+
+.blog-sidebar{
+  background-color: blue;
+  /*height: 100vh;
+  min-height: 100vh;*/
+  /*height: calc(100vh - 55px); // 55px would be the height of your site_footer*/
+}
+
+.blog-posts{
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 5%;
+}
+
+.blog-posts h1{
+    font-size: 14px;
+    font-weight: bold;
+    color: #00B0D8;
+    text-transform: uppercase;
+}
+
+.blog-posts article{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.blog-posts article .posted-date{
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.blog-posts article .dot{
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.blog-posts article .category{
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #00B0D8;
+}
+
+/*p:before { content:"\00b7"; }
+
+
+*/
 
 
 
