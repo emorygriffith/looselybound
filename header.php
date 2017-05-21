@@ -32,7 +32,7 @@
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 		<!-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> -->
-		<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+		<!-- <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet"> -->
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 

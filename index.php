@@ -1,20 +1,18 @@
 <?php get_header(); ?>
 
-			<div class="row blog-page-container">
-				<div class="col-lg-3 col-md-3 col-sm-0 blog-sidebar">
+<div class="row archive-blog-page-container">
+		<div class="col-lg-3 col-md-3 col-sm-3 archive-blog-sidebar">
+			<p>Hey hey this is a pic</p>
+		</div>
 
-						<p>Hey hey this is a pic</p>
-
-				</div>
-				<div class="col-lg-9 col-md-9 col-sm-12 blog-posts">
-					<h1>Blog</h1>
+		<div class="col-lg-9 col-md-9 col-sm-9 archive-blog-posts">
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 					<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 
-						<header class="entry-header article-header">
+					<header class="entry-header article-header">
 							<p class="byline entry-meta vcard">
-									<span class="posted-date"><?php echo get_the_date('F Y');?></span> <span class="dot"> &middot; </span>
+									<span class="posted-date"><?php echo get_the_date('F Y');?></span>
 
 										<?php
 												$show_categories = true;
@@ -24,54 +22,50 @@
 												 $show_categories = false;
 												endif;
 												if ( has_category( null, $post->ID ) && $show_categories ) :
-												 echo get_the_category_list(', ');
+												echo '<span class="dot"> &middot; </span>' . strip_tags( get_the_category_list(', '));
 												endif;
 										?>
-
 							</p>
+
 							<h3 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+					</header>
 
+					<section class="entry-content cf">
 
-						</header>
+					<?php the_post_thumbnail( 'bones-thumb-300' ); ?>
 
-						<section class="entry-content cf">
+					<?php the_excerpt(); ?>
 
-							<?php the_post_thumbnail( 'bones-thumb-300' ); ?>
+					</section>
 
-							<?php the_excerpt(); ?>
+					<footer class="article-footer">
 
-						</section>
-
-						<footer class="article-footer">
-
-						</footer>
+					</footer>
 
 					</article>
 
 					<?php endwhile; ?>
 
-							<?php bones_page_navi(); ?>
+					<?php bones_page_navi(); ?>
 
 					<?php else : ?>
 
-							<article id="post-not-found" class="hentry cf">
-								<header class="article-header">
-									<h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
-								</header>
-								<section class="entry-content">
-									<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
-								</section>
-								<footer class="article-footer">
-										<p><?php _e( 'This is the error message in the archive.php template.', 'bonestheme' ); ?></p>
-								</footer>
-							</article>
+					<article id="post-not-found" class="hentry cf">
+						<header class="article-header">
+							<h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
+						</header>
+						<section class="entry-content">
+							<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
+						</section>
+						<footer class="article-footer">
+								<p><?php _e( 'This is the error message in the archive.php template.', 'bonestheme' ); ?></p>
+						</footer>
+					</article>
 
 					<?php endif; ?>
-				</div>
+		</div>
 
-			</div>
-
-
+</div>
 
 
 <?php get_footer(); ?>

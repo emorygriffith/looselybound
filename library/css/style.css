@@ -8,23 +8,26 @@ Author: Emory Griffith
 /*------------------*/
 
 @media (min-width: 768px){
-
   .navbar > .container-fluid .navbar-brand {
       margin-left: 15px;
   }
-
-
 }
+
+
 
 html {
   /*position: relative;*/
 
 }
 
-body{
+body, h1, h2, h3, h4, p{
   font-family: 'Rubik', sans-serif !important;
+  font-weight: normal !important;
 }
 
+strong, b{
+  font-weight: bold !important;
+}
 /*footer {
   /*position: absolute;
   bottom: 0;*/
@@ -45,6 +48,7 @@ body{
 a{
   color: #590755;
 }
+
 
 /*------------------*/
 /*Header Styles*/
@@ -72,10 +76,10 @@ a{
 }
 
 /*Add solid line around last menu item*/
-.nav > li:last-child > a {
+/*.nav > li:last-child > a {
   border: solid 1px #7C407A;
   border-radius: 10px;
-}
+}*/
 
 /*Make the nav list items sit next to each other
   instead of breaking to new line*/
@@ -85,13 +89,18 @@ a{
     }
 }
 
+.navbar{
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+}
+
 
 /*------------------*/
 /*HOME PAGE*/
 /*------------------*/
 .home-background{
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/Monarch_homepage_background.jpg');
-  /*background-image: url("../images/Monarch_homepage_background.jpg");*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -390,34 +399,113 @@ h4.media-heading{
 /*BLOG ARCHIVE PAGE*/
 /*------------------*/
 
-.blog-page-container{
-  /*height: 100vh;
-  min-height: 100vh;
-  overflow: scroll;*/
+.archive-blog-page-container{
+
 }
 
-.blog-sidebar{
-  background-color: blue;
-  /*height: 100vh;
-  min-height: 100vh;*/
-  /*height: calc(100vh - 55px); // 55px would be the height of your site_footer*/
+.archive-blog-sidebar{
+  background-image: url("../images/Monarch_homepage_background.jpg");
+  background-position: center;
+  background-size: cover;
+  position:fixed;
+  /*height: calc(100% - 425px);*/
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: 1px solid #111;
 }
 
-.blog-posts{
+@media (max-width: 767px){
+    .archive-blog-sidebar{
+      display: none;
+    }
+}
+
+
+.archive-blog-posts{
+  float: right;
   padding-left: 12%;
   padding-right: 12%;
-  padding-top: 5%;
+  padding-top: 3%;
 }
 
-.blog-posts h1{
+.archive-blog-posts h1{
     font-size: 14px;
     font-weight: bold;
     color: #00B0D8;
     text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.archive-blog-posts article{
+
+  margin-bottom: 50px;
+}
+
+.archive-blog-posts article .posted-date{
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.archive-blog-posts article .dot{
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.archive-blog-posts article .category{
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #00B0D8;
+}
+
+.archive-blog-posts article .category:before{
+  content:"\00b7";
+}
+
+
+
+/*------------------*/
+/*BLOG SINGLE PAGE*/
+/*------------------*/
+
+
+.blog-sidebar{
+  background-image: url("../images/Monarch_homepage_background.jpg");
+  background-position: center;
+  background-size: cover;
+  position:fixed;
+  /*height: calc(100% - 425px);*/
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: 1px solid #111;
+}
+
+@media (max-width: 767px){
+    .blog-sidebar{
+      display: none;
+    }
+}
+
+
+.blog-posts{
+  float: right;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 3%;
+}
+
+.blog-posts h1{
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 35px;
 }
 
 .blog-posts article{
-  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -441,10 +529,33 @@ h4.media-heading{
   color: #00B0D8;
 }
 
-/*p:before { content:"\00b7"; }
+.blog-posts article footer{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.blog-posts article footer .byline{
+  text-transform: uppercase;
+  color: #B8B9BA;
+}
+
+.blog-posts article footer .bio{
+  color: #B8B9BA;
+  font-size: 16px;
+}
 
 
-*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
