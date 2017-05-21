@@ -42,10 +42,9 @@
 
 			<footer class="article-footer">
 					<p class="byline">Written By</p>
-					<h3>Barry Klarberg</h3>
+					<h3><?php the_author_meta( 'display_name'); ?> </h3>
 					<p class="bio">
-						This is the author bio where you could enter a few sentences about an author. This is the author bio where you could enter a few sentences about an author.
-						This is the author bio where you could enter a few sentences about an author. This is the author bio where you could enter a few sentences about an author.
+						<?php the_author_meta( 'description'); ?>
 				  </p>
 			</footer> <?php // end article footer ?>
 

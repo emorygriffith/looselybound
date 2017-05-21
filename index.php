@@ -2,10 +2,10 @@
 
 <div class="row archive-blog-page-container">
 		<div class="col-lg-3 col-md-3 col-sm-3 archive-blog-sidebar">
-			<p>Hey hey this is a pic</p>
 		</div>
 
 		<div class="col-lg-9 col-md-9 col-sm-9 archive-blog-posts">
+				<h1>Blog</h1>
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 					<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
@@ -15,14 +15,17 @@
 									<span class="posted-date"><?php echo get_the_date('F Y');?></span>
 
 										<?php
+
 												$show_categories = true;
 												$categories = wp_get_post_categories( $post->ID );
+
 												// We don't want to show the categories if there is a single category and it is "uncategorized"
 												if ( count( $categories ) == 1 && in_array( 1, $categories ) ) :
 												 $show_categories = false;
 												endif;
 												if ( has_category( null, $post->ID ) && $show_categories ) :
 												echo '<span class="dot"> &middot; </span>' . strip_tags( get_the_category_list(', '));
+
 												endif;
 										?>
 							</p>

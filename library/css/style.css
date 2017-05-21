@@ -114,12 +114,13 @@ a{
   align-items: center;
   flex-direction:
   justify-content: center;
-  /*padding-top: 14%;*/
+  padding-top: 14%;
 }
 
 .banner{
   text-align:left;
   width: 500px;
+  margin: 0 auto;
 
 }
 
@@ -431,7 +432,7 @@ h4.media-heading{
 
 .archive-blog-posts h1{
     font-size: 14px;
-    font-weight: bold;
+    font-weight: bold !important;
     color: #00B0D8;
     text-transform: uppercase;
     margin-bottom: 35px;
@@ -439,13 +440,23 @@ h4.media-heading{
 
 .archive-blog-posts article{
 
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+}
+
+.archive-blog-posts article .entry-title a{
+  color: black;
+  margin-top: 0px;
+}
+
+.archive-blog-posts article .entry-title{
+  margin-top: 0px;
 }
 
 .archive-blog-posts article .posted-date{
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
+  color: black !important;
 }
 
 .archive-blog-posts article .dot{
@@ -453,18 +464,23 @@ h4.media-heading{
   font-size: 14px;
   padding-left: 5px;
   padding-right: 5px;
+  color: black !important;
 }
 
-.archive-blog-posts article .category{
-  font-weight: bold;
+.archive-blog-posts article .entry-meta{
+  font-weight: bold !important;
   font-size: 14px;
   text-transform: uppercase;
-  color: #00B0D8;
+  color: #630B62;
+
 }
 
-.archive-blog-posts article .category:before{
-  content:"\00b7";
-}
+/*.category-tax .entry-meta{
+  color: #FFB700;
+  text-transform: uppercase;
+}*/
+
+
 
 
 

@@ -127,7 +127,7 @@
     managing large-scale financial decisions, Monarch is dedicated to providing the highest quality of service to each of our clients.
   </div>
 
-  <h4>Learn more about Monarch > </h4>
+  <a href="/about"><h4>Learn more about Monarch > </h4></a>
 
 </div>
 
