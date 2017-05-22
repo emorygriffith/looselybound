@@ -52,7 +52,7 @@
 
 			<div class="cta">
 				<h4>Have any questions?</h4>
-				<p>Contact us at DOMAIN.COM</p>
+				<p>Contact us at <a href="mailto:info@monarchmgmtllc.com">info@monarchmgmtllc.com</a></p>
 			</div>
 
 		</article> <?php // end article ?>
