@@ -414,7 +414,12 @@ h4.media-heading{
   border-bottom: solid 1px #d3d3d3;
 }
 
-.services-section-title{
+img.services-section-icon{
+  margin: 0 auto;
+  display: block;
+}
+
+h3.services-section-title{
   text-transform: uppercase;
   color:#50004E;
   text-align: center;
@@ -422,9 +427,8 @@ h4.media-heading{
   font-weight: bold !important;
 }
 
-.services-section-desc{
+h2.services-section-desc{
   text-align: center;
-
 }
 
 /*BUSINESS MANAGEMENT*/
@@ -452,13 +456,11 @@ but only on a big breakpoint*/
 /*WEALTH PLANNING*/
 .wealth-planning div.wealth-planning-content{
   padding: 50px;
-
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-
         @media (max-width: 768px){
           .wealth-planning div.wealth-planning-content{
             display: block;
@@ -466,24 +468,44 @@ but only on a big breakpoint*/
           }
         }
 
-
-.wealth-planning img.wealth-planning-icon{
-  margin: 0 auto;
-  display: block;
-}
-
 .wealth-planning img.wealth-planning-graphic{
   margin: 0 auto;
   display: block;
 }
 
 
+/*TOURING SERVICES*/
 
+.touring-services-content{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
+.touring-services-content ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+.touring-services-content ul li{
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
 
+.touring-services-content ul.left-items{
+  text-align: right;
+}
 
+.touring-services-content ul.right-items{
+  text-align: left;
+}
 
-
+.touring-services-content img.touring-services-graphic{
+  margin: 0 auto;
+  display: block;
+}
 
 
 

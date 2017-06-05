@@ -63,10 +63,9 @@
 </div> -->
 
 <!-- WELATH PLANNING -->
-
 <div class="clearfix container-fluid">
 		<div class="clearfix row col-lg-9 services-section wealth-planning">
-			<img class="wealth-planning-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_outline.png" alt="...">
+			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Wealth Planning</h3>
 			<h2 class="services-section-desc">We construct a dedicated team of individuals <br> uniquely positioned to grow your wealth</h2>
 			<div class="row wealth-planning-content contain">
@@ -86,24 +85,38 @@
 
 
 <!-- TOURING SERVICES -->
-
 <div class="clearfix container-fluid">
-		<div class="clearfix row col-lg-9 services-section wealth-planning">
-			<img class="wealth-planning-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_outline.png" alt="...">
-			<h3 class="services-section-title">Wealth Planning</h3>
-			<h2 class="services-section-desc">We construct a dedicated team of individuals <br> uniquely positioned to grow your wealth</h2>
-			<div class="row wealth-planning-content contain">
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<img class="wealth-planning-graphic img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Services_Graphic.png" alt="...">
+		<div class="clearfix row col-lg-9 services-section touring-services">
+			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_outline.png" alt="...">
+			<h3 class="services-section-title">Touring Services</h3>
+			<h2 class="services-section-desc">We offer a comprehensive suite of services <br> for when you are out on the road</h2>
+
+			<div class="row touring-services-content contain">
+
+				<div class="col-lg-4 col-md-4">
+							<ul class="left-items">
+								<li>Proper Insurance Coverage</li>
+								<li>Agency Deposit Schedule</li>
+								<li>Road Float Reports</li>
+								<li>Creation of Pre-Tour Budget & Projections</li>
+							</ul>
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<h4>
-					Your Monarch Wealth Planning Team will be comprised of financial planners, accountants, investment advisors, branding experts, risk managers,
-					tax specialists, roylaty auditors and touring experts, each of whom is committed to building a customized plan that will help you realize
-					your financial goals.
-				</h4>
+
+				<div class="col-lg-4 col-md-4">
+					<img class="touring-services-graphic img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Touring_Services_Graphic.png" alt="...">
 				</div>
+
+				<div class="col-lg-4 col-md-4">
+							<ul class="right-items">
+								<li>Payment of All Vendors</li>
+								<li>Collection & Accounting of Revenue</li>
+								<li>On-Tour Recordation, and Post-Tour Reconcilliation</li>
+								<li>Review Performance Deals & Show Expenses</li>
+							</ul>
+				</div>
+
 			</div>
+
 		</div>
 </div>
 
