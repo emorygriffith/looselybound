@@ -396,6 +396,118 @@ h4.media-heading{
 
 
 
+
+
+/*------------------*/
+/*SERVICES PAGE*/
+/*------------------*/
+
+.services-section{
+  clear:both;
+  float:none;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-bottom: none;
+}
+
+.services-section-title{
+  text-transform: uppercase;
+  color:#50004E;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold !important;
+}
+
+.services-section-desc{
+  text-align: center;
+
+}
+
+
+/*Make all of the cards the same height,
+but only on a big breakpoint*/
+/*@media (min-width: 768px) {
+  .business-management-card-row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}*/
+
+
+.business-management-card{
+
+}
+
+.inner{
+  border: solid 1px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*------------------*/
 /*BLOG ARCHIVE PAGE*/
 /*------------------*/

@@ -40,7 +40,7 @@
 
 
 <div class="row col-lg-12 about-bios">
-	<h2>TEAM</h2>
+	<h2 id="team">TEAM</h2>
 	<div class="col-lg-6 col-md-6 col-sm-6">
 		<img class="" src="<?php echo get_template_directory_uri(); ?>/library/images/nothumb.gif" alt="...">
 		<h4>Barry Klarbrg</h4>
