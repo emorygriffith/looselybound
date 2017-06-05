@@ -11,7 +11,7 @@
 				<h2>Our winning methodology consistently <br>yields exceptional results</h2>
 			</div>
 
-			<div class="row col-lg-9 page-middle">
+			<div class="row col-lg-9 page-middle contain">
 						<div class="col-lg-6 col-md-6 col-sm-6 shadow">
 							<h3>Nationally Trusted</h3>
 							<p>Annual review by a recognized <br> National Accounting Firm</p>

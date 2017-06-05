@@ -9,112 +9,114 @@
 
 
 <div class="home-background row">
-  <!-- Left side of home page  -->
-  <div class="home-left col-lg-7 col-md-7">
-    <div class="banner">
-      <h1>A Hollistic Approach to Wealth, Branding, and Family Office Services</h1>
-      <h3>Our winning methodology consistently yields exceptional results</h3>
-      <a href="/approach"><p>Read more about our approach ></p></a>
-    </div>
-  </div>
+  <div class="contain">
+      <!-- Left side of home page  -->
+      <div class="home-left col-lg-7 col-md-7">
+        <div class="banner">
+          <h1>A Hollistic Approach to Wealth, Branding, and Family Office Services</h1>
+          <h3>Our winning methodology consistently yields exceptional results</h3>
+          <a href="/approach"><p>Read more about our approach ></p></a>
+        </div>
+      </div>
 
 
-  <!-- Right side of home page  -->
-  <div class="home-right col-lg-5 col-md-5">
+      <!-- Right side of home page  -->
+      <div class="home-right col-lg-5 col-md-5">
 
-    <ul class="media-list">
-      <li class="media">
-        <div class="media-left">
-          <a href="">
-            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon.png" alt="...">
-          </a>
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">Wealth Planning</h4>
-          We construct a dedicated team of individuals uniquely positioned to grow your wealth.
-        </div>
-      </li>
+        <ul class="media-list">
+          <li class="media">
+            <div class="media-left">
+              <a href="">
+                <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon.png" alt="...">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Wealth Planning</h4>
+              We construct a dedicated team of individuals uniquely positioned to grow your wealth.
+            </div>
+          </li>
 
-      <li class="media">
-        <div class="media-left">
-          <a href="">
-            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Icon.png" alt="...">
-          </a>
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">Business Management</h4>
-          A vertical and cross-connected approach to growing your business.
-        </div>
-      </li>
+          <li class="media">
+            <div class="media-left">
+              <a href="">
+                <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Icon.png" alt="...">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Business Management</h4>
+              A vertical and cross-connected approach to growing your business.
+            </div>
+          </li>
 
-      <li class="media">
-        <div class="media-left">
-          <a href="#">
-            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Recording_Publishing_Icon.png" alt="...">
-          </a>
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">Recording and Publishing</h4>
-          Our experience in the music industry is unmatched.
-        </div>
-      </li>
+          <li class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Recording_Publishing_Icon.png" alt="...">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Recording and Publishing</h4>
+              Our experience in the music industry is unmatched.
+            </div>
+          </li>
 
-      <li class="media">
-        <div class="media-left">
-          <a href="#">
-            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Touring_Icon.png" alt="...">
-          </a>
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">Touring Services</h4>
-          Comprehensive coverage for the road
-        </div>
-      </li>
+          <li class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Touring_Icon.png" alt="...">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Touring Services</h4>
+              Comprehensive coverage for the road
+            </div>
+          </li>
 
-      <li class="media">
-        <div class="media-left">
-          <a href="#">
-            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Investment_Advisory_Services_Icon.png" alt="...">
-          </a>
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">Investment Advisory Services</h4>
-          A comprehensive strategy to a lifestyle of intlligent investments
-        </div>
-      </li>
+          <li class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Investment_Advisory_Services_Icon.png" alt="...">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Investment Advisory Services</h4>
+              A comprehensive strategy to a lifestyle of intlligent investments
+            </div>
+          </li>
 
-      <li class="media">
-        <div class="media-left">
-          <a href="#">
-            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Family_Icon.png" alt="...">
-          </a>
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">Family</h4>
-          Family Communication, Governance, and Education
-        </div>
-      </li>
+          <li class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Family_Icon.png" alt="...">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Family</h4>
+              Family Communication, Governance, and Education
+            </div>
+          </li>
 
-      <li class="media">
-        <div class="media-left">
-          <a href="#">
-            <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Tax_Icon.png" alt="...">
-          </a>
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">Tax and Planning</h4>
-          We combine dilligence with innovative tax strategies to maximize your wealth
-        </div>
-      </li>
+          <li class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Tax_Icon.png" alt="...">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Tax and Planning</h4>
+              We combine dilligence with innovative tax strategies to maximize your wealth
+            </div>
+          </li>
 
-    </ul>
+        </ul>
 
+      </div>
 
   </div>
 </div>
 
 
-<div class="home-family row">
+<div class="home-family row contain">
   <h3>At Monarch, we're all about family.</h3>
 
   <div class="col-lg-6 col-md-6">
