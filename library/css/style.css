@@ -475,7 +475,6 @@ but only on a big breakpoint*/
 
 
 /*TOURING SERVICES*/
-
 .touring-services-content{
   padding: 50px;
   display: flex;
@@ -483,6 +482,18 @@ but only on a big breakpoint*/
   align-items: center;
   justify-content: center;
 }
+      @media (max-width: 768px){
+        .touring-services-content{
+          display: block;
+          padding-top: 20px;
+        }
+        .touring-services-content ul.left-items{
+          text-align: center !important;
+        }
+        .touring-services-content ul.right-items{
+          text-align: center !important;
+        }
+      }
 
 .touring-services-content ul{
   list-style-type: none;
@@ -507,6 +518,57 @@ but only on a big breakpoint*/
   display: block;
 }
 
+
+/*INVESTMENT ADVISORY SERVICES*/
+.investment-advisory-services-content{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+      @media (max-width: 768px){
+        .investment-advisory-services-content{
+          display: block;
+          padding-top: 20px;
+        }
+        .investment-advisory-services-content ul.left-items{
+          text-align: center !important;
+        }
+        .investment-advisory-services-content ul.right-items{
+          text-align: center !important;
+        }
+      }
+
+.investment-advisory-services-content ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+.investment-advisory-services-content ul li{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.investment-advisory-services-content ul li h4{
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.investment-advisory-services-content ul li p{
+  font-size: 16px;
+}
+
+
+.investment-advisory-services-content ul.left-items{
+  text-align: right;
+}
+
+.investment-advisory-services-content ul.right-items{
+  text-align: left;
+}
+
+.investment-advisory-services-content img.investment-advisory-services-graphic{
+  margin: 0 auto;
+  display: block;
+}
 
 
 

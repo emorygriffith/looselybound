@@ -90,9 +90,7 @@
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Touring Services</h3>
 			<h2 class="services-section-desc">We offer a comprehensive suite of services <br> for when you are out on the road</h2>
-
 			<div class="row touring-services-content contain">
-
 				<div class="col-lg-4 col-md-4">
 							<ul class="left-items">
 								<li>Proper Insurance Coverage</li>
@@ -101,11 +99,9 @@
 								<li>Creation of Pre-Tour Budget & Projections</li>
 							</ul>
 				</div>
-
 				<div class="col-lg-4 col-md-4">
 					<img class="touring-services-graphic img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Touring_Services_Graphic.png" alt="...">
 				</div>
-
 				<div class="col-lg-4 col-md-4">
 							<ul class="right-items">
 								<li>Payment of All Vendors</li>
@@ -114,12 +110,56 @@
 								<li>Review Performance Deals & Show Expenses</li>
 							</ul>
 				</div>
-
 			</div>
-
 		</div>
 </div>
 
+
+<!-- INVESTMENT ADVISORY SERVICES -->
+<div class="clearfix container-fluid">
+		<div class="clearfix row col-lg-9 services-section investment-advisory-services">
+			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Investment_Icon.png" alt="...">
+			<h3 class="services-section-title">Investment Advisory Services</h3>
+			<h2 class="services-section-desc">A comprehensive starategy to a lifestyle of <br> intelligent investments</h2>
+			<div class="row investment-advisory-services-content contain">
+				<div class="col-lg-4 col-md-4">
+							<ul class="left-items">
+								<li>
+										<h4>Goals & Objectives</h4>
+										<p>Understanding clients long & short term goals</p>
+								</li>
+								<li>
+										<h4>Due Diligence</h4>
+										<p>Qualitative and Quantitative approach to screen managers</p>
+								</li>
+								<li>
+										<h4>Performance Reporting</h4>
+										<p>Monthly evaluations are critical to minimizing cost and maximizing tax efficiency</p>
+								</li>
+							</ul>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<img class="investment-advisory-services-graphic img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Investment_Graphic.png" alt="...">
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<ul class="right-items">
+								<li>
+										<h4>Investment Policy Statement</h4>
+										<p>Determine risk tolerance & investment profile</p>
+								</li>
+								<li>
+										<h4>Develop Asset Allocation Strategy</h4>
+										<p>Including broad and global diversification</p>
+								</li>
+								<li>
+										<h4>Monte Carlo Analysis</h4>
+										<p>Planning your financial future</p>
+								</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+</div>
 
 
 
