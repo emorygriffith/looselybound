@@ -161,7 +161,42 @@
 		</div>
 </div>
 
-
+<!-- FAMILY -->
+<div class="clearfix container-fluid">
+		<div class="clearfix row col-lg-9 services-section family">
+			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Family_Icon_outline.png" alt="...">
+			<h3 class="services-section-title">Family</h3>
+			<h2 class="services-section-desc">Family Communication, Governance, and Education</h2>
+			<div class="row family-content contain">
+				<div class="col-lg-6 col-md-6">
+					<img class="family-graphic img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Family_Graphic.png" alt="...">
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<ul class="right-items">
+								<li>
+										<h4>Coordination</h4>
+										<p>Coordinate client meetings and daily communication</p>
+								</li>
+								<li>
+										<h4>Family Vision & Mission</h4>
+										<p>
+											Design family vision and mission statements that reflect family values to ensure financial and social
+											responsibility of the next generation
+										</p>
+								</li>
+								<li>
+										<h4>Preservation</h4>
+										<p>Focusing on preserving family harmony across generations</p>
+								</li>
+								<li>
+										<h4>Education</h4>
+										<p>Educate family members about wealth management with focus on younger members</p>
+								</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+</div>
 
 
 

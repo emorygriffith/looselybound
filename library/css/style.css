@@ -571,6 +571,52 @@ but only on a big breakpoint*/
 }
 
 
+/*FAMILY*/
+.family-content{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+      @media (max-width: 768px){
+        .family-content{
+          display: block;
+          padding-top: 20px;
+        }
+        .family-content ul.right-items{
+          text-align: center !important;
+        }
+      }
+
+.family-graphic{
+  margin: 0 auto;
+}
+
+.family-content ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+.family-content ul li{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.family-content ul li h4{
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.family-content ul li p{
+  font-size: 16px;
+}
+
+.family-content ul.right-items{
+  text-align: left;
+}
+
+.family-content img.family-content-graphic{
+  margin: 0 auto;
+  display: block;
+}
 
 
 
