@@ -474,6 +474,61 @@ but only on a big breakpoint*/
 }
 
 
+/*RECORDING AND PUBLISHING*/
+.recording-publishing-content{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+      @media (max-width: 768px){
+        .recording-publishing-content{
+          display: block;
+          padding-top: 20px;
+        }
+        .recording-publishing-content ul.left-items{
+          text-align: center !important;
+        }
+        .recording-publishing-content ul.right-items{
+          text-align: center !important;
+        }
+      }
+
+.recording-publishing-content ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+.recording-publishing-content ul li{
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.recording-publishing-content ul li h4{
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.recording-publishing-content ul li p{
+  font-size: 16px;
+}
+
+
+.recording-publishing-content ul.left-items{
+  text-align: right;
+}
+
+.recording-publishing-content ul.right-items{
+  text-align: left;
+}
+
+.recording-publishing-content img.recording-publishing-graphic{
+  margin: 0 auto;
+  display: block;
+}
+
+
+
 /*TOURING SERVICES*/
 .touring-services-content{
   padding: 50px;

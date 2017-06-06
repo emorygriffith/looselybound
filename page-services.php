@@ -64,7 +64,7 @@
 
 <!-- WELATH PLANNING -->
 <div class="clearfix container-fluid">
-		<div class="clearfix row col-lg-9 services-section wealth-planning">
+		<div class="clearfix col-lg-9 services-section wealth-planning">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Wealth Planning</h3>
 			<h2 class="services-section-desc">We construct a dedicated team of individuals <br> uniquely positioned to grow your wealth</h2>
@@ -84,9 +84,90 @@
 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+<!-- RECORDING AND PUBLISHING -->
+<div class="clearfix container-fluid">
+		<div class="clearfix col-lg-9 services-section recording-publishing-services">
+
+			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Recording_Publishing_Icon_outline.png" alt="...">
+			<h3 class="services-section-title">Recording & Publishing</h3>
+			<h2 class="services-section-desc">Our experience in the music industry is unmatched</h2>
+
+			<div class="row recording-publishing-content contain">
+				<div class="col-lg-4 col-lg-offset-2">
+					<li>
+							<h4>Royalty Review</h4>
+							<p>We will review all royalty statements, including artist/producer mechanical and publishing statements</p>
+					</li>
+				</div>
+				<div class="col-lg-4">
+					<li>
+							<h4>Royalty Review</h4>
+							<p>We will review all royalty statements, including artist/producer mechanical and publishing statements</p>
+					</li>
+				</div>
+			</div>
+
+			<div class="row recording-publishing-content contain">
+				<div class="col-lg-4 col-md-4">
+							<ul class="left-items">
+								<li>
+										<h4>Royalty Review</h4>
+										<p>We will review all royalty statements, including artist/producer mechanical and publishing statements</p>
+								</li>
+							</ul>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<img class="recording-publishing-graphic img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Recording_Publishing_Services_Graphic.png" alt="...">
+				</div>
+				<div class="col-lg-4 col-md-4">
+							<ul class="right-items">
+								<li>
+										<h4>3rd Party Administration</h4>
+										<p>
+											We consult and work with outside servicers who prepare statements for Producers, other Musicians, or Performers
+											to whom you are required to render royalty statements
+										</p>
+								</li>
+							</ul>
+				</div>
+			</div>
+		</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- TOURING SERVICES -->
 <div class="clearfix container-fluid">
-		<div class="clearfix row col-lg-9 services-section touring-services">
+		<div class="clearfix col-lg-9 services-section touring-services">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Touring Services</h3>
 			<h2 class="services-section-desc">We offer a comprehensive suite of services <br> for when you are out on the road</h2>
@@ -117,7 +198,7 @@
 
 <!-- INVESTMENT ADVISORY SERVICES -->
 <div class="clearfix container-fluid">
-		<div class="clearfix row col-lg-9 services-section investment-advisory-services">
+		<div class="clearfix col-lg-9 services-section investment-advisory-services">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Investment_Icon.png" alt="...">
 			<h3 class="services-section-title">Investment Advisory Services</h3>
 			<h2 class="services-section-desc">A comprehensive starategy to a lifestyle of <br> intelligent investments</h2>
@@ -163,7 +244,7 @@
 
 <!-- FAMILY -->
 <div class="clearfix container-fluid">
-		<div class="clearfix row col-lg-9 services-section family">
+		<div class="clearfix col-lg-9 services-section family">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Family_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Family</h3>
 			<h2 class="services-section-desc">Family Communication, Governance, and Education</h2>
@@ -200,7 +281,7 @@
 
 <!-- TAX PLANING & ADVICE -->
 <div class="clearfix container-fluid">
-		<div class="clearfix row col-lg-9 services-section tax-services">
+		<div class="clearfix col-lg-9 services-section tax-services">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Tax_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Tax Planning & Advice</h3>
 			<h2 class="services-section-desc">We combine diligence with innovative tax <br> strategies to maximize your wealth</h2>
