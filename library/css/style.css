@@ -618,7 +618,49 @@ but only on a big breakpoint*/
   display: block;
 }
 
+/*TAX SERVICES*/
+.tax-services-content{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+      @media (max-width: 768px){
+        .tax-services-content{
+          display: block;
+          padding-top: 20px;
+        }
+        .tax-services-content ul.left-items{
+          text-align: center !important;
+        }
+        .tax-services-content ul.right-items{
+          text-align: center !important;
+        }
+      }
 
+.tax-services-content ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+.tax-services-content ul li{
+  font-size: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.tax-services-content ul.left-items{
+  text-align: right;
+}
+
+.tax-services-content ul.right-items{
+  text-align: left;
+}
+
+.tax-services-content img.tax-services-graphic{
+  margin: 0 auto;
+  display: block;
+}
 
 
 

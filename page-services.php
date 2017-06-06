@@ -198,7 +198,35 @@
 		</div>
 </div>
 
-
+<!-- TAX PLANING & ADVICE -->
+<div class="clearfix container-fluid">
+		<div class="clearfix row col-lg-9 services-section tax-services">
+			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Tax_Icon_outline.png" alt="...">
+			<h3 class="services-section-title">Tax Planning & Advice</h3>
+			<h2 class="services-section-desc">We combine diligence with innovative tax <br> strategies to maximize your wealth</h2>
+			<div class="row tax-services-content contain">
+				<div class="col-lg-4 col-md-4">
+							<ul class="left-items">
+								<li>Comprehensive Approach</li>
+								<li>Evaluate Alternatives</li>
+								<li>Philanthropic Benefits</li>
+								<li>Family First</li>
+							</ul>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<img class="tax-services-graphic img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Tax_Graphic.png" alt="...">
+				</div>
+				<div class="col-lg-4 col-md-4">
+							<ul class="right-items">
+								<li>Trusts and Estates</li>
+								<li>State Residency Issues</li>
+								<li>Various Entity Setup</li>
+								<li>Complex Tax Strategies</li>
+							</ul>
+				</div>
+			</div>
+		</div>
+</div>
 
 
 
