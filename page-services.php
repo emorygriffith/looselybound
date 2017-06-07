@@ -11,60 +11,80 @@
 	<h2>We excel at a multitude of services aimed at helping you</h2>
 </div>
 
+
+
+
+
+
+
+
 <!-- BUSINESS MANAGEMENT SECTION -->
-<!-- <div class="row col-lg-9 services-section business-management">
-	<img src="" alt="">
+<div class="row col-lg-12 services-section business-management">
+	<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Icon_outline.png" alt="...">
 	<h3 class="services-section-title">Business Management</h3>
-	<h2 class="services-section-desc">A vertical and cross-connected approach to growing your business</h2>
-	<img src="" alt="">
+	<h2 class="services-section-desc">A vertical and cross-connected <br> approach to growing your business</h2>
 
-	<div class="row business-management-card-row">
-		<div class="col-lg-4 business-management-card">
-			<div class="inner">
-					<h3>Billing</h3>
-					<p>Schedule monthly bills to ensure timely payment</p>
+<div class="cards-box container-fluid">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 bm-card">
+					<div class="bm-inner">
+						<h4>Billing</h4>
+						<p>Schedule monthly bills to ensure timely payment</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 bm-card">
+					<div class="bm-inner">
+						<h4>Risk Management</h4>
+						<p>Properly insure the things that matter most to you</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 bm-card">
+					<div class="bm-inner">
+						<h4>Tax Advice & Planning</h4>
+						<p>A proactive approach to preparing tax returns</p>
+					</div>
+				</div>
 			</div>
-		</div>
-		<div class="col-lg-4 business-management-card">
-			<div class="inner">
-				<h3>Risk Management</h3>
-				<p>Properly insure the things that matter most to you</p>
-		</div>
-		</div>
-		<div class="col-lg-4 business-management-card">
-			<div class="inner">
-					<h3>Tax Advice & Planning</h3>
-					<p>A proactive approach to preparing tax returns</p>
-			</div>
-		</div>
-	</div>
 
-	<div class="row business-management-card-row">
-		<div class="col-lg-4 business-management-card">
-			<div class="inner">
-				<h3>Decision Making</h3>
-				<p>Management of long-term/large-scale financial decisions</p>
-			</div>
-		</div>
-		<div class="col-lg-4 business-management-card">
-			<div class="inner">
-				<h3>Budgets & Cash Flows</h3>
-				<p>Monthly reports to annual project spending, and management of daily financial needs</p>
-			</div>
-		</div>
-		<div class="col-lg-4 business-management-card">
-			<div class="inner">
-				<h3>Disciplined Investments</h3>
-				<p>Catered to individual risk tolerance</p>
-			</div>
-		</div>
-	</div>
+			<img class="bm-graphic img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Services_Graphic.png" alt="...">
 
-</div> -->
+			<div class="row">
+				<div class="col-lg-4 col-md-4 bm-card">
+						<div class="bm-inner">
+							<h4>Decision Making</h4>
+							<p>Management of long-term/large-scale financial decisions</p>
+						</div>
+				</div>
+				<div class="col-lg-4 col-md-4 bm-card">
+						<div class="bm-inner">
+							<h4>Budgets & Cash Flows</h4>
+							<p>Monthly reports to annual project spending, and management of daily financial needs</p>
+						</div>
+				</div>
+				<div class="col-lg-4 col-md-4 bm-card">
+						<div class="bm-inner">
+							<h4>Disciplined Investments</h4>
+							<p>Catered to individual risk tolerance</p>
+						</div>
+				</div>
+			</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- WELATH PLANNING -->
 <div class="clearfix container-fluid">
-		<div class="clearfix col-lg-9 services-section wealth-planning">
+		<div class="clearfix col-lg-12 services-section wealth-planning">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Wealth Planning</h3>
 			<h2 class="services-section-desc">We construct a dedicated team of individuals <br> uniquely positioned to grow your wealth</h2>
@@ -96,7 +116,7 @@
 
 <!-- RECORDING AND PUBLISHING -->
 <div class="clearfix ">
-		<div class="container-fluid col-lg-9 services-section recording-publishing-services">
+		<div class="container-fluid col-lg-12 services-section recording-publishing-services">
 
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Recording_Publishing_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Recording & Publishing</h3>
@@ -183,7 +203,7 @@
 
 <!-- TOURING SERVICES -->
 <div class="clearfix container-fluid">
-		<div class="clearfix col-lg-9 services-section touring-services">
+		<div class="clearfix col-lg-12 services-section touring-services">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Touring Services</h3>
 			<h2 class="services-section-desc">We offer a comprehensive suite of services <br> for when you are out on the road</h2>
@@ -214,7 +234,7 @@
 
 <!-- INVESTMENT ADVISORY SERVICES -->
 <div class="clearfix container-fluid">
-		<div class="clearfix col-lg-9 services-section investment-advisory-services">
+		<div class="clearfix col-lg-12 services-section investment-advisory-services">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Investment_Icon.png" alt="...">
 			<h3 class="services-section-title">Investment Advisory Services</h3>
 			<h2 class="services-section-desc">A comprehensive starategy to a lifestyle of <br> intelligent investments</h2>
@@ -260,7 +280,7 @@
 
 <!-- FAMILY -->
 <div class="clearfix container-fluid">
-		<div class="clearfix col-lg-9 services-section family">
+		<div class="clearfix col-lg-12 services-section family">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Family_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Family</h3>
 			<h2 class="services-section-desc">Family Communication, Governance, and Education</h2>
@@ -297,7 +317,7 @@
 
 <!-- TAX PLANING & ADVICE -->
 <div class="clearfix container-fluid">
-		<div class="clearfix col-lg-9 services-section tax-services">
+		<div class="clearfix col-lg-12 services-section tax-services">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Tax_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Tax Planning & Advice</h3>
 			<h2 class="services-section-desc">We combine diligence with innovative tax <br> strategies to maximize your wealth</h2>

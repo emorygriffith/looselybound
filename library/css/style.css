@@ -433,16 +433,6 @@ h2.services-section-desc{
 
 /*BUSINESS MANAGEMENT*/
 
-/*Make all of the cards the same height,
-but only on a big breakpoint*/
-/*@media (min-width: 768px) {
-  .business-management-card-row{
-    display: flex;
-    flex-wrap: wrap;
-  }
-}*/
-
-
 .business-management-card{
 
 }
@@ -454,24 +444,110 @@ but only on a big breakpoint*/
 
 
 /*WEALTH PLANNING*/
-.wealth-planning div.wealth-planning-content{
-  padding: 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-        @media (max-width: 768px){
-          .wealth-planning div.wealth-planning-content{
-            display: block;
-            padding-top: 20px;
-          }
-        }
 
-.wealth-planning img.wealth-planning-graphic{
-  margin: 0 auto;
-  display: block;
+/*.business-management div.cards-box{
+  border: solid 2px black;
+  background-image: url("../images/Business_Management_Services_Graphic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  height: 460px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
+
+.business-management div.bm-card{
+  border: solid 2px black;
+  width: 280px;
+  padding: 10px;
+  position: absolute;
+  background-color: #fff;
+}
+
+.business-management div.card-text{
+  margin: 0 auto;
+}
+
+.top-right{
+  right: 0;
+  top: 0;
+  margin-right: -75px;
+}
+
+.top-mid{
+  right: 50%;
+  top: 0;
+  margin-right: -140px;
+}
+
+.top-left{
+  top: 0;
+  left: 0;
+  margin-left: -75px;
+}
+
+.bottom-left{
+  bottom: 0;
+  left: 0;
+  margin-left: -75px;
+}
+
+.bottom-mid{
+  bottom: 0;
+  left: 50%;
+  margin-left: -140px;
+}
+
+.bottom-right{
+  bottom: 0;
+  right: 0;
+  margin-right: -75px;
+}
+*/
+
+
+
+
+.cards-box{
+  width: 85%;
+  padding-top: 75px;
+
+}
+
+.cards-box div.bm-card{
+
+}
+
+.cards-box div.bm-inner{
+  border: solid 1px black;
+  padding: 15px;
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.bm-inner{
+  display: inline-block;
+  margin: 0 auto;
+
+}
+
+.bm-graphic{
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  width: 80%;
+}
+
+
+
+
+
 
 
 /*RECORDING AND PUBLISHING*/
