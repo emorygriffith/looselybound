@@ -95,25 +95,41 @@
 
 
 <!-- RECORDING AND PUBLISHING -->
-<div class="clearfix container-fluid">
-		<div class="clearfix col-lg-9 services-section recording-publishing-services">
+<div class="clearfix ">
+		<div class="container-fluid col-lg-9 services-section recording-publishing-services">
 
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Recording_Publishing_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Recording & Publishing</h3>
 			<h2 class="services-section-desc">Our experience in the music industry is unmatched</h2>
 
 			<div class="row recording-publishing-content contain">
-				<div class="col-lg-4 col-lg-offset-2">
-					<li>
-							<h4>Royalty Review</h4>
-							<p>We will review all royalty statements, including artist/producer mechanical and publishing statements</p>
-					</li>
+				<div class="col-lg-2 col-md-2">
+
 				</div>
-				<div class="col-lg-4">
-					<li>
-							<h4>Royalty Review</h4>
-							<p>We will review all royalty statements, including artist/producer mechanical and publishing statements</p>
-					</li>
+				<div class="col-lg-4 col-md-4">
+					<ul class="left-items">
+						<li>
+								<h4>Royalty Auditing</h4>
+								<p>
+									We consult with a staff of expert Auditors who can review and analyze your royalty statements to determine
+									if you have been paid all sums to which you are contractually entitled
+								</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<ul class="right-items">
+						<li>
+							<h4>Tracking and Reporting</h4>
+							<p>
+								We track the due dates of all royalties from third paries, monitor the receipt of royalty statements, and monitor
+								the collection of royalty earnings
+							</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-2">
+
 				</div>
 			</div>
 

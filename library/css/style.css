@@ -476,7 +476,7 @@ but only on a big breakpoint*/
 
 /*RECORDING AND PUBLISHING*/
 .recording-publishing-content{
-  padding: 50px;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -520,6 +520,10 @@ but only on a big breakpoint*/
 
 .recording-publishing-content ul.right-items{
   text-align: left;
+}
+
+.top-row{
+  width: 40%;
 }
 
 .recording-publishing-content img.recording-publishing-graphic{
