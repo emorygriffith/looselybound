@@ -55,7 +55,7 @@
 					</div>
 				<a/>
 
-				<a href="/team">
+				<a href="/about">
 					<div class="col-lg-6 col-md-6 col-sm-6 approach-team">
 						<h3>Learn more about our <span style="text-decoration:underline;">Team</span> > </h3>
 					</div>

@@ -39,7 +39,7 @@
           <li class="media">
             <div class="media-left">
               <a href="">
-                <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Icon.png" alt="...">
+                <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Icon_Outlines_White_FINAL.svg" alt="...">
               </a>
             </div>
             <div class="media-body">

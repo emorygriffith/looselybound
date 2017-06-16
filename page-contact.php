@@ -6,16 +6,48 @@
 
 <?php get_header(); ?>
 
+
+
+
+
 			<div id="content">
 
-				<div class="col-lg-9">
-					<h2>Contact Monarch Capital</h2>
-					<p>Lorum ipsum Ut sea noster aliquam, mollis commune similique ea vim. Est albucius appellantur ad. Et vix ceteros maiestatis, partem senserit elaboraret pro ne. Tale scripta mea ea, quo at prima debet omittantur, ex cetero officiis eleifend ius. Cu errem oratio partiendo mea, agam eirmod torquatos ut ius, audire disputationi te has.
-	Enim augue doctus nec ad. Eos te tempor albucius. Debet scaevola vim ut, commodo eleifend philosophia at his, everti tibique sed id. Iusto possim in mei, dolorem accusam nam ex.
-	Verterem salutatus te pri, stet libris probatus ut eum. Ad veri volumus eam. Has recusabo iracundia no. Et alterum inermis vel, erat evertitur reprehendunt usu et, dicit tamquam similique te his. Omnesque adolescens eu eos, te vis elitr senserit dignissim.</p>
+				<div class="map">
+						<h3 style="text-align:center; margin: 0 auto; padding-top: 150px;">Map Goes Here</h3>
+				</div>
+
+				<div class="contain contact-info row page-header">
+					<div class="col-lg-6 col-md-6">
+								<table style="width:100%">
+								  <tr>
+								    <th>Address</th>
+								    <td>209 East 31st Street </br>New York, NY 10016</td>
+								  </tr>
+								</table>
+					</div>
+					<div class="col-kg-6 col-md-6">
+						<table style="width:100%">
+							<tr>
+								<th>Email</th>
+								<td><a href="mailto:info@monarchmgmtllc.com">info@monarchmgmtllc.com</a></td>
+							</tr>
+							<tr>
+								<th>Phone</th>
+								<td>(212) 894-8100</td>
+							</tr>
+							<tr>
+								<th>Fax</th>
+								<td>(212) 894-8120</td>
+							</tr>
+						</table>
+					</div>
+
 				</div>
 
 			</div>
+
+
+
 
 
 <?php get_footer(); ?>

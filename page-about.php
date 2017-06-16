@@ -9,6 +9,7 @@
 <div class="row col-lg-9 page-header contain">
 	<h1>Goal & Mission</h1>
 	<h2>Create exceptional value through financial services for clients and employees</h2>
+	<p></p>
 </div>
 
 <div class="row col-lg-9 page-middle contain">
@@ -43,7 +44,7 @@
 	<div class="">
 		<h2 id="team">TEAM</h2>
 		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-			<img class="" src="<?php echo get_template_directory_uri(); ?>/library/images/nothumb.gif" alt="...">
+			<!-- <img class="" src="<?php echo get_template_directory_uri(); ?>/library/images/nothumb.gif" alt="..."> -->
 			<h4>Barry Klarbrg</h4>
 			<h4>Founder</h4>
 			<p>
@@ -55,7 +56,7 @@
 			</p>
 		</div>
 		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-			<img class="" src="<?php echo get_template_directory_uri(); ?>/library/images/nothumb.gif" alt="...">
+			<!-- <img class="" src="<?php echo get_template_directory_uri(); ?>/library/images/nothumb.gif" alt="..."> -->
 			<h4>Josh Klein</h4>
 			<h4>Partner and Managing Director</h4>
 			<p>
@@ -66,6 +67,32 @@
 				At noluisse perpetua volutpat eam, quo dicta patrioque id, facer nusquam vim in.
 			</p>
 		</div>
+
+		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+			<!-- <img class="" src="<?php echo get_template_directory_uri(); ?>/library/images/nothumb.gif" alt="..."> -->
+			<h4>Barry Klarbrg</h4>
+			<h4>Founder</h4>
+			<p>
+				Lorem ipsum dolor sit amet, an molestiae deseruisse vis. An eum error apeirian, eu odio perfecto duo.
+				Eam integre periculis evertitur an, movet populo scribentur nam ut. Qui ferri fuisset no, adhuc facilisis
+				no vis, molestie scribentur ea sea. Cibo impetus eos te, has singulis adolescens dissentiunt at. Enim
+				viderer deleniti eu nec, vis putant dicunt in. Et melius disputando eam. Ipsum mundi reformidans et vel.
+				At noluisse perpetua volutpat eam, quo dicta patrioque id, facer nusquam vim in.
+			</p>
+		</div>
+		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+			<!-- <img class="" src="<?php echo get_template_directory_uri(); ?>/library/images/nothumb.gif" alt="..."> -->
+			<h4>Josh Klein</h4>
+			<h4>Partner and Managing Director</h4>
+			<p>
+				Lorem ipsum dolor sit amet, an molestiae deseruisse vis. An eum error apeirian, eu odio perfecto duo.
+				Eam integre periculis evertitur an, movet populo scribentur nam ut. Qui ferri fuisset no, adhuc facilisis
+				no vis, molestie scribentur ea sea. Cibo impetus eos te, has singulis adolescens dissentiunt at. Enim
+				viderer deleniti eu nec, vis putant dicunt in. Et melius disputando eam. Ipsum mundi reformidans et vel.
+				At noluisse perpetua volutpat eam, quo dicta patrioque id, facer nusquam vim in.
+			</p>
+		</div>
+
 	</div>
 </div>
 
