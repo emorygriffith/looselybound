@@ -9,7 +9,7 @@
 <div class="row col-lg-9 page-header contain">
 	<h1>Goal & Mission</h1>
 	<h2>Create exceptional value through financial services for clients and employees</h2>
-	<p></p>
+	<p>We are guided by six core values that are, for us, a code of <span class="break"></span>conduct and a promise of fidelity to our clients</p>
 </div>
 
 <div class="row col-lg-9 page-middle contain">
@@ -45,7 +45,7 @@
 		<h2 id="team">TEAM</h2>
 		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
 			<!-- <img class="" src="<?php echo get_template_directory_uri(); ?>/library/images/nothumb.gif" alt="..."> -->
-			<h4>Barry Klarbrg</h4>
+			<h4 class="name">Barry Klarbrg</h4>
 			<h4>Founder</h4>
 			<p>
 				Lorem ipsum dolor sit amet, an molestiae deseruisse vis. An eum error apeirian, eu odio perfecto duo.
@@ -57,7 +57,7 @@
 		</div>
 		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
 			<!-- <img class="" src="<?php echo get_template_directory_uri(); ?>/library/images/nothumb.gif" alt="..."> -->
-			<h4>Josh Klein</h4>
+			<h4 class="name">Josh Klein</h4>
 			<h4>Partner and Managing Director</h4>
 			<p>
 				Lorem ipsum dolor sit amet, an molestiae deseruisse vis. An eum error apeirian, eu odio perfecto duo.
@@ -70,7 +70,7 @@
 
 		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
 			<!-- <img class="" src="<?php echo get_template_directory_uri(); ?>/library/images/nothumb.gif" alt="..."> -->
-			<h4>Barry Klarbrg</h4>
+			<h4 class="name">Barry Klarbrg</h4>
 			<h4>Founder</h4>
 			<p>
 				Lorem ipsum dolor sit amet, an molestiae deseruisse vis. An eum error apeirian, eu odio perfecto duo.
@@ -82,7 +82,7 @@
 		</div>
 		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
 			<!-- <img class="" src="<?php echo get_template_directory_uri(); ?>/library/images/nothumb.gif" alt="..."> -->
-			<h4>Josh Klein</h4>
+			<h4 class="name">Josh Klein</h4>
 			<h4>Partner and Managing Director</h4>
 			<p>
 				Lorem ipsum dolor sit amet, an molestiae deseruisse vis. An eum error apeirian, eu odio perfecto duo.
