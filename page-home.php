@@ -24,22 +24,22 @@
       <div class="home-right col-lg-5 col-md-5">
 
         <ul class="media-list">
-          <li class="media">
+          <li class="media wp">
             <div class="media-left">
               <a href="">
-                <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_filled.png" alt="...">
+                <img class="media-object wp-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_filled.png" alt="...">
               </a>
             </div>
             <div class="media-body">
               <h4 class="media-heading">Wealth Planning</h4>
-              We construct a dedicated team of individuals uniquely positioned to grow your wealth.
+              We construct a dedicated team of individuals <br>uniquely positioned to grow your wealth.
             </div>
           </li>
 
-          <li class="media">
+          <li class="media bm">
             <div class="media-left">
               <a href="">
-                <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Icon_Outlines_White_FINAL.svg" alt="...">
+                <img class="media-object bm-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Icon_Outlines_White_FINAL.svg" alt="...">
               </a>
             </div>
             <div class="media-body">
@@ -48,22 +48,22 @@
             </div>
           </li>
 
-          <li class="media">
+          <li class="media rp">
             <div class="media-left">
               <a href="#">
-                <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Recording_Publishing_Icon.png" alt="...">
+                <img class="media-object rp-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Recording_Publishing_Icon.png" alt="...">
               </a>
             </div>
             <div class="media-body">
               <h4 class="media-heading">Recording and Publishing</h4>
-              Our experience in the music industry is unmatched.
+              Our experience in the music industry <br>is unmatched.
             </div>
           </li>
 
-          <li class="media">
+          <li class="media ts">
             <div class="media-left">
               <a href="#">
-                <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Touring_Icon.png" alt="...">
+                <img class="media-object ts-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Touring_Icon.png" alt="...">
               </a>
             </div>
             <div class="media-body">
@@ -72,22 +72,22 @@
             </div>
           </li>
 
-          <li class="media">
+          <li class="media ias">
             <div class="media-left">
               <a href="#">
-                <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Investment_Advisory_Services_Icon.png" alt="...">
+                <img class="media-object ias-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Investment_Advisory_Services_Icon.png" alt="...">
               </a>
             </div>
             <div class="media-body">
               <h4 class="media-heading">Investment Advisory Services</h4>
-              A comprehensive strategy to a lifestyle of intlligent investments
+              A comprehensive strategy to a lifestyle of <br>intlligent investments
             </div>
           </li>
 
-          <li class="media">
+          <li class="media fam">
             <div class="media-left">
               <a href="#">
-                <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Family_Icon.png" alt="...">
+                <img class="media-object fam-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Family_Icon.png" alt="...">
               </a>
             </div>
             <div class="media-body">
@@ -96,10 +96,10 @@
             </div>
           </li>
 
-          <li class="media">
+          <li class="media tp">
             <div class="media-left">
               <a href="#">
-                <img class="media-object" src="<?php echo get_template_directory_uri(); ?>/library/images/Tax_Icon.png" alt="...">
+                <img class="media-object tp-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Tax_Icon.png" alt="...">
               </a>
             </div>
             <div class="media-body">
