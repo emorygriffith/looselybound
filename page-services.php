@@ -88,17 +88,20 @@
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Wealth Planning</h3>
 			<h2 class="services-section-desc">We construct a dedicated team of individuals <br> uniquely positioned to grow your wealth</h2>
+
 			<div class="row wealth-planning-content contain">
-				<div class="col-lg-6 col-md-6 col-sm-12">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-5  col-md-5 hide-sm">
 					<img class="wealth-planning-graphic img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Services_Graphic.png" alt="...">
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
+				<div class="col-lg-5 col-md-5 col-sm-12">
 					<h4>
 					Your Monarch Wealth Planning Team will be comprised of financial planners, accountants, investment advisors, branding experts, risk managers,
 					tax specialists, roylaty auditors and touring experts, each of whom is committed to building a customized plan that will help you realize
 					your financial goals.
 				</h4>
 				</div>
+				<div class="col-lg-1 col-md-1"></div>
 			</div>
 		</div>
 </div>

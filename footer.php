@@ -24,6 +24,10 @@
 					<p class="info">For more info on Monarch Wealth & Business Management LLC,<br> please email <a href="mailto:info@monarchmgmtllc.com">info@monarchmgmtllc.com</a></p>
 				</div>
 
+				<div class="footer-text">
+					<p class="info"><a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-use">Terms of Use</a></p>
+				</div>
+
 			</footer>
 
 		</div>

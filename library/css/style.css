@@ -504,86 +504,15 @@ h2.services-section-desc{
   text-align: center;
 }
 
+/*HIDE ON SMALL SCREENS*/
+@media (max-width: 768px){
+  .hide-sm{
+    display: none;
+  }
+}
+
+
 /*BUSINESS MANAGEMENT*/
-
-.business-management-card{
-
-}
-
-.inner{
-  border: solid 1px black;
-}
-
-
-
-/*WEALTH PLANNING*/
-
-/*.business-management div.cards-box{
-  border: solid 2px black;
-  background-image: url("../images/Business_Management_Services_Graphic.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
-  height: 460px;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-}
-
-.business-management div.bm-card{
-  border: solid 2px black;
-  width: 280px;
-  padding: 10px;
-  position: absolute;
-  background-color: #fff;
-}
-
-.business-management div.card-text{
-  margin: 0 auto;
-}
-
-.top-right{
-  right: 0;
-  top: 0;
-  margin-right: -75px;
-}
-
-.top-mid{
-  right: 50%;
-  top: 0;
-  margin-right: -140px;
-}
-
-.top-left{
-  top: 0;
-  left: 0;
-  margin-left: -75px;
-}
-
-.bottom-left{
-  bottom: 0;
-  left: 0;
-  margin-left: -75px;
-}
-
-.bottom-mid{
-  bottom: 0;
-  left: 50%;
-  margin-left: -140px;
-}
-
-.bottom-right{
-  bottom: 0;
-  right: 0;
-  margin-right: -75px;
-}
-*/
-
-
-
-
 .cards-box{
   width: 85%;
   padding-top: 75px;
@@ -617,6 +546,26 @@ h2.services-section-desc{
   width: 80%;
 }
 
+
+/*WEALTH PLANNING*/
+
+.wealth-planning-content{
+  padding-top: 20px;
+}
+
+.wealth-planning-content img{
+  margin: 0 auto;
+}
+
+.wealth-planning-content h4{
+  margin-top: 100px;
+}
+
+@media (max-width: 992px){
+  .wealth-planning-content h4{
+    margin-top: 10px;
+  }
+}
 
 
 
@@ -1203,4 +1152,28 @@ h2.services-section-desc{
     }
 
 
+}
+
+
+
+/*----------------------------------*/
+/*PRIVACY PAGE*/
+/*----------------------------------*/
+.privacy{
+  float: none;
+margin: 0 auto;
+margin-top: 100px;
+margin-bottom: 100px;
+  padding: 15px;
+}
+
+/*----------------------------------*/
+/*TERMS OF SERVICE PAGE*/
+/*----------------------------------*/
+.terms{
+  float: none;
+margin: 0 auto;
+margin-top: 100px;
+margin-bottom: 100px;
+  padding: 15px;
 }
