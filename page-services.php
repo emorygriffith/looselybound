@@ -83,7 +83,7 @@
 
 
 <!-- WELATH PLANNING -->
-<div class="clearfix container-fluid">
+<div id="wealth-planning" class="clearfix container-fluid">
 		<div class="clearfix col-lg-12 services-section wealth-planning">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Wealth Planning</h3>

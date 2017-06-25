@@ -24,17 +24,22 @@
       <div class="home-right col-lg-5 col-md-5">
 
         <ul class="media-list">
-          <li class="media wp">
-            <div class="media-left">
-              <a href="">
-                <img class="media-object wp-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_filled.png" alt="...">
+
+
+            <li class="media wp">
+              <a href="/services#wealth-planning">
+                <div class="media-left">
+                  <!-- <a href=""> -->
+                    <img class="media-object wp-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_filled.png" alt="...">
+                  <!-- </a> -->
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">Wealth Planning</h4>
+                  We construct a dedicated team of individuals <br>uniquely positioned to grow your wealth.
+                </div>
               </a>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">Wealth Planning</h4>
-              We construct a dedicated team of individuals <br>uniquely positioned to grow your wealth.
-            </div>
-          </li>
+            </li>
+
 
           <li class="media bm">
             <div class="media-left">
