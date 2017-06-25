@@ -73,11 +73,32 @@ a{
     color: black;
 }
 
+
+.nav > li:last-child a:hover {
+  background-color: #50004E;
+  color: #fff;
+}
+
 /*Add solid line around last menu item*/
-/*.nav > li:last-child > a {
-  border: solid 1px #7C407A;
+.nav > li:last-child > a {
+  border: solid 1px #50004E;
   border-radius: 10px;
-}*/
+}
+    /*Remove solid line around last menu item on mobile menu*/
+    @media (max-width: 768px) {
+      .nav > li:last-child > a {
+        border: none !important;
+        border-radius: 0px!important;
+      }
+
+      .nav > li:last-child a:hover {
+        background-color: #DDDDDD!important;
+        color: black!important;
+      }
+
+    }
+
+
 
 /*Make the nav list items sit next to each other
   instead of breaking to new line*/
@@ -85,6 +106,7 @@ a{
     .nav li{
       display:inline-block;
     }
+
 }
 
 .navbar{
@@ -1014,6 +1036,10 @@ h2.services-section-desc{
     .blog-sidebar{
       display: none;
     }
+
+    .blog-posts{
+      padding-top: 8% !important;
+    }
 }
 
 
@@ -1057,6 +1083,7 @@ h2.services-section-desc{
 .blog-posts article footer{
   padding-top: 2%;
   padding-bottom: 2%;
+  border: none !important;
 }
 
 .blog-posts article footer .byline{

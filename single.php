@@ -41,11 +41,14 @@
 
 
 			<footer class="article-footer">
+
 					<p class="byline">Written By</p>
 					<h3><?php the_author_meta( 'display_name'); ?> </h3>
-					<p class="bio">
+
+					<!-- Uncomment this if you want to bio of the author (entered on the Users section of WP admin portal) to show up. -->
+					<!-- <p class="bio">
 						<?php the_author_meta( 'description'); ?>
-				  </p>
+				  </p> -->
 			</footer> <?php // end article footer ?>
 
 			<hr>
