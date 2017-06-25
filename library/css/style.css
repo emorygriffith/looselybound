@@ -307,7 +307,7 @@ h4.media-heading{
 
 .break:before { content: ' '; display: block; }
 
-@media (max-width: 600px){
+@media (max-width: 768px){
 
   .break:before { content: ' '; display: inline; }
 
@@ -504,31 +504,44 @@ h2.services-section-desc{
   text-align: center;
 }
 
-/*HIDE ON SMALL SCREENS*/
-@media (max-width: 768px){
-  .hide-sm{
-    display: none;
-  }
-}
+        /*HIDE ON LARGE SCREENS*/
+        @media (max-width: 992px){
+          .hide-lg{
+            display: none;
+          }
+        }
+
+        /*HIDE ON SMALL SCREENS*/
+        @media (max-width: 768px){
+          .hide-sm{
+            display: none;
+          }
+        }
+
+
 
 
 /*BUSINESS MANAGEMENT*/
 .cards-box{
-  width: 85%;
+  width: 65%;
   padding-top: 75px;
 
 }
 
 .cards-box div.bm-card{
-
+  background-color: #fff;
 }
 
 .cards-box div.bm-inner{
-  border: solid 1px black;
   padding: 15px;
   width: 85%;
   display: block;
   margin: 0 auto;
+  min-height: 150px;
+
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
 
 }
 
@@ -543,8 +556,19 @@ h2.services-section-desc{
   margin-right: auto;
   margin-top: -30px;
   margin-bottom: -30px;
-  width: 80%;
+  width: 70%;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*WEALTH PLANNING*/
@@ -564,26 +588,38 @@ h2.services-section-desc{
 @media (max-width: 992px){
   .wealth-planning-content h4{
     margin-top: 10px;
+    text-align: center;
   }
 }
 
 
-
+@media only screen and (min-width : 768px) {
+    .is-table-row {
+        display: table;
+    }
+    .is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+}
 
 
 
 /*RECORDING AND PUBLISHING*/
 .recording-publishing-content{
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
-      @media (max-width: 768px){
+
+.topone{
+  padding-top: 3%;
+}
+
+      @media (max-width: 992px){
         .recording-publishing-content{
           display: block;
           padding-top: 20px;
+          padding-left: 5%;
+          padding-right: 5%;
         }
         .recording-publishing-content ul.left-items{
           text-align: center !important;
@@ -631,15 +667,15 @@ h2.services-section-desc{
 
 
 
+
+
+
+
 /*TOURING SERVICES*/
 .touring-services-content{
-  padding: 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  padding: 5%;
 }
-      @media (max-width: 768px){
+      @media (max-width: 992px){
         .touring-services-content{
           display: block;
           padding-top: 20px;
@@ -678,13 +714,21 @@ h2.services-section-desc{
 
 /*INVESTMENT ADVISORY SERVICES*/
 .investment-advisory-services-content{
-  padding: 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
 }
-      @media (max-width: 768px){
+
+.investment-advisory-services-content .right-items{
+  margin-top: 5%;
+}
+
+      @media (max-width: 992px){
+
+        .investment-advisory-services-content .right-items{
+          margin-top: 0px;
+        }
+
         .investment-advisory-services-content{
           display: block;
           padding-top: 20px;
@@ -730,7 +774,8 @@ h2.services-section-desc{
 
 /*FAMILY*/
 .family-content{
-  padding: 50px;
+  padding-top: 5%;
+  padding-bottom: 5%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -778,12 +823,8 @@ h2.services-section-desc{
 /*TAX SERVICES*/
 .tax-services-content{
   padding: 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
-      @media (max-width: 768px){
+      @media (max-width: 992px){
         .tax-services-content{
           display: block;
           padding-top: 20px;

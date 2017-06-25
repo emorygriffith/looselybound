@@ -22,10 +22,10 @@
 <div class="row col-lg-12 services-section business-management">
 	<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Icon_outline.png" alt="...">
 	<h3 class="services-section-title">Business Management</h3>
-	<h2 class="services-section-desc">A vertical and cross-connected <br> approach to growing your business</h2>
+	<h2 class="services-section-desc">A vertical and cross-connected <span class="break"></span> approach to growing your business</h2>
 
-<div class="cards-box container-fluid">
-			<div class="row">
+<div class="cards-box container-fluid contain">
+			<div class="row is-table-row">
 				<div class="col-lg-4 col-md-4 bm-card">
 					<div class="bm-inner">
 						<h4>Billing</h4>
@@ -48,7 +48,7 @@
 
 			<img class="bm-graphic img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Services_Graphic.png" alt="...">
 
-			<div class="row">
+			<div class="row is-table-row">
 				<div class="col-lg-4 col-md-4 bm-card">
 						<div class="bm-inner">
 							<h4>Decision Making</h4>
@@ -87,7 +87,7 @@
 		<div class="clearfix col-lg-12 services-section wealth-planning">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Wealth Planning</h3>
-			<h2 class="services-section-desc">We construct a dedicated team of individuals <br> uniquely positioned to grow your wealth</h2>
+			<h2 class="services-section-desc">We construct a dedicated team of individuals <span class="break"></span> uniquely positioned to grow your wealth</h2>
 
 			<div class="row wealth-planning-content contain">
 				<div class="col-lg-1 col-md-1"></div>
@@ -124,8 +124,7 @@
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Recording_Publishing_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Recording & Publishing</h3>
 			<h2 class="services-section-desc">Our experience in the music industry is unmatched</h2>
-
-			<div class="row recording-publishing-content contain">
+		  <div class="row recording-publishing-content topone contain">
 				<div class="col-lg-2 col-md-2">
 
 				</div>
@@ -154,6 +153,7 @@
 				<div class="col-lg-2 col-md-2">
 
 				</div>
+
 			</div>
 
 			<div class="row recording-publishing-content contain">
@@ -165,7 +165,7 @@
 								</li>
 							</ul>
 				</div>
-				<div class="col-lg-4 col-md-4">
+				<div class="col-lg-4 col-md-4 hide-lg">
 					<img class="recording-publishing-graphic img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Recording_Publishing_Services_Graphic.png" alt="...">
 				</div>
 				<div class="col-lg-4 col-md-4">
@@ -209,7 +209,7 @@
 		<div class="clearfix col-lg-12 services-section touring-services">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Touring Services</h3>
-			<h2 class="services-section-desc">We offer a comprehensive suite of services <br> for when you are out on the road</h2>
+			<h2 class="services-section-desc">We offer a comprehensive suite of services <span class="break"></span> for when you are out on the road</h2>
 			<div class="row touring-services-content contain">
 				<div class="col-lg-4 col-md-4">
 							<ul class="left-items">
@@ -219,7 +219,7 @@
 								<li>Creation of Pre-Tour Budget & Projections</li>
 							</ul>
 				</div>
-				<div class="col-lg-4 col-md-4">
+				<div class="col-lg-4 col-md-4 hide-lg">
 					<img class="touring-services-graphic img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Touring_Services_Graphic.png" alt="...">
 				</div>
 				<div class="col-lg-4 col-md-4">
@@ -240,7 +240,7 @@
 		<div class="clearfix col-lg-12 services-section investment-advisory-services">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Investment_Icon.png" alt="...">
 			<h3 class="services-section-title">Investment Advisory Services</h3>
-			<h2 class="services-section-desc">A comprehensive starategy to a lifestyle of <br> intelligent investments</h2>
+			<h2 class="services-section-desc">A comprehensive starategy to a lifestyle of <span class="break"></span> intelligent investments</h2>
 			<div class="row investment-advisory-services-content contain">
 				<div class="col-lg-4 col-md-4">
 							<ul class="left-items">
@@ -258,7 +258,7 @@
 								</li>
 							</ul>
 				</div>
-				<div class="col-lg-4 col-md-4">
+				<div class="col-lg-4 col-md-4 hide-lg">
 					<img class="investment-advisory-services-graphic img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Investment_Graphic.png" alt="...">
 				</div>
 				<div class="col-lg-4 col-md-4">
@@ -288,7 +288,7 @@
 			<h3 class="services-section-title">Family</h3>
 			<h2 class="services-section-desc">Family Communication, Governance, and Education</h2>
 			<div class="row family-content contain">
-				<div class="col-lg-6 col-md-6">
+				<div class="col-lg-6 col-md-6 hide-sm">
 					<img class="family-graphic img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Family_Graphic.png" alt="...">
 				</div>
 				<div class="col-lg-6 col-md-6">
@@ -323,7 +323,7 @@
 		<div class="clearfix col-lg-12 services-section tax-services">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Tax_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Tax Planning & Advice</h3>
-			<h2 class="services-section-desc">We combine diligence with innovative tax <br> strategies to maximize your wealth</h2>
+			<h2 class="services-section-desc">We combine diligence with innovative tax <span class="break"></span> strategies to maximize your wealth</h2>
 			<div class="row tax-services-content contain">
 				<div class="col-lg-4 col-md-4">
 							<ul class="left-items">
@@ -333,7 +333,7 @@
 								<li>Family First</li>
 							</ul>
 				</div>
-				<div class="col-lg-4 col-md-4">
+				<div class="col-lg-4 col-md-4 hide-lg">
 					<img class="tax-services-graphic img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Tax_Graphic.png" alt="...">
 				</div>
 				<div class="col-lg-4 col-md-4">
