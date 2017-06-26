@@ -83,5 +83,3 @@
 
 
 <?php get_footer(); ?>
-
-</div> <!-- end "Site" for flexbox -->

@@ -40,7 +40,7 @@
 			<hr>
 
 
-			<footer class="article-footer">
+			<footer class="single-article-footer">
 
 					<p class="byline">Written By</p>
 					<h3><?php the_author_meta( 'display_name'); ?> </h3>

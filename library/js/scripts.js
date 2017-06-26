@@ -6,8 +6,8 @@ This JS is so the sidebar on the blog and blog post page can be sticky on the le
 $(window).scroll(function () {
       // distance from top of footer to top of document
       footertotop = ($('.footer').position().top);
-      // distance user has scrolled from top, adjusted to take in height of sidebar (570 pixels inc. padding)
-      scrolltop = $(document).scrollTop()+750;
+      // distance user has scrolled from top, adjusted to take in height of sidebar
+      scrolltop = $(document).scrollTop()+727;
       // difference between the two
       difference = scrolltop-footertotop;
 
@@ -28,8 +28,8 @@ $(window).scroll(function () {
 $(window).scroll(function () {
     // distance from top of footer to top of document
     footertotop = ($('.footer').position().top);
-    // distance user has scrolled from top, adjusted to take in height of sidebar (570 pixels inc. padding)
-    scrolltop = $(document).scrollTop()+750;
+    // distance user has scrolled from top, adjusted to take in height of sidebar
+    scrolltop = $(document).scrollTop()+727;
     // difference between the two
     difference = scrolltop-footertotop;
 

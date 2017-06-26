@@ -71,7 +71,9 @@
 				 <span class="icon-bar"></span>
 			 </button>
 
+			 <!-- <p id="logo"><a href="<?php echo home_url(); ?>" rel="nofollow"><img class="header-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/library/images/MonarchLogoVectorPurple.svg" alt="<?php bloginfo('name'); ?>" /></a></p> -->
 			 <p id="logo"><a href="<?php echo home_url(); ?>" rel="nofollow"><img class="header-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/library/images/Monarch_Logo.png" alt="<?php bloginfo('name'); ?>" /></a></p>
+
 		 </div>
 		 <div class="collapse navbar-collapse">
 			 <ul class="nav navbar-nav pull-right">
