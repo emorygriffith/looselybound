@@ -19,7 +19,7 @@
 
 
 <!-- BUSINESS MANAGEMENT SECTION -->
-<div class="row col-lg-12 services-section business-management">
+<div id="business-management" class="row col-lg-12 services-section business-management">
 	<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Icon_outline.png" alt="...">
 	<h3 class="services-section-title">Business Management</h3>
 	<h2 class="services-section-desc">A vertical and cross-connected <span class="break"></span> approach to growing your business</h2>
@@ -46,7 +46,7 @@
 				</div>
 			</div>
 
-			<img class="bm-graphic img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Services_Graphic.png" alt="...">
+			<img class="bm-graphic img-responsive hide-lg" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Services_Graphic.png" alt="...">
 
 			<div class="row is-table-row">
 				<div class="col-lg-4 col-md-4 bm-card">
@@ -118,7 +118,7 @@
 
 
 <!-- RECORDING AND PUBLISHING -->
-<div class="clearfix ">
+<div id="recording-and-publishing" class="clearfix ">
 		<div class="container-fluid col-lg-12 services-section recording-publishing-services">
 
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Recording_Publishing_Icon_outline.png" alt="...">
@@ -205,7 +205,7 @@
 
 
 <!-- TOURING SERVICES -->
-<div class="clearfix container-fluid">
+<div id="touring-services" class="clearfix container-fluid">
 		<div class="clearfix col-lg-12 services-section touring-services">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Touring Services</h3>
@@ -236,7 +236,7 @@
 
 
 <!-- INVESTMENT ADVISORY SERVICES -->
-<div class="clearfix container-fluid">
+<div id="investment-advisory-services"  class="clearfix container-fluid">
 		<div class="clearfix col-lg-12 services-section investment-advisory-services">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Investment_Icon.png" alt="...">
 			<h3 class="services-section-title">Investment Advisory Services</h3>
@@ -282,7 +282,7 @@
 </div>
 
 <!-- FAMILY -->
-<div class="clearfix container-fluid">
+<div id="family" class="clearfix container-fluid">
 		<div class="clearfix col-lg-12 services-section family">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Family_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Family</h3>
@@ -319,7 +319,7 @@
 </div>
 
 <!-- TAX PLANING & ADVICE -->
-<div class="clearfix container-fluid">
+<div id="tax-and-planning" class="clearfix container-fluid">
 		<div class="clearfix col-lg-12 services-section tax-services">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Tax_Icon_outline.png" alt="...">
 			<h3 class="services-section-title">Tax Planning & Advice</h3>

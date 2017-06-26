@@ -42,75 +42,92 @@
 
 
           <li class="media bm">
-            <div class="media-left">
-              <a href="">
-                <img class="media-object bm-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Icon_Outlines_White_FINAL.svg" alt="...">
-              </a>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">Business Management</h4>
-              A vertical and cross-connected approach to growing your business.
-            </div>
+            <a href="/services#business-management">
+              <div class="media-left">
+                <!-- <a href=""> -->
+                  <img class="media-object bm-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Icon_Outlines_White_FINAL.svg" alt="...">
+                <!-- </a> -->
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Business Management</h4>
+                A vertical and cross-connected approach to growing your business.
+              </div>
+            </a>
           </li>
 
           <li class="media rp">
-            <div class="media-left">
-              <a href="#">
-                <img class="media-object rp-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Recording_Publishing_Icon.png" alt="...">
-              </a>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">Recording and Publishing</h4>
-              Our experience in the music industry <br>is unmatched.
-            </div>
+            <a href="/services#recording-and-publishing">
+              <div class="media-left">
+                <!-- <a href="#"> -->
+                  <img class="media-object rp-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Recording_Publishing_Icon.png" alt="...">
+                <!-- </a> -->
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Recording and Publishing</h4>
+                Our experience in the music industry <br>is unmatched.
+              </div>
+            </a>
           </li>
+
 
           <li class="media ts">
-            <div class="media-left">
-              <a href="#">
-                <img class="media-object ts-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Touring_Icon.png" alt="...">
-              </a>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">Touring Services</h4>
-              Comprehensive coverage for the road
-            </div>
+            <a href="/services#touring-services">
+              <div class="media-left">
+                <!-- <a href="#"> -->
+                  <img class="media-object ts-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Touring_Icon.png" alt="...">
+                <!-- </a> -->
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Touring Services</h4>
+                Comprehensive coverage for the road
+              </div>
+          </a>
           </li>
 
+
+
+
+
           <li class="media ias">
-            <div class="media-left">
-              <a href="#">
-                <img class="media-object ias-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Investment_Advisory_Services_Icon.png" alt="...">
-              </a>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">Investment Advisory Services</h4>
-              A comprehensive strategy to a lifestyle of <br>intlligent investments
-            </div>
+            <a href="/services#investment-advisory-services">
+              <div class="media-left">
+                <!-- <a href="#"> -->
+                  <img class="media-object ias-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Investment_Advisory_Services_Icon.png" alt="...">
+                <!-- </a> -->
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Investment Advisory Services</h4>
+                A comprehensive strategy to a lifestyle of <br>intlligent investments
+              </div>
+            <a href="/services#touring-services">
           </li>
 
           <li class="media fam">
-            <div class="media-left">
-              <a href="#">
-                <img class="media-object fam-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Family_Icon.png" alt="...">
-              </a>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">Family</h4>
-              Family Communication, Governance, and Education
-            </div>
+            <a href="/services#family">
+              <div class="media-left">
+                <!-- <a href="#"> -->
+                  <img class="media-object fam-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Family_Icon.png" alt="...">
+                <!-- </a> -->
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Family</h4>
+                Family Communication, Governance, and <span class="break"></span>Education
+              </div>
+            </a>
           </li>
 
           <li class="media tp">
-            <div class="media-left">
-              <a href="#">
-                <img class="media-object tp-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Tax_Icon.png" alt="...">
-              </a>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">Tax and Planning</h4>
-              We combine dilligence with innovative tax strategies to maximize your wealth
-            </div>
+            <a href="/services#tax-and-planning">
+              <div class="media-left">
+                <!-- <a href="#"> -->
+                  <img class="media-object tp-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Tax_Icon.png" alt="...">
+                <!-- </a> -->
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Tax and Planning</h4>
+                We combine dilligence with innovative tax strategies to maximize your wealth
+              </div>
+          </a>
           </li>
 
         </ul>

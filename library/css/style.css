@@ -178,7 +178,7 @@ a{
   padding-bottom: 5%;
 }
 
-.media-left a img{
+.media-left img{
   background-color: #81007F;
   border-radius: 100%;
   padding:10px;
@@ -584,6 +584,35 @@ h2.services-section-desc{
 
 
 
+@media only screen and (min-width : 992px) {
+    .is-table-row {
+        display: table;
+    }
+    .is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+  .cards-box{
+    width: 80% !important;
+  }
+
+  .cards-box .bm-card{
+    margin-top: 15px !important;
+  }
+
+}
+
+
+@media only screen and (max-width : 768px) {
+  .cards-box{
+    width: 100% !important;
+  }
+
+}
 
 
 
@@ -615,16 +644,6 @@ h2.services-section-desc{
 }
 
 
-@media only screen and (min-width : 768px) {
-    .is-table-row {
-        display: table;
-    }
-    .is-table-row [class*="col-"] {
-        float: none;
-        display: table-cell;
-        vertical-align: top;
-    }
-}
 
 
 
