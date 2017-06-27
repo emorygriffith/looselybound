@@ -45,7 +45,7 @@
             <a href="/services#business-management">
               <div class="media-left">
                 <!-- <a href=""> -->
-                  <img class="media-object bm-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Icon_Outlines_White_FINAL.svg" alt="...">
+                  <img class="media-object bm-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Icon.png" alt="...">
                 <!-- </a> -->
               </div>
               <div class="media-body">
