@@ -459,7 +459,10 @@ h4.media-heading{
 }
 
 
-
+.bios{
+  float: none;
+  margin: 0 auto;
+}
 
 
 .about-bios h2{
@@ -471,7 +474,6 @@ h4.media-heading{
 .about-bios div{
   padding-left:8%;
   padding-right: 8%;
-  /*padding-top: 5%;*/
   padding-bottom: 15px;
 }
 
@@ -496,7 +498,7 @@ h4.media-heading{
 }
 
 .about-bios p{
-  text-align: center;
+  text-align: left;
   color: #fff;
 }
 
@@ -1063,10 +1065,10 @@ h2.services-section-desc{
 }
 
 .archive-blog-posts article .posted-date{
-  font-weight: bold;
+  font-weight: 500 !important;
   font-size: 14px;
   text-transform: uppercase;
-  color: black !important;
+  color: black;
 }
 
 .archive-blog-posts article .dot{
@@ -1078,7 +1080,7 @@ h2.services-section-desc{
 }
 
 .archive-blog-posts article .entry-meta{
-  font-weight: bold !important;
+  font-weight: 500 !important;
   font-size: 14px;
   text-transform: uppercase;
   /*color: #630B62;*/
@@ -1159,7 +1161,7 @@ h2.services-section-desc{
 }
 
 .blog-posts article .posted-date{
-  font-weight: bold;
+  font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -1172,7 +1174,7 @@ h2.services-section-desc{
 }
 
 .blog-posts article .category{
-  font-weight: bold;
+  font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
   color: #00B0D8;

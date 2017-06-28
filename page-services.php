@@ -82,7 +82,7 @@
 
 
 
-<!-- WELATH PLANNING -->
+<!-- WEALTH PLANNING -->
 <div id="wealth-planning" class="clearfix container-fluid">
 		<div class="clearfix col-lg-12 services-section wealth-planning">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_outline.png" alt="...">
@@ -207,7 +207,7 @@
 <!-- TOURING SERVICES -->
 <div id="touring-services" class="clearfix container-fluid">
 		<div class="clearfix col-lg-12 services-section touring-services">
-			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_outline.png" alt="...">
+			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/newicons/Touring_Icon.png" alt="...">
 			<h3 class="services-section-title">Touring Services</h3>
 			<h2 class="services-section-desc">We offer a comprehensive suite of services <span class="break"></span> for when you are out on the road</h2>
 			<div class="row touring-services-content contain">

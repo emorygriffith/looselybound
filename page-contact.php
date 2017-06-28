@@ -6,52 +6,47 @@
 
 <?php get_header(); ?>
 
-
+<!-- API KEY FOR GOOGLE MAPS: -->
+<!-- AIzaSyDZdVT9j7G5rSr0HpHDraPBgogAbYr4tsc -->
 
 
 
 			<div id="content">
 
+							    <!-- <script src="http://maps.google.com/maps/api/js?sensor=false"></script> -->
+									<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZdVT9j7G5rSr0HpHDraPBgogAbYr4tsc&callback=initMap" type="text/javascript"></script>
 
+									<script>
+											function init_map() {
+											var var_location = new google.maps.LatLng(40.743760, -73.978769);
 
-							    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-							    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-							    <!-- Include all compiled plugins (below), or include individual files as needed -->
-							    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
-							    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-							    <script>
-
-							      function init_map() {
-									var var_location = new google.maps.LatLng(40.743760, -73.978769);
-
-							        var var_mapoptions = {
-							          center: var_location,
-							          zoom: 17,
+											var var_mapoptions = {
+											center: var_location,
+												zoom: 17,
 												draggable: !("ontouchend" in document)
-							        };
+												};
 
-									var var_marker = new google.maps.Marker({
-										position: var_location,
-										map: var_map,
+												var var_marker = new google.maps.Marker({
+												position: var_location,
+												map: var_map,
 
-										title:"Monarch"});
+												title:"Monarch"});
 
-							        var var_map = new google.maps.Map(document.getElementById("map-container"),
-							            var_mapoptions);
+												var var_map = new google.maps.Map(document.getElementById("map-container"),
+												var_mapoptions);
 
-									var_marker.setMap(var_map);
+												var_marker.setMap(var_map);
 
-							      }
+												}
 
-							      google.maps.event.addDomListener(window, 'load', init_map);
-
-							    </script>
+												google.maps.event.addDomListener(window, 'load', init_map);
+									</script>
 
 
 
 
 							<div id="map-container" class="col-md-12">
-								<!-- GOOGLE MAP GOES HERE -->
+									<!-- GOOGLE MAP GOES HERE -->
 							</div>
 
 							<div class="clearfix contain contact-info row page-header">

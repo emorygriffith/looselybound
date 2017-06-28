@@ -45,8 +45,7 @@
 		<h2 id="team">TEAM</h2>
 
 		<div class="row">
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-				<!-- <img class="" src="<?php echo get_template_directory_uri(); ?>/library/images/nothumb.gif" alt="..."> -->
+			<div class="bios col-xl-9 col-lg-9 col-md-9 col-sm-9">
 				<h4 class="name">Barry Klarbrg</h4>
 				<h4>Founder</h4>
 				<p>
@@ -89,8 +88,7 @@
 						Vegas Golden Knights (NHL).
 				</p>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-				<!-- <img class="" src="<?php echo get_template_directory_uri(); ?>/library/images/nothumb.gif" alt="..."> -->
+			<div class="bios col-xl-9 col-lg-9 col-md-9 col-sm-9">
 				<h4 class="name">Josh Klein</h4>
 				<h4>Partner and Managing Director</h4>
 				<p>
@@ -131,8 +129,7 @@
 
 		</div>
 		<div class="row">
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-				<!-- <img class="" src="<?php echo get_template_directory_uri(); ?>/library/images/nothumb.gif" alt="..."> -->
+			<div class="bios col-xl-9 col-lg-9 col-md-9 col-sm-9">
 				<h4 class="name">Tom Fitzgerald</h4>
 				<h4>Partner</h4>
 				<p>
@@ -143,8 +140,7 @@
 					At noluisse perpetua volutpat eam, quo dicta patrioque id, facer nusquam vim in.
 				</p>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-				<!-- <img class="" src="<?php echo get_template_directory_uri(); ?>/library/images/nothumb.gif" alt="..."> -->
+			<div class="bios col-xl-9 col-lg-9 col-md-9 col-sm-9">
 				<h4 class="name">Harry Tawil</h4>
 				<h4>Principal</h4>
 				<p>
