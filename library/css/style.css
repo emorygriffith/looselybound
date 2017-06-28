@@ -230,32 +230,36 @@ h4.media-heading{
   color:#fff;
 }
 
+.media:hover .media-left img{
+  background-color: #fff;
+}
+
 .wp:hover .wp-icon{
-  content: url("../images/svgiconswhite/Wealth_Planning_Icon_Outlines_White_FINAL.svg");
+  content: url("../images/newicons/Wealth_Planning_Icon.png");
 }
 
 .bm:hover .bm-icon{
-  content: url("../images/svgiconswhite/Business_Management_Icon_Outlines_White_FINAL.svg");
+  content: url("../images/newicons/Business_Management_Icon.png");
 }
 
 .rp:hover .rp-icon{
-  content: url("../images/svgiconswhite/Recording_Publishing_Icon_Outlines_White_FINAL.svg");
+  content: url("../images/newicons/Recording_Publishing_Icon.png");
 }
 
 .ts:hover .ts-icon{
-  content: url("../images/svgiconswhite/Touring_Icon_Outlines_White_FINAL.svg");
+  content: url("../images/newicons/Touring_Icon.png");
 }
 
 .ias:hover .ias-icon{
-  content: url("../images/svgiconswhite/Investment_Management_Icon_Outlines_White_FINAL.svg");
+  content: url("../images/newicons/Investment_Icon.png");
 }
 
 .fam:hover .fam-icon{
-  content: url("../images/svgiconswhite/Family_Icon_Outlines_White_FINAL.svg");
+  content: url("../images/newicons/Family_Icon.png");
 }
 
 .tp:hover .tp-icon{
-  content: url("../images/svgiconswhite/Tax_Icon_Outlines_White_FINAL.svg");
+  content: url("../images/newicons/Tax_Icon.png");
 }
 
 

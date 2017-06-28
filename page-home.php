@@ -30,7 +30,7 @@
               <a href="/services#wealth-planning">
                 <div class="media-left">
                   <!-- <a href=""> -->
-                    <img class="media-object wp-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Wealth_Planning_Icon_filled.png" alt="...">
+                    <img class="media-object wp-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/svgiconswhite/Wealth_Planning_Icon_Outlines_White_FINAL.svg" alt="...">
                   <!-- </a> -->
                 </div>
                 <div class="media-body">
@@ -45,7 +45,7 @@
             <a href="/services#business-management">
               <div class="media-left">
                 <!-- <a href=""> -->
-                  <img class="media-object bm-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Business_Management_Icon.png" alt="...">
+                  <img class="media-object bm-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/svgiconswhite/Business_Management_Icon_Outlines_White_FINAL.svg" alt="...">
                 <!-- </a> -->
               </div>
               <div class="media-body">
@@ -59,7 +59,7 @@
             <a href="/services#recording-and-publishing">
               <div class="media-left">
                 <!-- <a href="#"> -->
-                  <img class="media-object rp-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Recording_Publishing_Icon.png" alt="...">
+                  <img class="media-object rp-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/svgiconswhite/Recording_Publishing_Icon_Outlines_White_FINAL.svg" alt="...">
                 <!-- </a> -->
               </div>
               <div class="media-body">
@@ -74,7 +74,7 @@
             <a href="/services#touring-services">
               <div class="media-left">
                 <!-- <a href="#"> -->
-                  <img class="media-object ts-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Touring_Icon.png" alt="...">
+                  <img class="media-object ts-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/svgiconswhite/Touring_Icon_Outlines_White_FINAL.svg" alt="...">
                 <!-- </a> -->
               </div>
               <div class="media-body">
@@ -92,7 +92,7 @@
             <a href="/services#investment-advisory-services">
               <div class="media-left">
                 <!-- <a href="#"> -->
-                  <img class="media-object ias-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Investment_Advisory_Services_Icon.png" alt="...">
+                  <img class="media-object ias-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/svgiconswhite/Investment_Management_Icon_Outlines_White_FINAL.svg" alt="...">
                 <!-- </a> -->
               </div>
               <div class="media-body">
@@ -106,7 +106,7 @@
             <a href="/services#family">
               <div class="media-left">
                 <!-- <a href="#"> -->
-                  <img class="media-object fam-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Family_Icon.png" alt="...">
+                  <img class="media-object fam-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/svgiconswhite/Family_Icon_Outlines_White_FINAL.svg" alt="...">
                 <!-- </a> -->
               </div>
               <div class="media-body">
@@ -120,7 +120,7 @@
             <a href="/services#tax-and-planning">
               <div class="media-left">
                 <!-- <a href="#"> -->
-                  <img class="media-object tp-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Tax_Icon.png" alt="...">
+                  <img class="media-object tp-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/svgiconswhite/Tax_Icon_Outlines_White_FINAL.svg" alt="...">
                 <!-- </a> -->
               </div>
               <div class="media-body">
