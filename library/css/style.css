@@ -1010,18 +1010,20 @@ h2.services-section-desc{
 /*------------------*/
 
 .archive-blog-page-container{
-
+  display: flex;
 }
 
 .archive-blog-sidebar{
   background-image: url("../images/Monarch_homepage_background.jpg");
   background-position: center;
   background-size: cover;
-  position:fixed;
-  height: 100%;
-  top: 0;
-  left: 0;
+  /*position:fixed;*/
+  /*height: 100%;*/
+  /*top: 0;*/
+  /*left: 0;*/
   border: 1px solid #111;
+  flex: 1;
+  max-width: 25%;
 }
 
 @media (max-width: 767px){
@@ -1036,6 +1038,7 @@ h2.services-section-desc{
   padding-left: 12%;
   padding-right: 12%;
   padding-top: 3%;
+  flex: 1;
 }
 
 .archive-blog-posts h1{
@@ -1119,18 +1122,30 @@ h2.services-section-desc{
 /*BLOG SINGLE PAGE*/
 /*------------------*/
 
+.blog-page-container{
+  display: flex;
+  /*flex-wrap: wrap;*/
+}
 
 .blog-sidebar{
   background-image: url("../images/Monarch_homepage_background.jpg");
   background-position: center;
-  background-size: cover;
-  position:fixed;
-  /*height: calc(100% - 425px);*/
-  height: 100%;
-  top: 0;
-  left: 0;
+  background-size: auto;
+  /*position:fixed;*/
+  /*height: 100%;*/
+  /*top: 0;
+  left: 0;*/
   border: 1px solid #111;
+  /*height: 100vh - 400px;*/
+  flex: 1;
+  max-width: 25%;
 }
+
+.blog-posts{
+  flex:1;
+}
+
+
 
 @media (max-width: 767px){
     .blog-sidebar{
@@ -1203,10 +1218,15 @@ h2.services-section-desc{
 
 
 
+/*BLOG PAGINATION*/
+.pagination{
 
+}
+.pagination ul li{
+  display: inline;
+    list-style-type: none;
 
-
-
+}
 
 
 
