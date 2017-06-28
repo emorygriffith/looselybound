@@ -6,11 +6,6 @@
 
 <?php get_header(); ?>
 
-<!-- API KEY FOR GOOGLE MAPS: -->
-<!-- AIzaSyDZdVT9j7G5rSr0HpHDraPBgogAbYr4tsc -->
-
-
-
 			<div id="content">
 
 							    <!-- <script src="http://maps.google.com/maps/api/js?sensor=false"></script> -->
