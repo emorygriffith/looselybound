@@ -1219,18 +1219,32 @@ h2.services-section-desc{
 
 
 /*BLOG PAGINATION*/
-.pagination{
-
+.page-numbers{
+  padding-left: 0px;
 }
+
 .pagination ul li{
   display: inline;
-    list-style-type: none;
-
+  list-style-type: none;
 }
 
+.pagination ul li a{
+  border: solid 1px black;
+  padding: 10px;
+  height: 25px;
+  width:25px;
+  border-radius: 5px;%;
+  margin: 0px;
+}
 
-
-
+.pagination ul li span{
+  border: solid 1px black;
+  padding: 10px;
+  height: 25px;
+  width:25px;
+  border-radius: 5px;%;
+  margin: 0px;
+}
 
 
 
