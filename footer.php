@@ -21,7 +21,7 @@
 				<div class="footer-text">
 					<p>Monarch Wealth & Business Management, Inc.</p>
 					<p>209 East 31st Street | New York, NY 10016 | MAIN: (212) 894-8100 | FAX: (212) 894-8120</p>
-					<p class="info">For more info on Monarch Wealth & Business Management LLC,<br> please email <a href="mailto:info@monarchmgmtllc.com">info@monarchmgmtllc.com</a></p>
+					<p class="info">For more info on Monarch Wealth & Business Management LLC,<br> please email <a href="mailto:info@monarchbw.com">info@monarchbw.com</a></p>
 				</div>
 
 				<div class="footer-text">

@@ -58,7 +58,7 @@
 										<h4 style="font-weight:bold !important;">Email</h4>
 									</div>
 									<div class="col-lg-6 col-md-6 col-sm-6">
-										<a href="mailto:info@monarchmgmtllc.com"><h4>info@monarchmgmtllc.com</h4></a>
+										<a href="mailto:info@monarchbw.com"><h4>info@monarchbw.com</h4></a>
 									</div>
 									<div class="col-lg-6 col-md-6 col-sm-6 field-label">
 										<h4 style="font-weight:bold !important;">Phone</h4>

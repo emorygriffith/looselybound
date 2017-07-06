@@ -133,22 +133,42 @@
 				<h4 class="name">Tom Fitzgerald</h4>
 				<h4>Partner</h4>
 				<p>
-					Lorem ipsum dolor sit amet, an molestiae deseruisse vis. An eum error apeirian, eu odio perfecto duo.
-					Eam integre periculis evertitur an, movet populo scribentur nam ut. Qui ferri fuisset no, adhuc facilisis
-					no vis, molestie scribentur ea sea. Cibo impetus eos te, has singulis adolescens dissentiunt at. Enim
-					viderer deleniti eu nec, vis putant dicunt in. Et melius disputando eam. Ipsum mundi reformidans et vel.
-					At noluisse perpetua volutpat eam, quo dicta patrioque id, facer nusquam vim in.
+					Tom Fitzgerald is a partner and managing director of Monarch Business and Wealth Management LLC. He has been with Monarch since inception.
+					</br> </br>
+					Tom spent the first 12 years of his career in public accounting (including two years at PriceWaterhouseCoopers,
+					two years at Deloitte and eight years at Ernst & Young LLP). Since 2000, he has focused his efforts
+					on entrepreneurial and cutting edge organizations that provide full service solutions to high net worth individuals.
+					</br> </br>
+ 					At Monarch, Tom specializes in the area of business management concentrating on athletes,
+					athlete executives, musicians, models and music producers.
+					</br> </br>
+ 					Tom graduated in 1988 with a bachelor’s degree in Business Administration with a concentration in Accounting
+					from Saint Bonaventure University (Olean, NY). Tom served on the United States Olympic Committee’s Board of
+					Directors and was an active member of their Accounting and Finance Committee for four years.
+					He is actively involved in several church and charitable organizations in Manhattan.
+					</br> </br>
+					He enjoys surfing and yoga. Tom enjoys travelling. He has lived in Moscow, Prague and Stockholm
+					and has traveled to over 30 countries in the world.
 				</p>
 			</div>
 			<div class="bios col-xl-9 col-lg-9 col-md-9 col-sm-9">
 				<h4 class="name">Harry Tawil</h4>
 				<h4>Principal</h4>
 				<p>
-					Lorem ipsum dolor sit amet, an molestiae deseruisse vis. An eum error apeirian, eu odio perfecto duo.
-					Eam integre periculis evertitur an, movet populo scribentur nam ut. Qui ferri fuisset no, adhuc facilisis
-					no vis, molestie scribentur ea sea. Cibo impetus eos te, has singulis adolescens dissentiunt at. Enim
-					viderer deleniti eu nec, vis putant dicunt in. Et melius disputando eam. Ipsum mundi reformidans et vel.
-					At noluisse perpetua volutpat eam, quo dicta patrioque id, facer nusquam vim in.
+					Harry Tawil is a Principal at Monarch Business & Wealth Management as well as a Partner at GMM Capital LLC.
+					In 2008, Harry graduated from Baruch College in New York City with a B.B.A. in Economics and a minor in Political Science.
+					</br> </br>
+					Before graduating, Harry started Kinersis Renewables, an independent power producer focused on the development,
+					and operation of utility scale wind and solar projects spanning three continents. After a successful exit,
+					Harry joined GMM Capital LLC as a partner. Harry works with the investment team, funding numerous entities
+					both public and private.  These include Delta Galil (TASE: DELT), a global manufacturer of apparel for Nike,
+					Lululemon, as well as for Delta owned 7 For All Mankind & Splendid. Delta has annual sales exceeding $1.5 billion.
+					</br> </br>
+					At Monarch, Harry focuses on the macro level, developing business strategies, referring top level clients,
+					and analyzing private equity transactions for clients. Since joining Monarch in 2016, Harry has contributed
+					to the ever-growing client list and steady success of Monarch Business & Wealth Management.
+					</br> </br>
+					In his free time, Harry enjoys playing tennis and is an avid music and sports fan.
 				</p>
 			</div>
 		</div>
