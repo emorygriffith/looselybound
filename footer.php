@@ -14,14 +14,14 @@
 				</div>
 				<div class="col-lg-6 col-md-6">
 					<h5>Access your account</h5>
-					<a href="https://df.monarchmgmtllc.com"><div class="login-btn"> Login </div></a>
+					<a href="https://df.monarchmgmtllc.com" target="_blank"><div class="login-btn"> Login </div></a>
 				</div>
 				</div>
 
 				<div class="footer-text">
-					<p>Monarch Wealth & Business Management, Inc.</p>
-					<p>209 East 31st Street | New York, NY 10016 | MAIN: (212) 894-8100 | FAX: (212) 894-8120</p>
-					<p class="info">For more info on Monarch Wealth & Business Management LLC,<br> please email <a href="mailto:info@monarchbw.com">info@monarchbw.com</a></p>
+					<p>Monarch Business & Wealth Management, LLC</p>
+					<p>209 East 31st Street | New York, NY 10016 | PHONE: (212) 894-8100</p>
+					<p class="info">For more info on Monarch Business & Wealth Management, LLC<br> email <a href="mailto:info@monarchbw.com">info@monarchbw.com</a></p>
 				</div>
 
 				<div class="footer-text">

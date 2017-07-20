@@ -49,7 +49,7 @@
 				<h4 class="name">Barry Klarbrg</h4>
 				<h4>Founder</h4>
 				<p>
-						Barry Klarberg, a CPA, formed Monarch Wealth and Business Management LLC in 2008,
+						Barry Klarberg, a CPA, formed Monarch Business & Wealth Management, LLC in 2008,
 						a full service Family Office firm specializing in providing Business and Wealth
 						Management Services to High Net-Worth
 						Individuals, Athletes and Entertainers.
@@ -92,9 +92,8 @@
 				<h4 class="name">Josh Klein</h4>
 				<h4>Partner and Managing Director</h4>
 				<p>
-						Joshua Klein is a Partner and Managing Director of Monarch
-						Wealth and Business Management LLC. Monarch is a full
-						service family office firm specializing in providing Business
+						Joshua Klein is a Partner and Managing Director of Monarch Business & Wealth Management, LLC.
+						Monarch is a full service family office firm specializing in providing Business
 						and Wealth Management Services to High Net worth
 						Individuals, Athletes, and Entertainers.
 						Joshua started his career in Business Management working as
@@ -133,7 +132,7 @@
 				<h4 class="name">Tom Fitzgerald</h4>
 				<h4>Partner</h4>
 				<p>
-					Tom Fitzgerald is a partner and managing director of Monarch Business and Wealth Management LLC. He has been with Monarch since inception.
+					Tom Fitzgerald is a partner and managing director of Monarch Business & Wealth Management, LLC. He has been with Monarch since inception.
 					</br> </br>
 					Tom spent the first 12 years of his career in public accounting (including two years at PriceWaterhouseCoopers,
 					two years at Deloitte and eight years at Ernst & Young LLP). Since 2000, he has focused his efforts
@@ -155,7 +154,7 @@
 				<h4 class="name">Harry Tawil</h4>
 				<h4>Principal</h4>
 				<p>
-					Harry Tawil is a Principal at Monarch Business & Wealth Management as well as a Partner at GMM Capital LLC.
+					Harry Tawil is a Principal at Monarch Business & Wealth Management, LLC as well as a Partner at GMM Capital LLC.
 					In 2008, Harry graduated from Baruch College in New York City with a B.B.A. in Economics and a minor in Political Science.
 					</br> </br>
 					Before graduating, Harry started Kinersis Renewables, an independent power producer focused on the development,
