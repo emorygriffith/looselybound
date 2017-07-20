@@ -53,12 +53,12 @@
 				  </p> -->
 			</footer> <?php // end article footer ?>
 
-			<hr>
+			<!-- <hr>
 
 			<div class="cta">
 				<h4>Have any questions?</h4>
 				<p>Contact us at <a href="mailto:info@monarchbw.com">info@monarchbw.com</a></p>
-			</div>
+			</div> -->
 
 		</article> <?php // end article ?>
 
