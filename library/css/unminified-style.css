@@ -1,0 +1,1425 @@
+/******************************************************************
+Site Name: Monarch
+Author: Emory Griffith
+*/
+
+/*------------------*/
+/*Styles for the Sticky Footer and Fonts*/
+/*------------------*/
+
+@media (min-width: 768px){
+  .navbar > .container-fluid .navbar-brand {
+      margin-left: 15px;
+  }
+}
+
+
+html {
+  /*position: relative;*/
+}
+
+body, h1, h2, h3, h4, p{
+  font-family: 'Rubik', sans-serif !important;
+  font-weight: normal !important;
+}
+
+strong, b{
+  font-weight: bold !important;
+}
+
+
+/*------------------*/
+/*Link Styles*/
+/*------------------*/
+
+a{
+  color: #590755;
+}
+
+
+/*------------------*/
+/*Header Styles*/
+/*------------------*/
+
+.eg-top{
+  margin-top: 10px;
+}
+
+.header-logo{
+  width:120px;
+  padding: 0 0 10px 15px;
+}
+
+.navbar-default{
+  background-color: #fff;
+}
+
+#menu-main-menu{
+  padding-top: 13px;
+}
+
+.nav-li a {
+    color: black;
+}
+
+
+.nav > li:last-child a:hover {
+  background-color: #50004E;
+  color: #fff;
+}
+
+/*Add solid line around last menu item*/
+.nav > li:last-child > a {
+  border: solid 1px #50004E;
+  border-radius: 10px;
+}
+    /*Remove solid line around last menu item on mobile menu*/
+    @media (max-width: 768px) {
+      .nav > li:last-child > a {
+        border: none !important;
+        border-radius: 0px!important;
+      }
+
+      .nav > li:last-child a:hover {
+        background-color: #DDDDDD!important;
+        color: black!important;
+      }
+
+    }
+
+
+
+/*Make the nav list items sit next to each other
+  instead of breaking to new line*/
+@media screen and (min-width: 768px) {
+    .nav li{
+      display:inline-block;
+    }
+
+}
+
+.navbar{
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.06);
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.06);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.06);
+}
+
+
+
+/*------------------*/
+/*HOME PAGE*/
+/*------------------*/
+
+.contain{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home-background{
+  /*background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/Monarch_homepage_background.jpg');*/
+  background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4)) ), url('../images/Monarch_homepage_backgroundPurple.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/Monarch_homepage_backgroundPurple.jpg');
+  background-size: cover;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.home-left{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 14%;
+}
+
+.banner{
+  text-align:left;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.banner a p:hover {
+  color: #00B0D8;
+}
+
+.home-left h1{
+  text-align: left;
+  color:#fff;
+  font-size:26px;
+}
+
+.home-left h3{
+  color:#fff;
+  font-size: 14px;
+}
+
+.home-left p{
+  color:#fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+
+/*MEDIA CARDS ON HOME PAGE*/
+
+.home-right{
+  padding-left:5%;
+  padding-right:5%;
+  padding-bottom: 5%;
+}
+
+.media-left img{
+  background-color: #81007F;
+  border-radius: 100%;
+  padding:10px;
+  height:55px;
+  width:55px;
+  -webkit-box-shadow: 3px 3px 21px -1px rgba(94,94,94,0.75);
+  box-shadow: 3px 3px 21px -1px rgba(94,94,94,0.75);
+}
+
+.media-list{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top:7%;
+}
+
+/*This is to make the text on the boxes not underlined when you hover on them*/
+.media-list a:hover{
+  text-decoration: none !important;
+}
+
+.media{
+  background-color: #fff;
+  padding:10px;
+  border-radius: 7px;
+  -webkit-transition: ease-in-out .1s;
+  transition: ease-in-out .1s;
+}
+
+h4.media-heading{
+  font-size:15px;
+  font-weight: bold;
+  color:#590755;
+}
+.media-body{
+  color:#00111F;
+  font-size: 12px;
+}
+
+/*HOVER EFFECT FOR CARDS ON HOME PAGE*/
+.media:hover{
+  background-color: #53AED0;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+.media:hover h4.media-heading{
+  color:#fff;
+}
+
+.media:hover .media-left img{
+  background-color: #fff;
+}
+
+.wp:hover .wp-icon{
+  content: url("../images/newicons/Wealth_Planning_Icon.png");
+}
+
+.bm:hover .bm-icon{
+  content: url("../images/newicons/Business_Management_Icon.png");
+}
+
+.rp:hover .rp-icon{
+  content: url("../images/newicons/Recording_Publishing_Icon.png");
+}
+
+.ts:hover .ts-icon{
+  content: url("../images/newicons/Touring_Icon.png");
+}
+
+.ias:hover .ias-icon{
+  content: url("../images/newicons/Investment_Icon.png");
+}
+
+.fam:hover .fam-icon{
+  content: url("../images/newicons/Family_Icon.png");
+}
+
+.tp:hover .tp-icon{
+  content: url("../images/newicons/Tax_Icon.png");
+}
+
+
+
+.home-family{
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.home-family h3{
+  text-align: center;
+  padding: 20px;
+}
+.home-family h4{
+  text-align: center;
+  padding-top: 40px;
+  clear:both;
+  text-transform: uppercase;
+  color:#630B62;
+}
+
+.home-family div{
+  padding-top: 15px;
+}
+
+@media (max-width: 768px){
+
+  .home-family{
+    /*min-height: 800px;*/
+    width: 85%;
+  }
+
+}
+
+
+
+/*------------------*/
+/*APPROACH PAGE*/
+/*------------------*/
+.page-header{
+  float:none;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-bottom: none;
+}
+
+.page-header h1{
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold !important;
+  color: #00B0D8;
+  text-transform: uppercase;
+}
+
+.page-header h2{
+  font-size: 45px;
+  text-align: center;
+  font-weight: 500 !important;
+}
+
+.page-header p{
+  padding-top: 1%;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500 !important;
+}
+
+
+.break:before { content: ' '; display: block; }
+
+@media (max-width: 768px){
+
+  .break:before { content: ' '; display: inline; }
+
+}
+
+
+
+
+
+
+.page-middle{
+  float:none;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+
+-webkit-box-shadow: 0px 0px 3px -1px #50004E;
+        box-shadow: 0px 0px 3px -1px #50004E;
+
+  /*-webkit-box-shadow: 0px 0px 3px -1px #b2b3b3;
+      box-shadow: 0px 0px 3px -1px #b2b3b3;*/
+
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.page-middle div{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 150px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding:20px;
+}
+.page-middle div h3{
+  text-align: center;
+  font-weight: bold;
+}
+
+.page-middle div p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #BCBCBC;
+}
+
+.shadow{
+  -webkit-box-shadow: 0px 0px 25px 2px rgba(80,0,78,0.25);
+  box-shadow: 0px 0px 25px 2px rgba(80,0,78,0.25);
+  /*-webkit-box-shadow: 0px 0px 25px 2px rgba(213,213,213,0.44);
+  box-shadow: 0px 0px 25px 2px rgba(213,213,213,0.44);*/
+}
+/*Take away box shadow and border at ipad breakpt*/
+@media (max-width: 767px){
+  .shadow{
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .page-middle{
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+
+
+
+.approach-services{
+  height: 300px;
+  background-color: #50004D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.approach-services h3{
+  color: #fff;
+}
+.approach-team{
+  height: 300px;
+  background-color: #00B0D8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.approach-team h3{
+  color: #fff;
+}
+
+
+
+/*------------------*/
+/*ABOUT PAGE*/
+/*------------------*/
+
+.about-bios{
+  background-color: #50004E;
+  float:none;
+  margin: 0 auto;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+
+
+.bios{
+  float: none;
+  margin: 0 auto;
+}
+
+
+.about-bios h2{
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-bios div{
+  padding-left:8%;
+  padding-right: 8%;
+  padding-bottom: 15px;
+}
+
+
+.about-bios div img {
+  border-radius: 100%;
+  display:block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+.about-bios h4{
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
+
+
+.about-bios h4.name{
+  font-weight: bold !important;
+}
+
+.about-bios p{
+  text-align: left;
+  color: #fff;
+}
+
+.about-lower a {
+  color: black;
+}
+.about-lower div:hover .hover-other{
+  color: #00B0D8;
+}
+
+.about-services{
+  height: 200px;
+  background-color: #fff;
+  border: solid 1px #D5D5D5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.about-approach{
+  height: 200px;
+  background-color: #fff;
+  border: solid 1px #D5D5D5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+
+
+/*------------------*/
+/*SERVICES PAGE*/
+/*------------------*/
+.services-section{
+  clear:both;
+  float:none;
+  margin: 0 auto;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  border-bottom: solid 1px #d3d3d3;
+}
+
+img.services-section-icon{
+  margin: 0 auto;
+  display: block;
+}
+
+h3.services-section-title{
+  text-transform: uppercase;
+  color:#8C008C;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold !important;
+}
+
+h2.services-section-desc{
+  text-align: center;
+}
+
+        /*HIDE ON LARGE SCREENS*/
+        @media (max-width: 992px){
+          .hide-lg{
+            display: none;
+          }
+        }
+
+        /*HIDE ON SMALL SCREENS*/
+        @media (max-width: 768px){
+          .hide-sm{
+            display: none;
+          }
+        }
+
+
+
+
+/*BUSINESS MANAGEMENT*/
+
+.business-management{
+border-bottom: solid 1px #d3d3d3;
+}
+
+
+.cards-box{
+  width: 65%;
+  padding-top: 75px;
+
+}
+
+.cards-box div.bm-card{
+  background-color: #fff;
+}
+
+.cards-box div.bm-inner{
+  padding: 15px;
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+  min-height: 150px;
+
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+
+}
+
+.bm-inner{
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bm-graphic{
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  width: 70%;
+}
+
+
+
+
+@media only screen and (min-width : 992px) {
+    .is-table-row {
+        display: table;
+    }
+    .is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+  .cards-box{
+    width: 80% !important;
+  }
+
+  .cards-box .bm-card{
+    margin-top: 15px !important;
+  }
+
+}
+
+
+@media only screen and (max-width : 768px) {
+  .cards-box{
+    width: 100% !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+/*WEALTH PLANNING*/
+
+.wealth-planning-content{
+  padding-top: 20px;
+}
+
+.wealth-planning-content img{
+  margin: 0 auto;
+}
+
+.wealth-planning-content h4{
+  margin-top: 100px;
+}
+
+@media (max-width: 992px){
+  .wealth-planning-content h4{
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+
+
+
+
+/*RECORDING AND PUBLISHING*/
+.recording-publishing-content{
+}
+
+.topone{
+  padding-top: 3%;
+}
+
+      @media (max-width: 992px){
+        .recording-publishing-content{
+          display: block;
+          padding-top: 20px;
+          padding-left: 5%;
+          padding-right: 5%;
+        }
+        .recording-publishing-content ul.left-items{
+          text-align: center !important;
+        }
+        .recording-publishing-content ul.right-items{
+          text-align: center !important;
+        }
+      }
+
+.recording-publishing-content ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+.recording-publishing-content ul li{
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.recording-publishing-content ul li h4{
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.recording-publishing-content ul li p{
+  font-size: 16px;
+}
+
+
+.recording-publishing-content ul.left-items{
+  text-align: right;
+}
+
+.recording-publishing-content ul.right-items{
+  text-align: left;
+}
+
+.top-row{
+  width: 40%;
+}
+
+.recording-publishing-content img.recording-publishing-graphic{
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+
+
+
+
+/*TOURING SERVICES*/
+.touring-services-content{
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+      @media (max-width: 992px){
+        .touring-services-content{
+          display: block;
+          padding-top: 20px;
+        }
+        .touring-services-content ul.left-items{
+          text-align: center !important;
+        }
+        .touring-services-content ul.right-items{
+          text-align: center !important;
+        }
+      }
+
+.touring-services-content ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+.touring-services-content ul li{
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.touring-services-content ul.left-items{
+  text-align: right;
+}
+
+.touring-services-content ul.right-items{
+  text-align: left;
+}
+
+.touring-services-content img.touring-services-graphic{
+  margin: 0 auto;
+  display: block;
+}
+
+
+/*INVESTMENT ADVISORY SERVICES*/
+.investment-advisory-services-content{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+}
+
+.investment-advisory-services-content .right-items{
+  margin-top: 5%;
+}
+
+      @media (max-width: 992px){
+
+        .investment-advisory-services-content .right-items{
+          margin-top: 0px;
+        }
+
+        .investment-advisory-services-content{
+          display: block;
+          padding-top: 20px;
+        }
+        .investment-advisory-services-content ul.left-items{
+          text-align: center !important;
+        }
+        .investment-advisory-services-content ul.right-items{
+          text-align: center !important;
+        }
+      }
+
+.investment-advisory-services-content ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+.investment-advisory-services-content ul li{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.investment-advisory-services-content ul li h4{
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.investment-advisory-services-content ul li p{
+  font-size: 16px;
+}
+
+
+.investment-advisory-services-content ul.left-items{
+  text-align: right;
+}
+
+.investment-advisory-services-content ul.right-items{
+  text-align: left;
+}
+
+.investment-advisory-services-content img.investment-advisory-services-graphic{
+  margin: 0 auto;
+  display: block;
+}
+
+
+/*FAMILY*/
+.family-content{
+
+
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+      @media (max-width: 768px){
+        .family-content{
+          display: block;
+          padding-top: 20px;
+        }
+        .family-content ul.right-items{
+          text-align: center !important;
+        }
+      }
+
+.family-graphic{
+  margin: 0 auto;
+}
+
+.family-content ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+.family-content ul li{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.family-content ul li h4{
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.family-content ul li p{
+  font-size: 16px;
+}
+
+.family-content ul.right-items{
+  text-align: left;
+}
+
+.family-content img.family-content-graphic{
+  margin: 0 auto;
+  display: block;
+}
+
+/*TAX SERVICES*/
+.tax-services-content{
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+      @media (max-width: 992px){
+        .tax-services-content{
+          display: block;
+          padding-top: 20px;
+        }
+        .tax-services-content ul.left-items{
+          text-align: center !important;
+        }
+        .tax-services-content ul.right-items{
+          text-align: center !important;
+        }
+      }
+
+.tax-services-content ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+.tax-services-content ul li{
+  font-size: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.tax-services-content ul.left-items{
+  text-align: right;
+}
+
+.tax-services-content ul.right-items{
+  text-align: left;
+}
+
+.tax-services-content img.tax-services-graphic{
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------*/
+/*BLOG ARCHIVE PAGE*/
+/*------------------*/
+
+.archive-blog-page-container{
+  display: flex;
+}
+
+.archive-blog-sidebar{
+  background-image: url("../images/Monarch_homepage_background.jpg");
+  background-position: center;
+  background-size: cover;
+  /*position:fixed;*/
+  /*height: 100%;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  border: 1px solid #111;
+  flex: 1;
+  max-width: 25%;
+}
+
+@media (max-width: 767px){
+    .archive-blog-sidebar{
+      display: none;
+    }
+}
+
+
+.archive-blog-posts{
+  float: right;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 3%;
+  flex: 1;
+}
+
+.archive-blog-posts h1{
+    font-size: 14px;
+    font-weight: bold !important;
+    color: #00B0D8;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+
+.archive-blog-posts article{
+  margin-bottom: 70px;
+}
+/*take off the margin bottom for last post in list*/
+.archive-blog-posts article:last-child{
+  margin-bottom: 0px;
+}
+
+.archive-blog-posts article .entry-title a{
+  color: black;
+  margin-top: 0px;
+}
+
+.archive-blog-posts article .entry-title{
+  margin-top: 0px;
+}
+
+.archive-blog-posts article .posted-date{
+  font-weight: 500 !important;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.archive-blog-posts article .dot{
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: black !important;
+}
+
+.archive-blog-posts article .entry-meta{
+  font-weight: 500 !important;
+  font-size: 14px;
+  text-transform: uppercase;
+  /*color: #630B62;*/
+
+}
+
+.article-footer{
+  margin-top: 70px;
+  border-top: solid 1px #d3d3d3;
+}
+
+
+/*MAKE EACH CATEGORY HAVE ITS OWN COLOR*/
+.category-tax .entry-meta{
+  color: #FFBE2D;
+  text-transform: uppercase;
+}
+
+.category-personal-wealth .entry-meta{
+  color: #53AED0;
+  text-transform: uppercase;
+}
+
+.category-investment .entry-meta{
+  color: #50004E;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+/*------------------*/
+/*BLOG SINGLE PAGE*/
+/*------------------*/
+
+.blog-page-container{
+  display: flex;
+  /*flex-wrap: wrap;*/
+}
+
+.blog-sidebar{
+  background-image: url("../images/Monarch_homepage_background.jpg");
+  background-position: center;
+  background-size: auto;
+  /*position:fixed;*/
+  /*height: 100%;*/
+  /*top: 0;
+  left: 0;*/
+  border: 1px solid #111;
+  /*height: 100vh - 400px;*/
+  flex: 1;
+  max-width: 25%;
+}
+
+.blog-posts{
+  flex:1;
+}
+
+
+
+@media (max-width: 767px){
+    .blog-sidebar{
+      display: none;
+    }
+
+    .blog-posts{
+      padding-top: 8% !important;
+    }
+}
+
+
+.blog-posts{
+  float: right;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 3%;
+}
+
+.blog-posts h1{
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 35px;
+}
+
+.blog-posts article{
+  margin-bottom: 50px;
+}
+
+.blog-posts article .posted-date{
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.blog-posts article .dot{
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.blog-posts article .category{
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #00B0D8;
+}
+
+.blog-posts article footer{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: none !important;
+}
+
+.single-article-footer{
+  margin-top: 0px;
+}
+
+
+.blog-posts article footer .byline{
+  text-transform: uppercase;
+  color: #B8B9BA;
+}
+
+.blog-posts article footer .bio{
+  color: #B8B9BA;
+  font-size: 16px;
+}
+
+
+/*make sure the image aligning in the visual editor in WP work correctly (they apply these classes)*/
+img.alignleft {
+  display: block;
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+img.aligncenter{
+  display: block;
+  margin: 5px auto 5px auto;
+}
+img.alignright{
+  display: block;
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+/*make sure when an image is floated right, the <hr> clears it*/
+article hr{
+  clear: both;
+}
+
+
+/*BLOG PAGINATION*/
+.page-numbers{
+  padding-left: 0px;
+}
+
+.pagination ul li{
+  display: inline;
+  list-style-type: none;
+}
+
+.pagination ul li a{
+  border: solid 1px black;
+  padding: 10px;
+  height: 25px;
+  width:25px;
+  border-radius: 5px;%;
+  margin: 0px;
+}
+
+.pagination ul li span{
+  border: solid 1px black;
+  padding: 10px;
+  height: 25px;
+  width:25px;
+  border-radius: 5px;%;
+  margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+/*FOOTER STYLES*/
+
+    footer{
+      border-top: solid 1px #d3d3d3;
+    }
+
+      footer .container{
+        margin: 0 auto;
+        width:30%;
+        padding-top:45px;
+        padding-bottom: 15px;
+      }
+
+      @media (max-width: 768px){
+        footer .container{
+          width:60%;
+        }
+      }
+
+      footer .container div{
+        padding-top: 15px;
+      }
+
+      footer .container ul {
+        list-style-type: none;
+        padding-left: 0px;
+      }
+
+      footer .container ul li{
+        text-align: left;
+        padding-top: 10px;
+      }
+
+      @media (max-width: 991px){
+        footer .container ul li{
+          text-align: center;
+        }
+      }
+      footer h5{
+        text-align: center;
+      }
+
+      .login-btn{
+        margin-top: 15px;
+        color:#fff;
+        background-color: #630B62;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        width: 175px;
+        margin: 0 auto;
+      }
+
+      .footer-text{
+        margin-top:30px;
+        margin-bottom: 30px;
+      }
+      .footer-text p{
+        text-align: center;
+        padding:15px;
+      }
+      .info{
+        color:#949293;
+      }
+
+
+/*----------------------------------*/
+/*CONTACT PAGE*/
+/*----------------------------------*/
+
+#map-container{
+  height: 300px;
+  margin-bottom: 100px;
+  -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+     -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+         filter: grayscale(100%);
+}
+
+.contact-info{
+  width: 65%;
+  margin: 0 auto;
+  padding-bottom: 7%;
+}
+
+.contact-info div.field{
+  margin: 0 auto;
+}
+
+@media (max-width: 760px){
+
+  .contact-info{
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 7%;
+  }
+
+    #map-container{
+      margin-bottom: 50px;
+    }
+
+
+}
+
+
+
+/*----------------------------------*/
+/*PRIVACY PAGE*/
+/*----------------------------------*/
+.privacy{
+  float: none;
+margin: 0 auto;
+margin-top: 100px;
+margin-bottom: 100px;
+  padding: 15px;
+}
+
+/*----------------------------------*/
+/*TERMS OF SERVICE PAGE*/
+/*----------------------------------*/
+.terms{
+  float: none;
+margin: 0 auto;
+margin-top: 100px;
+margin-bottom: 100px;
+  padding: 15px;
+}
