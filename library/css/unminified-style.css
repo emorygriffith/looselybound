@@ -141,7 +141,10 @@ a{
   text-align:left;
   width: 500px;
   margin: 0 auto;
+}
 
+.banner a p:hover {
+  color: #00B0D8;
 }
 
 .home-left h1{
@@ -184,6 +187,11 @@ a{
   padding-left: 5%;
   padding-right: 5%;
   padding-top:7%;
+}
+
+/*This is to make the text on the boxes not underlined when you hover on them*/
+.media-list a:hover{
+  text-decoration: none !important;
 }
 
 .media{
@@ -339,8 +347,14 @@ h4.media-heading{
   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 100px;
-  -webkit-box-shadow: 0px 0px 3px -1px #b2b3b3;
-          box-shadow: 0px 0px 3px -1px #b2b3b3;
+
+
+-webkit-box-shadow: 0px 0px 3px -1px #50004E;
+        box-shadow: 0px 0px 3px -1px #50004E;
+
+  /*-webkit-box-shadow: 0px 0px 3px -1px #b2b3b3;
+      box-shadow: 0px 0px 3px -1px #b2b3b3;*/
+
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -375,8 +389,10 @@ h4.media-heading{
 }
 
 .shadow{
-  -webkit-box-shadow: 0px 0px 25px 2px rgba(213,213,213,0.44);
-  box-shadow: 0px 0px 25px 2px rgba(213,213,213,0.44);
+  -webkit-box-shadow: 0px 0px 25px 2px rgba(80,0,78,0.25);
+  box-shadow: 0px 0px 25px 2px rgba(80,0,78,0.25);
+  /*-webkit-box-shadow: 0px 0px 25px 2px rgba(213,213,213,0.44);
+  box-shadow: 0px 0px 25px 2px rgba(213,213,213,0.44);*/
 }
 /*Take away box shadow and border at ipad breakpt*/
 @media (max-width: 767px){
@@ -580,6 +596,12 @@ h2.services-section-desc{
 
 
 /*BUSINESS MANAGEMENT*/
+
+.business-management{
+border-bottom: solid 1px #d3d3d3;
+}
+
+
 .cards-box{
   width: 65%;
   padding-top: 75px;
@@ -606,7 +628,7 @@ h2.services-section-desc{
 .bm-inner{
   display: inline-block;
   margin: 0 auto;
-
+  text-align: center;
 }
 
 .bm-graphic{
@@ -750,8 +772,11 @@ h2.services-section-desc{
 
 /*TOURING SERVICES*/
 .touring-services-content{
-  padding: 5%;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
+
       @media (max-width: 992px){
         .touring-services-content{
           display: block;
@@ -851,8 +876,12 @@ h2.services-section-desc{
 
 /*FAMILY*/
 .family-content{
-  padding-top: 5%;
-  padding-bottom: 5%;
+
+
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -908,7 +937,9 @@ h2.services-section-desc{
 
 /*TAX SERVICES*/
 .tax-services-content{
-  padding: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
       @media (max-width: 992px){
         .tax-services-content{
