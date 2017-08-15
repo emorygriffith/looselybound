@@ -10,8 +10,7 @@
 
 
 						<h4>Website Terms of Use</h4>
-						<h4>Version 1.0</h4>
-						<h4>Last revised on: June 20th , 2017</h4>
+						
 
 <br><br>
 
@@ -99,8 +98,14 @@
 						<br>Telephone: 212-894-8100
 						<br>Email: info@monarchmgmtllc.com
 
-
 					</p>
+
+
+					<br>
+					<br>
+					<br>
+					<h5>Last revised on: June 20th , 2017</h5>
+
 			</div>
 
 <?php get_footer(); ?>

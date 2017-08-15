@@ -11,7 +11,7 @@
 
 						<h4>MONARCH BUSINESS & WEALTH MANAGEMENT</h4>
 						<h4>PRIVACY POLICY</h4>
-						<h4>Last Updated: June 20th 2017</h4>
+						
 						</br></br>
 						<p>
 						This privacy policy (“Policy”) describes how Monarch Business & Wealth Management and its related companies (“Company”) collect, use and share personal information of consumer users of this website, www.monarchbw.com (the “Site”). This Policy also applies to any of our other websites that post this Policy. This Policy does not apply to websites that post different statements.
@@ -75,6 +75,14 @@
 					</br>We may change this privacy policy. If we make any changes, we will change the Last Updated date above.
 
 						</p>
+
+						<br>
+						<br>
+						<br>
+
+						<h5>Last Updated: June 20th 2017</h5>
+
+
 						</div>
 
 
