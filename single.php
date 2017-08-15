@@ -31,6 +31,9 @@
 					</p>
 
 					<h1 class="h1 entry-title"><?php the_title(); ?></h1>
+					<p class="byline">By: <?php the_author_meta( 'display_name'); ?></p>
+
+
 			</header>
 
 
@@ -38,19 +41,14 @@
 				<?php the_content(); ?>
 			</section> <?php // end article section ?>
 
-			<hr>
+			<!-- <hr> -->
 
 
-			<footer class="single-article-footer">
-
-					<p class="byline">Written By</p>
-					<h3><?php the_author_meta( 'display_name'); ?> </h3>
-
-					<!-- Uncomment this if you want to bio of the author (entered on the Users section of WP admin portal) to show up. -->
-					<!-- <p class="bio">
+			<!-- <footer class="single-article-footer">
+					<p class="bio">
 						<?php the_author_meta( 'description'); ?>
-				  </p> -->
-			</footer> <?php // end article footer ?>
+				  </p>
+			</footer> -->
 
 			<!-- <hr>
 

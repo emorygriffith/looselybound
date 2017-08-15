@@ -1234,16 +1234,21 @@ border-bottom: solid 1px #d3d3d3;
   margin-top: 0px;
 }
 
+.blog-posts h1.entry-title{
+  margin-bottom: 14px;
+}
 
-.blog-posts article footer .byline{
+.blog-posts .byline{
   text-transform: uppercase;
   color: #B8B9BA;
+  margin-bottom: 35px;
+  font-size: 12px;
 }
 
-.blog-posts article footer .bio{
+/*.blog-posts article footer .bio{
   color: #B8B9BA;
   font-size: 16px;
-}
+}*/
 
 
 /*make sure the image aligning in the visual editor in WP work correctly (they apply these classes)*/
