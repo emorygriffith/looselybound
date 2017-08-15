@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 <div class="row archive-blog-page-container">
-		<div class="col-lg-3 col-md-3 col-sm-3 archive-blog-sidebar">
-		</div>
+		<!-- <div class="col-lg-3 col-md-3 col-sm-3 archive-blog-sidebar">
+		</div> -->
 
 		<div class="col-lg-9 col-md-9 col-sm-9 archive-blog-posts">
 				<h1>Blog</h1>
@@ -12,7 +12,7 @@
 
 					<header class="entry-header article-header">
 							<p class="byline entry-meta vcard">
-									<span class="posted-date"><?php echo get_the_date('F Y');?></span>
+									<span class="posted-date"><?php echo get_the_date('F j, Y');?></span>
 
 										<?php
 

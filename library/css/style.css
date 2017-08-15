@@ -1028,20 +1028,19 @@ border-bottom: solid 1px #d3d3d3;
 /*------------------*/
 
 .archive-blog-page-container{
+
   display: flex;
 }
 
 .archive-blog-sidebar{
-  background-image: url("../images/Monarch_homepage_background.jpg");
+
+/*COMMENTED OUT TO REMOVE SIDE*/
+  /*background-image: url("../images/Monarch_homepage_background.jpg");
   background-position: center;
   background-size: cover;
-  /*position:fixed;*/
-  /*height: 100%;*/
-  /*top: 0;*/
-  /*left: 0;*/
   border: 1px solid #111;
   flex: 1;
-  max-width: 25%;
+  max-width: 25%;*/
 }
 
 @media (max-width: 767px){
@@ -1052,11 +1051,17 @@ border-bottom: solid 1px #d3d3d3;
 
 
 .archive-blog-posts{
-  float: right;
+  margin: 0 auto;
   padding-left: 12%;
   padding-right: 12%;
   padding-top: 3%;
-  flex: 1;
+
+  /*
+  Commented out when removing the sidebar:
+  float: right;
+  flex: 1
+  */
+
 }
 
 .archive-blog-posts h1{
@@ -1146,21 +1151,17 @@ border-bottom: solid 1px #d3d3d3;
 }
 
 .blog-sidebar{
-  background-image: url("../images/Monarch_homepage_background.jpg");
-  background-position: center;
-  background-size: auto;
-  /*position:fixed;*/
-  /*height: 100%;*/
-  /*top: 0;
-  left: 0;*/
-  border: 1px solid #111;
-  /*height: 100vh - 400px;*/
-  flex: 1;
-  max-width: 25%;
-}
+  /*
+  Commeted out when removing sidebar:
+    background-image: url("../images/Monarch_homepage_background.jpg");
+    background-position: center;
+    background-size: auto;
+    flex: 1;
+    max-width: 25%;
+  */
 
-.blog-posts{
-  flex:1;
+
+
 }
 
 
@@ -1177,7 +1178,17 @@ border-bottom: solid 1px #d3d3d3;
 
 
 .blog-posts{
-  float: right;
+
+  /*
+  Commented out when removing sidebar:
+    flex:1;
+    float: right;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 3%;
+  */
+
+  margin: 0 auto;
   padding-left: 12%;
   padding-right: 12%;
   padding-top: 3%;
