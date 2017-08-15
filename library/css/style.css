@@ -480,15 +480,6 @@ h4.media-heading{
   padding-bottom: 15px;
 }
 
-
-.about-bios div img {
-  border-radius: 100%;
-  display:block;
-  margin: 0 auto;
-  padding: 10px;
-}
-
-
 .about-bios h4{
   text-align: center;
   color: #fff;
@@ -505,17 +496,16 @@ h4.media-heading{
   color: #fff;
 }
 
-.about-lower a {
-  color: black;
-}
-.about-lower div:hover .hover-other{
-  color: #00B0D8;
+
+.about-lower{
+  /*border-top: solid 1px #fff;*/
 }
 
+
 .about-services{
-  height: 200px;
-  background-color: #fff;
-  border: solid 1px #D5D5D5;
+  height: 300px;
+  /*background-color: #50004E;*/
+    background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -527,9 +517,36 @@ h4.media-heading{
           justify-content: center;
   padding-left: 10px;
   padding-right: 10px;
+}
+.about-services h3{
+  color: #50004E;
 }
 
 .about-approach{
+  height: 300px;
+  background-color: #00B0D8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.about-approach h3{
+  color: #fff;
+}
+
+
+
+
+
+
+/*.about-approach{
   height: 200px;
   background-color: #fff;
   border: solid 1px #D5D5D5;
@@ -544,7 +561,7 @@ h4.media-heading{
           justify-content: center;
   padding-left: 10px;
   padding-right: 10px;
-}
+}*/
 
 
 
