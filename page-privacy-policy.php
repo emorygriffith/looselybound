@@ -11,13 +11,14 @@
 
 						<h4>MONARCH BUSINESS & WEALTH MANAGEMENT</h4>
 						<h4>PRIVACY POLICY</h4>
-						
+
 						</br></br>
 						<p>
 						This privacy policy (“Policy”) describes how Monarch Business & Wealth Management and its related companies (“Company”) collect, use and share personal information of consumer users of this website, www.monarchbw.com (the “Site”). This Policy also applies to any of our other websites that post this Policy. This Policy does not apply to websites that post different statements.
 						</br></br>
-						WHAT WE COLLECT
-						</br>
+						<p style="text-align:center;">WHAT WE COLLECT</p>
+
+						
 						We get information about you in a range of ways.
 
 						Information You Give Us. We collect your‎ name, email address, demographic information (such as your gender and occupation) as well as other information you directly give us on our Site.
@@ -28,8 +29,8 @@
 
 						Cookies. We may log information using "cookies." Cookies are small data files stored on your hard drive by a website. We may use both session Cookies (which expire once you close your web browser) and persistent Cookies (which stay on your computer until you delete them) to provide you with a more personal and interactive experience on our Site.    This type of information is collected to make the Site more useful to you and to tailor the experience with us to meet your special interests and needs.
 						</br></br>
-						USE OF PERSONAL INFORMATION
-						</br>
+						<p style="text-align:center;">USE OF PERSONAL INFORMATION</p>
+
 						We use your personal information as follows:
 						We use your personal information to operate, maintain, and improve our sites, products, and services.
 						We use your personal information to respond to comments and questions and provide customer service.
@@ -37,8 +38,8 @@
 						We use your personal information to protect, investigate, and deter against fraudulent, unauthorized, or illegal activity.
 						We use your personal information to provide and deliver products and services customers request.
 						</br></br>
-						SHARING OF PERSONAL INFORMATION
-						</br>
+						<p style="text-align:center;">SHARING OF PERSONAL INFORMATION</p>
+
 						We may share personal information as follows:
 
 						We may share personal information with your consent. For example, you may let us share personal information with others for their own marketing uses. Those uses will be subject to their privacy policies.
@@ -54,8 +55,8 @@
 
 						</br></br>
 
-						INFORMATION CHOICES AND CHANGES
-						</br>
+						<p style="text-align:center;">INFORMATION CHOICES AND CHANGES</p>
+
 						Our marketing emails tell you how to “opt-out.” If you opt out, we may still send you non-marketing emails. Non-marketing emails include emails about your accounts and our business dealings with you.
 
 						You may send requests about personal information to our Contact Information below. You can request to change contact choices, opt-out of our sharing with others, and update your personal information.
@@ -63,16 +64,16 @@
 						You can typically remove and reject cookies from our Site with your browser settings. Many browsers are set to accept cookies until you change your settings. If you remove or reject our cookies, it could affect how our Site works for you.
 						</br></br>
 
-						CONTACT INFORMATION.
-						</br> We welcome your comments or questions about this privacy policy. You may also contact us at our address:
+						<p style="text-align:center;">CONTACT INFORMATION</p>
+						We welcome your comments or questions about this privacy policy. You may also contact us at our address:
 
 						Monarch Business & Wealth Management
 						209 East 31st Street
 						New York, New York 10016
 						</br></br>
 
-						CHANGES TO THIS PRIVACY POLICY.
-					</br>We may change this privacy policy. If we make any changes, we will change the Last Updated date above.
+						<p style="text-align:center;">CHANGES TO THIS PRIVACY POLICY</p>
+					  We may change this privacy policy. If we make any changes, we will change the Last Updated date above.
 
 						</p>
 
