@@ -17,7 +17,7 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
 					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/emory_griffith.jpg" alt="...">
-					
+
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Barry Klarberg</h4>
@@ -216,15 +216,15 @@
 
 
 
-<div class="row about-lower ">
+<div class="row about-lower">
 	<a href="/services">
-		<div class="col-lg-6 col-md-6 col-sm-6 about-services">
+		<div class="col-lg-6 col-md-6 col-sm-6 leftbox">
 			<h3>Learn more about our <span style="text-decoration:underline;" class="hover-other">Services</span> ></h3>
 		</div>
 	<a/>
 
 	<a href="/approach">
-		<div class="col-lg-6 col-md-6 col-sm-6 about-approach">
+		<div class="col-lg-6 col-md-6 col-sm-6 rightbox">
 			<h3>Learn more about our <span style="text-decoration:underline;" class="hover-other">Approach</span> > </h3>
 		</div>
 	<a/>

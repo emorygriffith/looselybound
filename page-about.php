@@ -83,13 +83,13 @@
 
 <div class="row about-lower">
 	<a href="/services">
-		<div class="col-lg-6 col-md-6 col-sm-6 about-services">
+		<div class="col-lg-6 col-md-6 col-sm-6 leftbox">
 			<h3>Learn more about our <span style="text-decoration:underline;" class="hover-other">Services</span> ></h3>
 		</div>
 	<a/>
 
 	<a href="/team">
-		<div class="col-lg-6 col-md-6 col-sm-6 about-team">
+		<div class="col-lg-6 col-md-6 col-sm-6 rightbox">
 			<h3>Learn more about our <span style="text-decoration:underline;" class="hover-other">Team</span> > </h3>
 		</div>
 	<a/>
