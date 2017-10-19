@@ -17,7 +17,7 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
 					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/emory_griffith.jpg" alt="...">
-
+					<img class="linkedin-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/linkedin-button.png" alt="...">
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Barry Klarberg</h4>
@@ -51,7 +51,7 @@
 
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
-					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/emory_griffith.jpg" alt="...">
+					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/Josh-Klein.png" alt="...">
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Josh Klein</h4>
@@ -118,39 +118,6 @@
 					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/emory_griffith.jpg" alt="...">
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
-					<h4 class="name">Harry Tawil</h4>
-					<p>Principal</p>
-
-					<p>
-						Harry Tawil is a Principal at Monarch Business & Wealth Management as well as a Partner at
-						GMM Capital LLC. Harry graduated from Baruch College in New York City with a B.B.A. in
-						Economics and a minor in Political Science.
-						</br> </br>
-						Before graduating, Harry started Kinersis Renewables, an independent power producer focused
-						on the development, and operation of utility scale wind and solar projects spanning six
-						countries and three continents. After a successful exit, Harry joined GMM Capital LLC as a partner.
-						Harry manages the investment team, funding numerous entities both public and private.
-						These include Delta Galil (TASE: DELT), a global manufacturer of apparel for Nike, Lululemon,
-						as well as for Delta owned 7 For All Mankind & Splendid. Delta has annual sales exceeding $1.5 billion.
-						</br> </br>
-						At Monarch, Harry focuses on the macro level, developing business strategies,
-						referring top level clients, and reviewing private equity transactions for clients.
-						Since joining Monarch in 2016, Harry has contributed to the ever-growing client list
-						and steady success of Monarch.
-						</br> </br>
-						Harry lives in New York City with his wife and daughter. He is actively involved with
-						various non-profit organizations including the Special Children’s Center and the Safra
-						Synagogue of Manhattan. In Harry’s spare time he enjoys playing tennis and is an
-						avid music and sports fan.
-					</p>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-3">
-					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/emory_griffith.jpg" alt="...">
-				</div>
-				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Jessica Harrison</h4>
 					<p>Vice President</p>
 
@@ -182,31 +149,64 @@
 					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/emory_griffith.jpg" alt="...">
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
-					<h4 class="name">Matt Lastname</h4>
-					<p>Position</p>
+					<h4 class="name">Matt Klarberg</h4>
+					<p>Vice President</p>
 
 					<p>
-						Jessica Harrison is Vice President of Monarch Business & Wealth Management LLC.
-						And has been with Monarch since 2011.
-						</br><br>
-						Jessica started her career in Business Management as an intern at Monarch while attending Providence College.
-						After graduating from Providence with her bachelors in marketing,
-						she continued her education at Hofstra University.  Jessica earned her
-						MBA in Sports and Entertainment Management and began working at Monarch
-						immediately following graduation.
-					</br><br>
-						At Monarch, Jessica was introduced to Business Management from the ground up.
-						She has worked with professional athletes and sports executives as well as some
-						of the biggest names in music, specializing in entertainment and touring.
-						She currently works with solo artists and performing acts, handling all
-						aspects of their careers including publishing, label relations, merchandising and taxation.
-					</br><br>
-						In her spare time, Jessica enjoys yoga, running, attending concerts and traveling.
-						She has visited exotic areas in Asia and Africa. She supports The American Cancer
-						Society through various endeavors including their Young Professional Volunteer Program.
+						Matt Klarberg is a Vice President at Monarch Business & Wealth Management. He graduated with
+						a bachelor’s degree in Finance & Sports Marketing from Indiana University- Bloomington in 2006.
+						<br><br>
+						Matt started his career as an Analyst at Guggenheim Partners in 2006 focusing on wealth management
+						as well as structuring corporate owned insurance policies. In 2008, he took on a role at
+						Massey & Quick & Co. LLC as a fund analyst concentrating on alternative investments and fund of funds.
+						<br><br>
+						In 2010, Matt joined Monarch handling the day to day business management of various athletes,
+						entertainers and high net worth families.
+						<br><br>
+						He has been actively involved in various charity organizations – including the National
+						Meningitis Association (Auction Chair), the USO and the Run to Daylight Education Program.
+						<br><br>
+						In 2012, Matt was awarded the honorary title Kentucky Colonel, the highest honor awarded by
+						the Commonwealth of Kentucky by Governor Steven Beshear, in recognition of his noteworthy
+						accomplishments and outstanding service to the greater community.
 					</p>
 				</div>
 			</div>
+
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/emory_griffith.jpg" alt="...">
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-9">
+					<h4 class="name">Harry Tawil</h4>
+					<p>Principal</p>
+
+					<p>
+						Harry Tawil is a Principal at Monarch Business & Wealth Management as well as a Partner at
+						GMM Capital LLC. Harry graduated from Baruch College in New York City with a B.B.A. in
+						Economics and a minor in Political Science.
+						</br> </br>
+						Before graduating, Harry started Kinersis Renewables, an independent power producer focused
+						on the development, and operation of utility scale wind and solar projects spanning six
+						countries and three continents. After a successful exit, Harry joined GMM Capital LLC as a partner.
+						Harry manages the investment team, funding numerous entities both public and private.
+						These include Delta Galil (TASE: DELT), a global manufacturer of apparel for Nike, Lululemon,
+						as well as for Delta owned 7 For All Mankind & Splendid. Delta has annual sales exceeding $1.5 billion.
+						</br> </br>
+						At Monarch, Harry focuses on the macro level, developing business strategies,
+						referring top level clients, and reviewing private equity transactions for clients.
+						Since joining Monarch in 2016, Harry has contributed to the ever-growing client list
+						and steady success of Monarch.
+						</br> </br>
+						Harry lives in New York City with his wife and daughter. He is actively involved with
+						various non-profit organizations including the Special Children’s Center and the Safra
+						Synagogue of Manhattan. In Harry’s spare time he enjoys playing tennis and is an
+						avid music and sports fan.
+					</p>
+				</div>
+			</div>
+
+
 
 </div>
 
@@ -215,7 +215,7 @@
 
 
 
-
+<!--
 <div class="row about-lower">
 	<a href="/services">
 		<div class="col-lg-6 col-md-6 col-sm-6 leftbox">
@@ -228,6 +228,6 @@
 			<h3>Learn more about our <span style="text-decoration:underline;" class="hover-other">Approach</span> > </h3>
 		</div>
 	<a/>
-</div>
+</div> -->
 
 <?php get_footer(); ?>

@@ -420,12 +420,12 @@ h4.media-heading{
 }
 
 .about .row{
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .about .row:last-child{
-  margin-bottom: 70px;
+  margin-bottom: 80px;
 }
 
 .bio-pic{
@@ -437,9 +437,25 @@ h4.media-heading{
   border-radius: 100%;
 }
 
+.linkedin-icon{
+ margin: 0 auto;
+ width: 30px;
+ display: block;
+ padding-top: 15px;
+}
+
 .about h4.name{
   font-weight: bold !important;
 }
+
+
+
+
+
+
+
+
+
 
 
 
