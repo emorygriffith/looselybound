@@ -412,48 +412,32 @@ h4.media-heading{
 /*ABOUT PAGE*/
 /*------------------*/
 
-.about-bios{
-  background-color: #50004E;
-  float:none;
+.about{
+  /*max-width: 768px;*/
+  max-width: 992px;
   margin: 0 auto;
-  padding-top:50px;
-  padding-bottom: 50px;
-}
-
-
-.bios{
   float: none;
+}
+
+.bio-pic{
+  width: 80%;
   margin: 0 auto;
+  float: none;
+  display: block;
+  max-width: 200px;
+  border-radius: 100%;
 }
 
-
-.about-bios h2{
-  color: #fff;
-  text-align: center;
-  font-weight: bold;
-}
-
-.about-bios div{
-  padding-left:8%;
-  padding-right: 8%;
-  padding-bottom: 15px;
-}
-
-.about-bios h4{
-  text-align: center;
-  color: #fff;
-  padding: 5px;
-}
-
-
-.about-bios h4.name{
+.about h4.name{
   font-weight: bold !important;
 }
 
-.about-bios p{
-  text-align: left;
-  color: #fff;
-}
+
+
+
+
+
+
 
 
 
@@ -494,6 +478,18 @@ h4.media-heading{
 .about-team h3{
   color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
