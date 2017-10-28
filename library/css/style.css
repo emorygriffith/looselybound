@@ -449,6 +449,18 @@ h4.media-heading{
 }
 
 
+/*HIDE ON SMALL SCREENS*/
+@media (max-width: 767px){
+  .name{
+    text-align: center;
+  }
+  .title{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+
 
 
 

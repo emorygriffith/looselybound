@@ -16,12 +16,12 @@
 
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
-					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/emory_griffith.jpg" alt="...">
+					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/Barry-Klarberg.png" alt="...">
 					<img class="linkedin-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/linkedin-button.png" alt="...">
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Barry Klarberg</h4>
-					<p>Founder and Managing Partner</p>
+					<p class="title">Founder and Managing Partner</p>
 
 					<p>
 						In 2008, Barry Klarberg formed Monarch Wealth and Business Management LLC, a full service Family Office firm.
@@ -55,7 +55,7 @@
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Josh Klein</h4>
-					<p>Partner and Managing Director</p>
+					<p class="title">Partner and Managing Director</p>
 
 					<p>
 						Joshua Klein is a Partner and Managing Director of Monarch Business and Wealth Management LLC.
@@ -89,7 +89,7 @@
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Tom Fitzgerald</h4>
-					<p>Partner</p>
+					<p class="title">Partner</p>
 
 					<p>
 						Tom Fitzgerald is a partner and managing director of Monarch Business and Wealth Management LLC.
@@ -119,7 +119,7 @@
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Jessica Harrison</h4>
-					<p>Vice President</p>
+					<p class="title">Vice President</p>
 
 					<p>
 						Jessica Harrison is Vice President of Monarch Business & Wealth Management LLC.
@@ -146,11 +146,11 @@
 
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
-					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/emory_griffith.jpg" alt="...">
+					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/MattKlarberg.png" alt="...">
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Matt Klarberg</h4>
-					<p>Vice President</p>
+					<p class="title">Vice President</p>
 
 					<p>
 						Matt Klarberg is a Vice President at Monarch Business & Wealth Management. He graduated with
@@ -179,7 +179,7 @@
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Harry Tawil</h4>
-					<p>Principal</p>
+					<p class="title">Principal</p>
 
 					<p>
 						Harry Tawil is a Principal at Monarch Business & Wealth Management as well as a Partner at
