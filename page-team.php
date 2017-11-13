@@ -17,7 +17,7 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
 					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/Barry-Klarberg.png" alt="...">
-					<img class="linkedin-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/linkedin-button.png" alt="...">
+					<!-- <img class="linkedin-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/linkedin-button.png" alt="..."> -->
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Barry Klarberg</h4>
@@ -85,7 +85,7 @@
 
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
-					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/emory_griffith.jpg" alt="...">
+					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/Thomas.png" alt="...">
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Tom Fitzgerald</h4>
@@ -115,7 +115,7 @@
 
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
-					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/emory_griffith.jpg" alt="...">
+					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/Jessica.png" alt="...">
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Jessica Harrison</h4>
@@ -175,7 +175,7 @@
 
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
-					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/emory_griffith.jpg" alt="...">
+					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/Harry.png" alt="...">
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Harry Tawil</h4>
