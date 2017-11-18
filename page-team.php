@@ -115,14 +115,49 @@
 
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
+					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/Harry.png" alt="...">
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-9">
+					<h4 class="name">Harry Tawil</h4>
+					<p class="title">Principal</p>
+
+					<p>
+						Harry Tawil is a Principal at Monarch Business & Wealth Management as well as a Partner at
+						GMM Capital LLC. Harry graduated from Baruch College in New York City with a B.B.A. in
+						Economics and a minor in Political Science.
+						</br> </br>
+						Before graduating, Harry started Kinersis Renewables, an independent power producer focused
+						on the development, and operation of utility scale wind and solar projects spanning six
+						countries and three continents. After a successful exit, Harry joined GMM Capital LLC as a partner.
+						Harry manages the investment team, funding numerous entities both public and private.
+						These include Delta Galil (TASE: DELT), a global manufacturer of apparel for Nike, Lululemon,
+						as well as for Delta owned 7 For All Mankind & Splendid. Delta has annual sales exceeding $1.5 billion.
+						</br> </br>
+						At Monarch, Harry focuses on the macro level, developing business strategies,
+						referring top level clients, and reviewing private equity transactions for clients.
+						Since joining Monarch in 2016, Harry has contributed to the ever-growing client list
+						and steady success of Monarch.
+						</br> </br>
+						Harry lives in New York City with his wife and daughter. He is actively involved with
+						various non-profit organizations including the Special Children’s Center and the Safra
+						Synagogue of Manhattan. In Harry’s spare time he enjoys playing tennis and is an
+						avid music and sports fan.
+						<br><br>
+						Harry is a partner/owner in the Vegas Golden Knights.
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
 					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/Jessica.png" alt="...">
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
-					<h4 class="name">Jessica Harrison</h4>
+					<h4 class="name">Jessica Sharqi</h4>
 					<p class="title">Vice President</p>
 
 					<p>
-						Jessica Harrison is Vice President of Monarch Business & Wealth Management LLC.
+						Jessica Sharqi is Vice President of Monarch Business & Wealth Management LLC.
 						And has been with Monarch since 2011.
 						</br><br>
 						Jessica started her career in Business Management as an intern at Monarch while attending Providence College.
@@ -173,38 +208,7 @@
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-3">
-					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/Harry.png" alt="...">
-				</div>
-				<div class="col-lg-9 col-md-9 col-sm-9">
-					<h4 class="name">Harry Tawil</h4>
-					<p class="title">Principal</p>
 
-					<p>
-						Harry Tawil is a Principal at Monarch Business & Wealth Management as well as a Partner at
-						GMM Capital LLC. Harry graduated from Baruch College in New York City with a B.B.A. in
-						Economics and a minor in Political Science.
-						</br> </br>
-						Before graduating, Harry started Kinersis Renewables, an independent power producer focused
-						on the development, and operation of utility scale wind and solar projects spanning six
-						countries and three continents. After a successful exit, Harry joined GMM Capital LLC as a partner.
-						Harry manages the investment team, funding numerous entities both public and private.
-						These include Delta Galil (TASE: DELT), a global manufacturer of apparel for Nike, Lululemon,
-						as well as for Delta owned 7 For All Mankind & Splendid. Delta has annual sales exceeding $1.5 billion.
-						</br> </br>
-						At Monarch, Harry focuses on the macro level, developing business strategies,
-						referring top level clients, and reviewing private equity transactions for clients.
-						Since joining Monarch in 2016, Harry has contributed to the ever-growing client list
-						and steady success of Monarch.
-						</br> </br>
-						Harry lives in New York City with his wife and daughter. He is actively involved with
-						various non-profit organizations including the Special Children’s Center and the Safra
-						Synagogue of Manhattan. In Harry’s spare time he enjoys playing tennis and is an
-						avid music and sports fan.
-					</p>
-				</div>
-			</div>
 
 
 
