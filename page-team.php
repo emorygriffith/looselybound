@@ -17,7 +17,9 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
 					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/Barry-Klarberg.png" alt="...">
-					<!-- <img class="linkedin-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/linkedin-button.png" alt="..."> -->
+					<a href="mailto:info@monarchbw.com?subject=Message%20For%20Barry%20Klarberg">
+						<img class="email-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/email-icon.png" alt="...">
+					</a>
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Barry Klarberg</h4>
@@ -52,6 +54,9 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
 					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/Josh-Klein.png" alt="...">
+					<a href="mailto:info@monarchbw.com?subject=Message%20For%20Josh%20Klein">
+						<img class="email-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/email-icon.png" alt="...">
+					</a>
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Josh Klein</h4>
@@ -86,6 +91,9 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
 					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/Thomas.png" alt="...">
+					<a href="mailto:info@monarchbw.com?subject=Message%20For%20Tom%20Fitzgerald">
+						<img class="email-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/email-icon.png" alt="...">
+					</a>
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Tom Fitzgerald</h4>
@@ -116,6 +124,9 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
 					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/Harry.png" alt="...">
+					<a href="mailto:info@monarchbw.com?subject=Message%20For%20Harry%20Tawil">
+						<img class="email-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/email-icon.png" alt="...">
+					</a>
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Harry Tawil</h4>
@@ -151,6 +162,9 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
 					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/Jessica.png" alt="...">
+					<a href="mailto:info@monarchbw.com?subject=Message%20For%20Jessica%20Sharqi">
+						<img class="email-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/email-icon.png" alt="...">
+					</a>
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Jessica Sharqi</h4>
@@ -182,6 +196,9 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
 					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/MattKlarberg.png" alt="...">
+					<a href="mailto:info@monarchbw.com?subject=Message%20For%20Matt%20Klarberg">
+						<img class="email-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/email-icon.png" alt="...">
+					</a>
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<h4 class="name">Matt Klarberg</h4>
