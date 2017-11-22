@@ -15,7 +15,7 @@
         <div class="banner">
           <h1>A Hollistic Approach to Wealth, Branding, and Family Office Services</h1>
           <h3>Our winning methodology consistently yields exceptional results</h3>
-          <a href="/approach"><p>Read more about our approach ></p></a>
+          <a href="/about"><p>Read more about our approach ></p></a>
         </div>
       </div>
 
