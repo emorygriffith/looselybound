@@ -7,9 +7,9 @@
 				<div class="col-lg-6 col-md-6">
 					<ul>
 						<a href="/about"><li>About</li></a>
-						<a href="/approach"><li>Approach</li></a>
 						<a href="/services"><li>Services</li></a>
 						<a href="/blog"><li>Blog</li></a>
+						<a href="/team"><li>Team</li></a>
 					</ul>
 				</div>
 				<div class="col-lg-6 col-md-6">
@@ -21,6 +21,7 @@
 				<div class="footer-text">
 					<p>Monarch Business & Wealth Management, LLC</p>
 					<p>209 East 31st Street | New York, NY 10016 | PHONE: (212) 894-8100</p>
+					<p>9350 Wilshire Blvd., Suite 328 | Beverly Hills, CA 90212 | PHONE: (310) 777-0219</p>
 					<p class="info">For more info on Monarch Business & Wealth Management, LLC<br> email <a href="mailto:info@monarchbw.com">info@monarchbw.com</a></p>
 				</div>
 

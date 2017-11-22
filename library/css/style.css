@@ -1348,7 +1348,7 @@ article hr{
       }
       .footer-text p{
         text-align: center;
-        padding:15px;
+        padding:5px;
       }
       .info{
         color:#949293;
@@ -1359,41 +1359,77 @@ article hr{
 /*CONTACT PAGE*/
 /*----------------------------------*/
 
-#map-container{
-  height: 300px;
-  margin-bottom: 100px;
+/*#map-container{
+  height: 350px;
   -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
      -ms-filter: grayscale(100%);
       -o-filter: grayscale(100%);
          filter: grayscale(100%);
+    width: 100%;
 }
 
-.contact-info{
-  width: 65%;
-  margin: 0 auto;
+#map-container div{
+  padding: 0px;
+}
+*/
+
+.contact-page{
   padding-bottom: 7%;
+}
+
+.google-map{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.city{
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px){
+  .city{
+    text-align: left;
+    padding: 15px;
+  }
+}
+
+
+
+.contact-info{
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  max width: 1280px;
 }
 
 .contact-info div.field{
   margin: 0 auto;
 }
 
-@media (max-width: 760px){
 
+@media (max-width: 992px){
+
+  .google-map{
+    display: none;
+  }
+
+
+}
+
+
+@media (max-width: 768px){
   .contact-info{
     width: 75%;
     margin: 0 auto;
     padding-bottom: 7%;
   }
-
-    #map-container{
-      margin-bottom: 50px;
-    }
-
-
 }
-
 
 
 /*----------------------------------*/
