@@ -50,7 +50,7 @@
 				<p>Annual review by a recognized <br> National Accounting Firm</p>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6">
-				<h3>Multi-Discplinary Team</h3>
+				<h3>Multi-Disciplinary Team</h3>
 				<p>Integrated team of professionals <br> focused on creating long-term solutions</p>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6">
@@ -70,7 +70,7 @@
 				<p>Brand management and business objectives</p>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6">
-				<h3>Hollistic View</h3>
+				<h3>Holistic View</h3>
 				<p>A non-conflicted unique <br> approach to risk assessment</p>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 shadow">

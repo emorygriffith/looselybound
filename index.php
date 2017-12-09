@@ -35,7 +35,7 @@
 
 					<section class="entry-content cf">
 
-					<?php the_post_thumbnail( 'bones-thumb-300' ); ?>
+					<div style="padding-top: 10px; padding-bottom: 10px;"><?php the_post_thumbnail( 'bones-thumb-300' ); ?></div>
 
 					<?php the_excerpt(); ?>
 

@@ -63,23 +63,23 @@
 					<p class="title">Partner and Managing Director</p>
 
 					<p>
-						Joshua Klein is a Partner and Managing Director of Monarch Business and Wealth Management LLC.
+						Josh Klein is a Partner and Managing Director of Monarch Business and Wealth Management LLC.
 						</br> </br>
-						Joshua started his career in Business Management working as an intern for Assante
+						Josh started his career in Business Management working as an intern for Assante
 						Wealth Management while attending the Kelly School of Business at Indiana University.
 						Immediately after graduating, he moved to New York to begin work for Assante’s successor Loring Ward.
 						</br></br>
-						At Loring Ward, Joshua learned the business from the ground up, beginning as an account
+						At Loring Ward, Josh learned the business from the ground up, beginning as an account
 						executive handling the financial lives of some of music and sport’s top performers.
-						Interacting with all aspects of the business, Joshua spent the majority of his time
+						Interacting with all aspects of the business, Josh spent the majority of his time
 						working on accounting for music tours, record labels, publishing, and multi-state
 						taxation for athletes.
 						</br></br>
-						Joshua then joined Guggenheim Partners, LLC, where he took on a new role as an Account Manager,
-						handling clients directly and managing a staff of 8. In 2009, Joshua decided to leave
+						Josh then joined Guggenheim Partners, LLC, where he took on a new role as an Account Manager,
+						handling clients directly and managing a staff of 8. In 2009, Josh decided to leave
 						Guggenheim and form Monarch with two other partners.
 						</br></br>
-						Since forming Monarch, Joshua has become a nationally recognized leader in the area of
+						Since forming Monarch, Josh has become a nationally recognized leader in the area of
 						business management. He has been actively involved in a number of philanthropic and
 						educational initiatives such as the National Meningitis Foundation, the Alzheimer’s
 						Association and most recently he sat on the advisory board of the Clive Davis
@@ -129,11 +129,11 @@
 					</a>
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-9">
-					<h4 class="name">Harry Tawil</h4>
+					<h4 class="name">Harry E. Tawil</h4>
 					<p class="title">Principal</p>
 
 					<p>
-						Harry Tawil is a Principal at Monarch Business & Wealth Management as well as a Partner at
+						Harry E. Tawil is a Principal at Monarch Business & Wealth Management as well as a Partner at
 						GMM Capital LLC. Harry graduated from Baruch College in New York City with a B.B.A. in
 						Economics and a minor in Political Science.
 						</br> </br>
@@ -221,6 +221,10 @@
 						In 2012, Matt was awarded the honorary title Kentucky Colonel, the highest honor awarded by
 						the Commonwealth of Kentucky by Governor Steven Beshear, in recognition of his noteworthy
 						accomplishments and outstanding service to the greater community.
+						<br><br>
+						In 2010, Matt joined Monarch handling the day to day business management of various athletes,
+						entertainers and high net worth families. In addition, he has initiated many branding and endorsement
+						opportunities in  spirits, beverage and cosmetics.
 					</p>
 				</div>
 			</div>
