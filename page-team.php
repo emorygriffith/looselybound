@@ -123,7 +123,7 @@
 
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
-					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/Harry.png" alt="...">
+					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/harry-tawil.jpg" alt="...">
 					<a href="mailto:info@monarchbw.com?subject=Message%20For%20Harry%20Tawil">
 						<img class="email-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/email-icon.png" alt="...">
 					</a>
@@ -133,28 +133,13 @@
 					<p class="title">Principal</p>
 
 					<p>
-						Harry E. Tawil is a Principal at Monarch Business & Wealth Management as well as a Partner at
-						GMM Capital LLC. Harry graduated from Baruch College in New York City with a B.B.A. in
-						Economics and a minor in Political Science.
-						</br> </br>
-						Before graduating, Harry started Kinersis Renewables, an independent power producer focused
-						on the development, and operation of utility scale wind and solar projects spanning six
-						countries and three continents. After a successful exit, Harry joined GMM Capital LLC as a partner.
-						Harry manages the investment team, funding numerous entities both public and private.
-						These include Delta Galil (TASE: DELT), a global manufacturer of apparel for Nike, Lululemon,
-						as well as for Delta owned 7 For All Mankind & Splendid. Delta has annual sales exceeding $1.5 billion.
-						</br> </br>
-						At Monarch, Harry focuses on the macro level, developing business strategies,
-						referring top level clients, and reviewing private equity transactions for clients.
-						Since joining Monarch in 2016, Harry has contributed to the ever-growing client list
-						and steady success of Monarch.
-						</br> </br>
-						Harry lives in New York City with his wife and daughter. He is actively involved with
-						various non-profit organizations including the Special Children’s Center and the Safra
-						Synagogue of Manhattan. In Harry’s spare time he enjoys playing tennis and is an
-						avid music and sports fan.
-						<br><br>
-						Harry is a partner/owner in the Vegas Golden Knights.
+					Harry E. Tawil is a Principal at Monarch Business & Wealth Management as well as a Partner at GMM Capital LLC. Harry graduated from Baruch College in New York City with a B.B.A. in Economics and a minor in Political Science.
+					</br><br>
+					Before graduating, Harry started Kinersis Renewables, an independent power producer focused on the development, and operation of utility scale wind and solar projects spanning six countries and three continents. After a successful exit, Harry joined GMM Capital LLC as a partner. Harry manages the investment team, funding numerous entities both public and private. These include Delta Galil (TASE: DELT), a global manufacturer of apparel for Nike, Lululemon, as well as for Delta owned 7 For All Mankind & Splendid. Delta has annual sales exceeding $1.8 billion.
+					</br><br>
+					At Monarch, Harry focuses on the macro level, developing business strategies, reviewing private equity transactions and consulting on operational entities for clients. Since joining Monarch in 2016, Harry has contributed to the ever-growing client list and steady success of Monarch.
+					</br><br>
+					Harry lives in New York City with his wife and children. He is actively involved with various non-profit organizations including the Special Children’s Center and the Safra Synagogue of Manhattan. In Harry’s spare time he enjoys playing tennis and is an avid music and sports fan.
 					</p>
 				</div>
 			</div>
@@ -225,6 +210,39 @@
 						In 2010, Matt joined Monarch handling the day to day business management of various athletes,
 						entertainers and high net worth families. In addition, he has initiated many branding and endorsement
 						opportunities in  spirits, beverage and cosmetics.
+					</p>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/ariel-lafond.jpg" alt="...">
+					<a href="mailto:info@monarchbw.com?subject=Message%20For%20Ariel%20LaFond">
+						<img class="email-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/email-icon.png" alt="...">
+					</a>
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-9">
+					<h4 class="name">Ariel LaFond</h4>
+					<p class="title">Tax Manager</p>
+
+					<p>
+						Ariel LaFond is the Tax Manager at Monarch Business & Wealth Management. 
+						She graduated with a bachelor’s degree in Finance and Accounting from Northeastern University in 2014.
+						<br><br>
+						Ariel started her career as an Associate at PwC in 2014 focusing on high net worth individual tax and 
+						private company tax. She was promoted to Senior Tax Associate where she was able to expand her 
+						responsibilities to include business development as well as tax consulting. 
+						<br><br>
+						In 2017, Ariel joined Monarch to lead tax planning and compliance initiatives for various athletes, 
+						entertainers, and high net worth families. She strives to create an effective tax plan tailored to 
+						each client’s specific goals.
+						<br><br>
+						Ariel is a New York State licensed CPA and a member of the American Institute of Certified Public Accountants (AICPA).   
+						She regularly attends seminars relating to tax reform to ensure her clients are compliant with all regulations.
+						<br><br>
+						Ariel has been actively involved in various charity organizations – including the Starkey Hearing foundation 
+						and the American Cancer Society.
 					</p>
 				</div>
 			</div>
