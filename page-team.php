@@ -144,39 +144,6 @@
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-3">
-					<img class="bio-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/Jessica.png" alt="...">
-					<a href="mailto:info@monarchbw.com?subject=Message%20For%20Jessica%20Sharqi">
-						<img class="email-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/email-icon.png" alt="...">
-					</a>
-				</div>
-				<div class="col-lg-9 col-md-9 col-sm-9">
-					<h4 class="name">Jessica Sharqi</h4>
-					<p class="title">Vice President</p>
-
-					<p>
-						Jessica Sharqi is Vice President of Monarch Business & Wealth Management LLC.
-						And has been with Monarch since 2011.
-						</br><br>
-						Jessica started her career in Business Management as an intern at Monarch while attending Providence College.
-						After graduating from Providence with her bachelors in marketing,
-						she continued her education at Hofstra University.  Jessica earned her
-						MBA in Sports and Entertainment Management and began working at Monarch
-						immediately following graduation.
-					</br><br>
-						At Monarch, Jessica was introduced to Business Management from the ground up.
-						She has worked with professional athletes and sports executives as well as some
-						of the biggest names in music, specializing in entertainment and touring.
-						She currently works with solo artists and performing acts, handling all
-						aspects of their careers including publishing, label relations, merchandising and taxation.
-					</br><br>
-						In her spare time, Jessica enjoys yoga, running, attending concerts and traveling.
-						She has visited exotic areas in Asia and Africa. She supports The American Cancer
-						Society through various endeavors including their Young Professional Volunteer Program.
-					</p>
-				</div>
-			</div>
 
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3">
@@ -257,20 +224,5 @@
 
 
 
-
-<!--
-<div class="row about-lower">
-	<a href="/services">
-		<div class="col-lg-6 col-md-6 col-sm-6 leftbox">
-			<h3>Learn more about our <span style="text-decoration:underline;" class="hover-other">Services</span> ></h3>
-		</div>
-	<a/>
-
-	<a href="/approach">
-		<div class="col-lg-6 col-md-6 col-sm-6 rightbox">
-			<h3>Learn more about our <span style="text-decoration:underline;" class="hover-other">Approach</span> > </h3>
-		</div>
-	<a/>
-</div> -->
 
 <?php get_footer(); ?>
