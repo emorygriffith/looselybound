@@ -140,7 +140,10 @@
 					At Monarch, Harry focuses on the macro level, developing business strategies, reviewing private equity transactions and consulting on operational entities for clients. Since joining Monarch in 2016, Harry has contributed to the ever-growing client list and steady success of Monarch.
 					</br><br>
 					Harry lives in New York City with his wife and children. He is actively involved with various non-profit organizations including the Special Children’s Center and the Safra Synagogue of Manhattan. In Harry’s spare time he enjoys playing tennis and is an avid music and sports fan.
+					</br><br>
+					Harry is a partner/owner in the Vegas Golden Knights.
 					</p>
+
 				</div>
 			</div>
 
