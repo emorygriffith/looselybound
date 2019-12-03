@@ -240,7 +240,7 @@
 		<div class="clearfix col-lg-12 services-section investment-advisory-services">
 			<img class="services-section-icon img-responsive" src="<?php echo get_template_directory_uri(); ?>/library/images/Investment_Icon.png" alt="...">
 			<h3 class="services-section-title">Investment Advisory Services</h3>
-			<h2 class="services-section-desc">A comprehensive starategy to a lifestyle of <span class="break"></span> intelligent investments</h2>
+			<h2 class="services-section-desc">A comprehensive strategy to a lifestyle of <span class="break"></span> intelligent investments</h2>
 			<div class="row investment-advisory-services-content contain">
 				<div class="col-lg-4 col-md-4">
 							<ul class="left-items">
