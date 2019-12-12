@@ -15,7 +15,7 @@
 <div class="row col-lg-9 page-middle contain">
 			<div class="col-lg-6 col-md-6 col-sm-6 shadow">
 				<h3>Preservation</h3>
-				<p>We are dedicated to the preservation and and growth of our clients' wealth, maintaining our unique culture and honoring the legacy of our firm's name </p>
+				<p>We are dedicated to the preservation and growth of our clients' wealth, maintaining our unique culture and honoring the legacy of our firm's name </p>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6">
 				<h3>Entrepreneurship</h3>
