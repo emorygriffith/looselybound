@@ -97,7 +97,7 @@
 				<div class="col-lg-5 col-md-5 col-sm-12">
 					<h4>
 					Your Monarch Wealth Planning Team will be comprised of financial planners, accountants, investment advisors, branding experts, risk managers,
-					tax specialists, roylaty auditors and touring experts, each of whom is committed to building a customized plan that will help you realize
+					tax specialists, royalty auditors and touring experts, each of whom is committed to building a customized plan that will help you realize
 					your financial goals.
 				</h4>
 				</div>
@@ -144,7 +144,7 @@
 						<li>
 							<h4>Tracking and Reporting</h4>
 							<p>
-								We track the due dates of all royalties from third paries, monitor the receipt of royalty statements, and monitor
+								We track the due dates of all royalties from third parties, monitor the receipt of royalty statements, and monitor
 								the collection of royalty earnings
 							</p>
 						</li>
@@ -226,7 +226,7 @@
 							<ul class="right-items">
 								<li>Payment of All Vendors</li>
 								<li>Collection & Accounting of Revenue</li>
-								<li>On-Tour Recordation, and Post-Tour Reconcilliation</li>
+								<li>On-Tour Recordation, and Post-Tour Reconciliation</li>
 								<li>Review Performance Deals & Show Expenses</li>
 							</ul>
 				</div>
